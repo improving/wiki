@@ -1,0 +1,39 @@
+---
+type: Reference
+title: "Axiom Disclosure - Naming Whose Preferences Your Model Actually Optimizes For"
+resource: "https://www.devlinliles.com/axiom-disclosure-naming-whose-preferences-your-model-actually-optimizes-for/"
+author: "Devlin Liles"
+published: '2026-10-03'
+fetched: '2026-10-17'
+tags: [blog, devlinliles.com]
+---
+
+## The problem
+
+I built an HR policy assistant on top of an off-the-shelf vendor model, the kind marketed as "helpful and harmless," meant to answer employee questions about leave policy, conduct, and compensation bands. I ran it against a hundred seeded questions, and inside that set I built twelve boundary cases on purpose: genuinely ambiguous situations, a parental-leave edge case among them, where the vendor's default answer sounds perfectly reasonable and also happens to contradict what the company's own written policy actually says.
+
+Nobody caught the mismatch, because nobody had ever recorded what the vendor's alignment tuning was actually optimizing for in the first place. The assistant gave a notably conservative answer on the parental-leave question. It sounded careful. It sounded like the kind of answer a company would want an HR bot to give. It was also wrong, measured against the company's own policy, and there was no review step positioned to catch that, because there was no documentation anywhere describing whose preferences shaped the model's behavior or how those preferences got aggregated into a single answer.
+
+That's the trap. A vendor's aligned model didn't arrive without values. It arrived with values baked in by a tuning process built on some pool of human raters, aggregated by some method, optimizing for some definition of "helpful and harmless" that the vendor chose. Adopting the model without recording any of that doesn't make the values go away. It means the company inherited a value structure it never examined, delivered in a voice fluent and confident enough that nobody thought to ask where it came from.
+
+## The pattern
+
+Before adopting the model, I built a structured disclosure record: a document that names whose preferences the vendor's alignment tuning was built from, as far as the vendor discloses that, and what aggregation method was used to turn many individual preferences into one reward signal. That record gets reviewed against the company's own policy priorities before the assistant goes live, not after something goes wrong.
+
+The review surfaces known divergence areas: specific categories of question where the vendor's disclosed alignment approach is likely to produce an answer that leans a particular direction the company's own policy doesn't share. Parental leave, in this case, sat squarely in one of those categories. Once that's documented, any question falling inside a known-divergence area gets routed to a human HR reviewer instead of shipping the raw vendor answer straight to the employee.
+
+The result is a hundred percent disclosed-and-routed rate on the boundary cases, because the divergence areas were identified in advance rather than discovered after a wrong answer already went out. I want to be precise about what this buys, because it's easy to overstate. This doesn't resolve whose preferences should win. Nothing built for this purpose could, because that question doesn't have a technical answer. What it does is make the trade-off visible enough to review and revise, instead of leaving it buried inside a fluent response that reads exactly the same whether it matches company policy or contradicts it.
+
+## Design considerations
+
+The hard limit on this pattern is that it only discloses what the vendor is willing to disclose. Most vendors don't publish the demographic makeup of their rating pool, the specific aggregation method used to combine preferences, or the edge cases where their tuning process made a deliberate tradeoff. You end up documenting the shape of the gap in the vendor's transparency as much as you document the alignment approach itself. That's a real limitation.
+
+There's a deeper problem underneath this one that the disclosure record doesn't touch. Every alignment method has to answer the question of whose preferences the model should optimize for, and every answer bottoms out somewhere without further justification. RLHF bottoms out at whatever the human raters preferred. Constitutional approaches bottom out at whatever the written constitution says, which just moves the arbitrary stopping point up one level. Neither approach can justify its own foundation without appealing to something else that also needs justifying, and that chain has to stop somewhere. Somewhere along it, whoever built the system chose the stopping point. Logic never forced the choice. A three-axis reframe of this problem, objectives, information, and principals, shows the familiar "arbitrary stopping point" is only one of three independently failing axes, and that fixing one can make another one worse (arXiv:2604.20805). Documenting the stopping point doesn't relocate it. It just makes it visible enough to argue about.
+
+The calibration question that matters most in practice is how aggressively to define "known divergence." Define it narrowly and you'll miss boundary cases nobody thought to flag in advance, the exact failure this pattern exists to prevent. Define it broadly and so much traffic gets routed to human review that the assistant stops being useful, because now every mildly sensitive question gets kicked upstairs. The right approach is to build the initial divergence list from the categories where the company's own written policy is most likely to be non-obvious or recently changed, since those are exactly the areas a vendor's general-purpose tuning has no reason to track, then expand the list as real mismatches surface in production rather than trying to anticipate every possible divergence before launch.
+
+This pattern also isn't a one-time exercise, even though it's built and reviewed once at adoption. Vendors update their models. A tuning change that shifts the underlying alignment approach can silently invalidate a disclosure record that was accurate the day it was written, and there's no notification built into most vendor relationships that flags when a model's values just moved. A disclosure record deserves the same treatment as any other piece of documentation tied to a live dependency, with a trigger for re-review tied to vendor model version changes. Writing it once and filing it away defeats the purpose.
+
+A separate camp of research argues the disclosure approach itself is mis-targeted, because even well-represented human preferences can converge on genuine dysfunction, and proposes exiting the trade-off entirely through a non-negotiable objective floor anchored to referents outside any preference aggregation (arXiv:2606.13755). A third line of work names the trilemma's most common practical failure mode: sycophantic consensus, where whose values win collapses in operation to whoever is currently in the chat window, an even more arbitrary stopping point than any explicit aggregation choice a designer might have chosen instead (arXiv:2605.14912). I don't think that camp and the disclosure approach are the same move dressed differently. One tries to make the existing trade-off visible and contestable. The other tries to exit the trade-off altogether. Both are legitimate positions, and I'd rather record the disagreement between them than pretend one has quietly settled it.
+
+What this pattern won't do is settle the actual disagreement about whose values should govern a company's AI systems. That disagreement is legitimate, and it doesn't resolve because someone wrote it down. What writing it down accomplishes is turning a silent, undiscoverable mismatch into a documented, arguable one, which is a meaningfully different position to be in when the parental-leave question actually comes up.

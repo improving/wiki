@@ -1,0 +1,49 @@
+---
+type: Reference
+title: "Maximizing ROI in AI: The Case for Leveraging Off-the-Shelf Solutions"
+resource: "https://www.devlinliles.com/maximizing-roi-in-ai-the-case-for-leveraging-off-the-shelf-solutions/"
+author: "Devlin Liles"
+published: '2026-07-16'
+fetched: '2026-10-17'
+tags: [blog, devlinliles.com]
+---
+
+### Title: Maximizing ROI in AI: The Case for Leveraging Off-the-Shelf Solutions
+
+**Introduction** The world is still in this odd space between hype and trying to get value from AI. The value is there, we can all feel it in our bones. The problem seems to be made more difficult with the lack of understand, lots of overselling, and historically correct views that now cause problems. Improving's thesis statement is the following: For most companies, the key to maximizing ROI in AI investments lies in leveraging off-the-shelf solutions as a part of a solution rather than building custom models from scratch.
+
+**Section 1: The Cost of Custom AI Development** In the realm of custom AI model development, businesses face significant investments across three main areas: data acquisition, model training, and ongoing maintenance. Data acquisition involves the costly process of gathering, cleaning, and preparing quality data. Model training is resource-intensive, demanding considerable computational power and time. Maintenance requires continuous effort to keep the model updated in response to new data and changing conditions.
+
+However, there are hidden costs that organizations often overlook, including talent acquisition, technology infrastructure, and time to market. Hiring skilled professionals for AI projects can be expensive and challenging, given the high demand for such expertise. Infrastructure costs can escalate quickly, especially for projects requiring state-of-the-art computational resources. Additionally, the time to market can significantly impact a project's success, as delays can render an AI solution outdated before it even launches. An example of these challenges can be seen in a major retail company's attempt to personalize customer experiences through AI, which faced setbacks due to underestimating talent and infrastructure costs, leading to delays and diminished returns on investment. These factors highlight the importance of careful planning and budgeting in custom AI development projects.
+
+- UHG, Catalyst, etc - case studies on custom development
+
+**Section 2: Assessing the Real Needs for Custom AI Solutions** The core problem is around when to custom build, versus when to have an incrementally adjusted fit to you solution, and finally when to buy off the shelf and deal with the "not quite right" because of price point. This becomes complex to understand when the technology is not well understood and the teams implementing (typically) have a builder bias. When added to those challenges the technology move rapidly, and you get the storm we are in today. We've come to appreciate the art of discernment in choosing when to go bespoke. The critical consideration is not whether you can create a custom solution, but whether you truly need to. Just as a skilled tailor doesn't need to weave their own fabric to craft a masterpiece, the essence of a successful AI project often lies in adeptly customizing existing technologies to fit unique business needs. It's about identifying whether the problem you're solving is so unique that it necessitates starting from scratch, or if it's more a matter of tailoring an existing solution to fit just right.
+
+A good guide will help you to avoid overspending, while focusing on accomplishing the goals of the organization. These are rules of thumb, and their are exceptions to these, but they are rare and should be approached with caution. These rules of thumb are applicable for all technology, and extra important in investment in emerging technology for companies.
+
+- Don't build custom outside of your core business or differentiators This is intended to caution against reinventing the wheel, when you don't sell wheels. If you are not an accounting firm, then you likely don't need an in house developed accounting system.
+- Return on Investment is the primary measure of successful technology. Your organization may have a way to define this that is broader then just dollars, like Improving does in our Stakeholder model. The definition of what a return is doesn't change the need to balance costs against that return. We often find overspending starts here, by not fitting the solution to the size of the problem.
+- Define the problem space well before you start This often means deeply understanding what the current state is, and what the ideal future state is. That balanced understanding then allows you to chart a course. If planning a road trip without a clear starting point or destination, it would be really difficult to budget for gas.
+
+**Section 3: The Advantages of Off-the-Shelf AI Platforms** - Shifting the focus a bit to off-the-shelf AI/ML solutions. Off-the-shelf AI platforms and components present a practical path forward, offering a blend of cost efficiency, proven reliability, and access to continuous expert updates. Observing this trend first hand with clients, it is easy to see how these pre-built solutions can serve as a solid foundation for businesses, enabling them to leverage advanced AI capabilities without the lengthy timeline before value is delivered. The beauty of this approach lies in the flexibility; these platforms can be tailored to meet specific business needs, ensuring that even the most niche requirements are addressed. - - Across various industries, the integration of off-the-shelf AI has led to noteworthy successes. For instance, in retail, AI-driven analytics tools have been adeptly customized to improve inventory management and personalize customer experiences. In healthcare, off-the-shelf AI solutions for patient data management and diagnostic support have been adapted to fit the unique workflows of different medical institutions. In the media company, standard tools were combined to do real time content analysis and created a significant speed to market advantage.
+
+< Snapstream case study here>
+
+- These examples underscore the versatility and potential of off-the-shelf AI platforms like Google Vertex AI, AWS Bedrock, and Azure Promptflow or Copilot Studio to transform operations, drive efficiency, and enhance service delivery, all while keeping costs and timelines under control. This pragmatic approach to adopting AI technology is similar to how Improving approaches all technology, by focusing on business value and return on investment first.
+
+**Section 4: Balancing Cost and Innovation for Maximum ROI** When we find ourselves navigating the delicate balance between the pursuit of innovation and practical considerations such as cost and return on investment (ROI). The key to leveraging the innovative potential of AI effectively lies in integrating it within the existing technological framework and solutions, ensuring that such initiatives are closely aligned with core business objectives. This approach emphasizes the importance of innovation driving tangible value rather than becoming an expensive showpiece. By grounding AI strategies in this pragmatic outlook, companies can unlock the transformative power of AI without losing sight of cost and ROI considerations, akin to steering a high-tech ship with a practical compass.
+
+Leveraging a methodical approach to assessing their AI needs is essential. This involves a clear-eyed evaluation of the problems AI is intended to solve, distinguishing between those requiring custom solutions and those that can be effectively addressed with off-the-shelf (or nearly off the shelf) products. Such a separation allows organizations to invest in bespoke AI developments where they can create significant competitive advantages, while leveraging existing solutions to optimize costs and accelerate implementation for more generic applications. By adopting this discerning approach, companies can maximize their AI investments, ensuring that every dollar spent moves them closer to their strategic goals. This strategy offers a roadmap for companies to navigate the exhilarating yet daunting terrain of AI integration, embodying a blend of innovation and pragmatism.
+
+Improving recommends a 40/40/20% blend of time for AI investment.
+
+40% to personal productivity. The goal of this time is to become well augmented, and operate at superhuman levels without superhuman efforts.
+
+40% to team effectiveness and business operations. The goal of this time is to get much more effective by combining AI with other tools like RPA (Robotic Process Automation) to achieve much better business workflows. The efficiency gains can translate to pricing power in the market or to margin protection.
+
+**Section 5: Implementing a Hybrid Approach for AI Investment** - The case for a hybrid approach: combining off-the-shelf solutions with targeted custom development for specific needs. - How companies can evaluate their current and future AI needs to plan a hybrid strategy. - Success stories of companies adopting a hybrid approach for their AI and ML initiatives.
+
+**Conclusion** - Recap of the key points: the importance of assessing real needs, the advantages of off-the-shelf solutions, and the strategic balance for maximizing ROI in AI. - Final thoughts from Devlin Liles on the future of AI investments and the strategic advantage of smart technology decisions. - Call to action for companies to rethink their AI development strategies in light of maximizing ROI.
+
+**Additional Resources** - Links to further readings, tools, and platforms for evaluating AI solutions. - Information about Improving and how they can assist companies in making informed AI investment decisions.

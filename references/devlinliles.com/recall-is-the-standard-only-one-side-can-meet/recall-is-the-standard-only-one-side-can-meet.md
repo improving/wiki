@@ -1,0 +1,23 @@
+---
+type: Reference
+title: "Recall Is the Standard Only One Side Can Meet"
+resource: "https://www.devlinliles.com/recall-is-the-standard-only-one-side-can-meet/"
+author: "Devlin Liles"
+published: '2026-09-26'
+fetched: '2026-10-17'
+tags: [blog, devlinliles.com]
+---
+
+David Sacks walked through a six-step sequence on All-In this month, and the notable part is that none of the six steps requires banning anything. Stand up a body to set the safety standard. Require pre-release testing against it. Write the requirement into law. Apply it evenly to open-weight and closed models. Watch the open models fail, because nobody can centrally monitor or recall a model once its weights are sitting on someone else's hardware. Restrict what failed. At the end of that sequence, open weights are functionally banned, and the word "ban" never shows up in the text of the rule. (All-In Ep. #286, Aug 21.)
+
+The first four steps read as boring, responsible policy. That's exactly why the mechanism underneath them is worth walking through carefully. An independent body setting a testing bar and applying it to every product in a category is how aircraft certification works: the FAA doesn't test one manufacturer's planes and wave another's through on reputation. Applied to AI, and applied evenly across open and closed models, that same structure sounds like precisely what a careful regulator should build. It's hard to object to a rule on the grounds that it treats every model the same way.
+
+The hinge is step five, and it's about what happens after a model ships: who can still see it, patch it, or pull it back once it's out in the world. A closed model lives behind an API the lab controls. Usage gets metered, a flawed version gets swapped out in an afternoon, and every call to the model passes through infrastructure the lab can watch in real time. An open-weight model, once released, has already been copied onto however many machines wanted it. There's no dealer network to send a recall notice to, no VIN registry, no account to suspend. The lab that trained it can publish a warning about a flaw. It can't reach into someone else's GPU and remove the weights.
+
+That's the entire mechanism behind step six. A rule that requires a covered model to stay continuously monitorable and recallable after release never has to mention open weights by name. Applied with total evenness to every model regardless of license, that requirement gets passed by exactly one architecture and failed by the other, because it measures a property that only a centrally hosted model can have in the first place. Equal application produced an unequal outcome, because the standard was written around one property, monitoring and recall after release, that only one architecture can carry.
+
+There's a real safety question underneath that design choice, and it deserves to be answered directly. A lab that trains a model capable of real harm and then has no way to patch or pull it once a flaw surfaces has a genuine gap. Wanting continuous monitoring and recall out of a safety regime is reasonable. Picking monitoring and recall as the property a standard tests for is one design choice among several: a standard could just as easily test what a model demonstrates before release, or what license terms and staged disclosure require of whoever deploys it downstream. Those are all defensible ways to regulate model risk. Only one of them fails open weights on architecture alone, regardless of how the model performs.
+
+That distinction matters more than the political fight around it for anyone evaluating open-weight models for production use right now. A standard built around release-time testing is one an enterprise can prepare for no matter which model it deploys: run the eval, keep the documentation, done. A standard built around post-release monitoring and recall shifts the compliance burden onto whoever deployed the model, because the lab that trained it structurally can't deliver monitoring or recall on somebody else's copy of its weights. If that version of the standard becomes law, an open-weight model already running in a production pipeline gets flagged for being unrecallable, no matter how well it scored on a capability or safety eval before anyone deployed it.
+
+The sequence Sacks described shows that a regulatory filter can sort by a target it never names. Write the rule around a property distributed unevenly across an industry, apply it with perfect evenness, and the sorting happens on its own. The detail worth tracking in whatever standard eventually gets written is which architecture was already positioned to pass it before the ink dried.

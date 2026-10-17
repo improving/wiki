@@ -1,0 +1,42 @@
+---
+type: Reference
+title: "Why Projects Fail"
+resource: "https://www.devlinliles.com/why-projects-fail/"
+author: "Devlin Liles"
+published: '2026-06-08'
+fetched: '2026-10-17'
+tags: [blog, devlinliles.com]
+---
+
+Recently, I took some time and read an article *(original link removed — no longer available due to age)* written by [Jeffrey Palermo](https://jeffreypalermo.com/?ref=devlinliles.com). In reading this article I found that I have a lot of respect for the intent of the article. It is intended not as a grenade tossed into the development world to see what it hits, but more as the start to a conversation that has to be had. With that intent in mind I decided to write this blog post. After reading this, I hope you decide to continue the conversation in your own way — at your office, in your blog, on twitter, or just as time to think about the points made in both articles.
+
+The article posits that software people don't get the fundamental reasons behind the failings of our processes that lead to a dismal success rate of projects. The premise is to find the underlying reasons that the Standish Group report shows a [less than 50% success rate](https://www.mountaingoatsoftware.com/blog/agile-succeeds-three-times-more-often-than-waterfall?ref=devlinliles.com) in an industry of professionals.
+
+Let me first start by saying that I agree with the statement "We must do better." It is sad that in an industry of professional programmers this has become the acceptable bar to set. If we take the more successful side of those rates (the agile side) we still have a doctor who got 42% of their diagnoses correct, 49% of their patients stayed sick, and 9% died. Would you go to this doctor?
+
+This is unacceptable; we can and must do better. The question in front of us is how, and no one has a silver bullet. The agile values give us a good set of guidelines, but no one process works for every development shop. This is where I start to differ from Mr. Palermo. I would say that the lack of success is a long set of issues that cannot be solved only with "software engineers need to change." It is a combination of the values of the business not aligning with the values required to craft great software, the idea that somehow sacrificing quality will help you hit those dates, and the behavior of developers to try and guess what is needed because what is wanted is wrong too often.
+
+When a business needs to overhaul a dated information system it has a large task in front of it. If on top of all that work it is requiring things that don't help — planning that will turn into fiction shortly after it is penned, and reporting percentage complete without delivering software — it is setting up an environment where everyone is responsible so no one is accountable. The only measure of software development that matters, the only one, is working quality software delivered. In the article Mr. Palermo alludes to Agile's success for addressing stakeholder interaction and incomplete requirements. I would say that this is half correct, but it leaves out the larger benefit: agile principles properly applied force you to deliver software sooner. This delivery is a large part of that success. In my experience the business is not aware of how close the possibility of continually delivered software is. We can get there, but it takes making that our measure of success. If our whole team were focused on delivering quality working software weekly, our process would change. It would have to, because the only other option is to fail against our measure of success.
+
+The iron triangle has long been a bit of an inside joke to me, because a lot of people still believe that it is true. The ones who tend to believe this are also the ones who are normally signing the budget for new projects. The problem is you cannot relate the creation of low quality software to the creation of low quality goods in most other industries. Let's take a table for instance. If I go to Walmart and buy a table for $200, I am going to be making some quality tradeoffs and I know what those are. It will be lower quality materials and more than likely not last as long as a $2,000 table from a solid wood furniture store. This is the standard evaluation of quality that has been around for years — craftsmanship costs more money. In software, however, this is not always the case. Craftsmen cost more money to hire, but they can produce so much more quality software that the marginal cost (cost per delivered unit) is equal to or lower than that of the software production line developers. ([Productivity](https://www.construx.com/blog/productivity-variations-among-software-developers-and-teams-the-origin-of-10x/?ref=devlinliles.com) — Famous Quote *(original link removed — no longer available due to age)*)
+
+We then come to a psychological reaction of software developers. We are continually looking out for the last thing that burned us. Software developers are logical problem solvers, which leads us to trying to apply logic to human interactions. I ran into this at a company I used to work for. The business for years would come asking for a solution, instead of bringing the problem to the developers and letting them work through a solution. This causes problems. If I need a display that gives me real-time updates from production and can be accessed from anywhere, that is my business problem. Going to the development team and asking for a real-time website that auto-updates with data from production creates a digital solution and locks the development team into that solution. This stifles creativity and possibly creates technical issues because of the technology mandate. If we pair this with developers trying to solve "cool" problems, we create an environment that spends 10x the cost of something because the requirement should have started with "it would be cool if." Once this happens two or three times to a developer with a negative reaction to the project, we will try to solve the problem we see. The problem for the developer then becomes "they are asking for what they want, not what they need." Developers then start the guess work to try and figure it out. This leads to writing a lot of code and spending a lot of money to solve problems we think might exist.
+
+The solution is a much more complex one of three major parts.
+
+## Open and Honest Communication
+
+- The business needs to be able to have a conversation about their problems. They more than likely don't know all the technical nuances in the solution.
+- The team needs to be able to hear the business asking for a solution, and then start asking about the problem. This will take telling the business that they are not in charge of technical direction. It is a hard conversation to have, but one that has to be had.
+
+## Developer Discipline
+
+- We have to put a minimum quality level that we will personally not go below. We have to impose this because our managers, directors, and VPs don't know what this level should be or how to measure it. Personal discipline and responsibility are the keys to succeeding as software professionals.
+- We have to strictly curb the urge to imagine the problem they "need" solved. This is the justification for most gold plating. Not every outhouse needs marble columns. To put it another way: "Good enough is, by definition, good enough."
+
+## Trust
+
+- We have to actively build trust with the business. The easiest way I have found to do this is to consistently deliver value. I am not talking about big systems every 3 months, but 3–4 features every 2 weeks. Better still is 1–2 delivered a week. If you went today to your customer/client/business user and asked if they would like 1–2 high quality features a week added based on their priorities, the answer you will get will be somewhere between a sarcastic "of course" and a disbelieving "I would like to win the lottery too."
+- The business has to trust the development team to do the job we are hired for in the best way we can. This means not enforcing how we do the job, but simply asking for what we are going to produce.
+
+With that said, this is a tough process that takes dedication and a leap of faith from both sides. But when applied, as it is at [Improving](https://www.improving.com/?ref=devlinliles.com) and I would assume at Mr. Palermo's Headspring *(original link removed — Headspring was acquired by Accenture in 2021 and the site is no longer available)*, you get amazingly high success rates.
