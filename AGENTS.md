@@ -28,8 +28,10 @@ This manual defines how agents maintain the wiki in this repository. The wiki is
 │   └── index.md
 ├── queries/                # Filed question-and-answer sessions
 │   └── index.md
-└── references/             # READ-ONLY: immutable raw source documents
-    └── index.md
+├── references/             # READ-ONLY: immutable raw source documents
+│   └── index.md
+└── scripts/                # Reusable fetchers that populate references/
+    └── fetch_devlinliles.py
 ```
 
 `references/` holds raw material — articles, papers, transcripts, notes — exactly as captured, before analysis. It may be organized into subdirectories by origin. Never edit a file in `references/`; the wiki's living pages summarize and cross-link them.
@@ -137,7 +139,7 @@ Ordering: concepts and entities alphabetical; sources newest first. After every 
 - Verified zero broken links; updated indexes
 ```
 
-Operations in use: `init`, `ingest`, `create`, `query`, `lint`.
+Operations in use: `init`, `ingest`, `create`, `query`, `lint`, `fetch`.
 
 Append an entry at the end of every workflow. The log is the wiki's memory: an agent should be able to reconstruct what happened, and when, by reading it top to bottom.
 
@@ -236,6 +238,14 @@ Avoid:
 ❌ Duplicates — check before creating
 ❌ Stale pages — update when new sources arrive
 ❌ Broken links — verify targets exist
+
+## Tooling
+
+`scripts/` holds reusable fetchers that populate `references/` with raw source documents:
+
+- `scripts/fetch_devlinliles.py` — archives devlinliles.com posts (and their images) into `references/devlinliles.com/<slug>/`, using the site's RSS feed for recent posts and its sitemap for the full archive. Safe to re-run: existing posts are skipped.
+
+Fetchers maintain the per-source index and the Sources list in `references/index.md`, and prepend a `fetch` entry to `log.md` when they add documents. They never create wiki content pages — that is the ingest workflow's job.
 
 ## Scope
 
