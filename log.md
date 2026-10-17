@@ -1,3 +1,7 @@
+## [2026-10-17] create | Repository README
+- Added README.md: a unified, incremental discovery wiki of Improving's AI thought leadership (OKF v0.1 bundle, three sources, layout, growth workflow, navigation)
+- Repo-facing document; no wiki content pages or indexes affected
+
 ## [2026-10-17] ingest | improving.com — all 511 posts
 - Created 511 source summaries: sources/* (Improving's Thoughts blog, 2011–2026, by ~60 authors)
 - Created 409 new pages: 185 concepts and 224 entities (each recurring across >=2 posts); applied the recurring threshold for a large corpus, leaving one-off terms in summary prose
