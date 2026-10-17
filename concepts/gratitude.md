@@ -12,6 +12,10 @@ sources:
   - "/sources/stop-trying-to-be-happy.md"
   - "/sources/what-gap.md"
   - "/sources/what-i-want-for-my-kids.md"
+  - "/sources/improving-100-a-wild-adventure-of-gratitude-and-connection.md"
+  - "/sources/thanksgiving-2023.md"
+  - "/sources/vegas-retreat-2023.md"
+
 ---
 
 # gratitude

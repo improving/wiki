@@ -17,6 +17,10 @@ sources:
   - "/sources/the-project-managers-evolution-stage-3-encoding-the-craft.md"
   - "/sources/writing-code-vs-shipping-code-the-maturity-gap.md"
   - "/sources/when-700-people-show-up-for-an-ai-awards-night-the-hype-is-over.md"
+  - "/sources/improving-and-cognition-announce-strategic-partnership.md"
+  - "/sources/from-ship-a-feature-faster-to-building-a-developer-platform-for-ai-agents.md"
+  - "/sources/platform-engineering-maturity-model.md"
+
 ---
 
 # AI maturity model

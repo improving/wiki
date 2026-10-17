@@ -649,7 +649,7 @@ def write_post(item, slug_dir, site, force):
 # Index maintenance
 # ----------------------------------------------------------------------------
 
-def build_source_index(src_root, site):
+def build_source_index(src_root, site, footer=None):
     """Regenerate references/<source_dir>/index.md; returns the post count."""
     entries = []
     for d in sorted(src_root.iterdir()):
@@ -679,9 +679,11 @@ def build_source_index(src_root, site):
         lines.append("* (No posts fetched yet.)")
     lines += [
         "",
-        "Raw posts with local images, fetched from the site's RSS feed and "
-        f"sitemap by `scripts/{site.script_name}`. Re-run the script to pick "
-        "up new posts.",
+        footer or (
+            "Raw posts with local images, fetched from the site's RSS feed and "
+            f"sitemap by `scripts/{site.script_name}`. Re-run the script to pick "
+            "up new posts."
+        ),
     ]
     (src_root / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return len(entries)

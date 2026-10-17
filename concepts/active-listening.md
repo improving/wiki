@@ -9,6 +9,10 @@ sources:
   - "/sources/being-client-centric-in-consulting.md"
   - "/sources/leading-with-empathy.md"
   - "/sources/profound-impacts.md"
+  - "/sources/building-trust-by-listening-first.md"
+  - "/sources/clarify-expectations.md"
+  - "/sources/communication-myths-and-truths.md"
+
 ---
 
 # Active Listening

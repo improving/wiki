@@ -8,6 +8,10 @@ tags: [platform, developer-tools, source-control]
 sources:
   - "/sources/starting-out-in-ruby.md"
   - "/sources/the-meter-picks-the-winners.md"
+  - "/sources/enabling-sso-authentication-argo-cd.md"
+  - "/sources/how-generative-ai-is-revolutionizing-application-security.md"
+  - "/sources/keycloak-sigstore-identity-based-artifact-signing.md"
+
 ---
 
 # GitHub

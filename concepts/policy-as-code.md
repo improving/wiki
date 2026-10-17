@@ -11,6 +11,10 @@ sources:
   - "/sources/your-agents-are-principals-treat-them-like-it.md"
   - "/sources/your-ai-governance-policy-is-not-governance.md"
   - "/sources/your-stakeholders-are-your-data-quality-system.md"
+  - "/sources/platform-security-governance-ai-agents.md"
+  - "/sources/adopting-azure-first-steps-of-migrating-to-the-cloud.md"
+  - "/sources/enterprise-ai-operating-model.md"
+
 ---
 
 # Policy as Code

@@ -33,7 +33,8 @@ This manual defines how agents maintain the wiki in this repository. The wiki is
 └── scripts/                # Reusable fetchers that populate references/
     ├── ghost_blog.py
     ├── fetch_devlinliles.py
-    └── fetch_driventodevelop.py
+    ├── fetch_driventodevelop.py
+    └── fetch_improving_thoughts.py
 ```
 
 `references/` holds raw material — articles, papers, transcripts, notes — exactly as captured, before analysis. It may be organized into subdirectories by origin. Never edit a file in `references/`; the wiki's living pages summarize and cross-link them.
@@ -269,8 +270,9 @@ Avoid:
 - `scripts/ghost_blog.py` — shared archiver for Ghost blogs: RSS + sitemap discovery, HTML→markdown conversion, image download, and index/log maintenance. The site scripts below are thin config wrappers over it; add another Ghost blog by writing one more wrapper.
 - `scripts/fetch_devlinliles.py` — archives Devlin Liles's blog *Emptying the Cup* into `references/devlinliles.com/<slug>/`.
 - `scripts/fetch_driventodevelop.py` — archives David O'Hara's blog *Driven To Develop* into `references/driventodevelop.com/<slug>/`.
+- `scripts/fetch_improving_thoughts.py` — archives Improving's *Thoughts* blog into `references/improving.com/<slug>/`. Not a Ghost site (Contentful-backed), so it carries its own discovery and parsing: the blog's all-articles listing plus the sitemap, JSON-LD metadata, and the `div.prose` article body. Covers article pages only — webinars, category listings, locale variants, and hub pages are skipped. Reuses the generic helpers in `ghost_blog.py`.
 
-Each fetcher uses the site's RSS feed for recent posts and its sitemap for the full archive, and is safe to re-run: existing posts are skipped (`--force` re-fetches them). Useful flags: `--limit N`, `--only SLUG`, `--rss-only`, `--dry-run`.
+The Ghost fetchers use the site's RSS feed for recent posts and its sitemap for the full archive; the Improving fetcher (the site has no RSS) uses the blog listing for ordering and the sitemap for completeness. All are safe to re-run: existing posts are skipped (`--force` re-fetches them). Useful flags: `--limit N`, `--only SLUG`, `--dry-run`, `--rss-only` (Ghost sites) / `--sitemap-only` (Improving).
 
 Fetchers maintain the per-source index and the Sources list in `references/index.md`, and prepend a `fetch` entry to `log.md` when they add documents. They never create wiki content pages — that is the ingest workflow's job.
 

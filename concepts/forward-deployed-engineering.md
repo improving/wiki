@@ -9,6 +9,8 @@ sources:
   - "/sources/ibm-just-showed-what-delivery-restructuring-actually-looks-like.md"
   - "/sources/the-fde-model-has-become-table-stakes-now-what.md"
   - "/sources/the-forward-deployed-model-changes-everything.md"
+  - "/sources/building-trust-at-the-intersection-of-science-ai-and-food-innovation.md"
+
 ---
 
 # forward deployed engineering

@@ -9,6 +9,8 @@ sources:
   - "/sources/mckinsey-moved-first-were-next.md"
   - "/sources/the-billing-model-just-broke.md"
   - "/sources/we-need-to-talk-about-how-consulting-gets-paid.md"
+  - "/sources/offshore-engagement-models.md"
+
 ---
 
 # outcome-based pricing

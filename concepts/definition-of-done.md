@@ -8,6 +8,10 @@ tags: [software-engineering, quality, process]
 sources:
   - "/sources/building-technical-wealth-dave-ramsey-style.md"
   - "/sources/technical-debt-is-a-chronic-condition-not-a-single-decision.md"
+  - "/sources/building-prompt-evaluation-habit.md"
+  - "/sources/define-done-before-you-build-a-task-agent.md"
+  - "/sources/the-ada-compliance-deadline-youre-ignoring-was-last-week.md"
+
 ---
 
 # Definition of Done

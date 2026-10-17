@@ -9,6 +9,10 @@ sources:
   - "/sources/an-equation-for-change.md"
   - "/sources/maintaining-your-energy-in-leadership.md"
   - "/sources/resiliency-as-a-leader.md"
+  - "/sources/agile-to-scale-or-not-to-scale.md"
+  - "/sources/embracing-a-learning-mindset-in-development-and-in-life.md"
+  - "/sources/cultivating-conscious-culture-within-your-personal-life.md"
+
 ---
 
 # growth mindset

@@ -9,6 +9,10 @@ sources:
   - "/sources/be-a-fire-marshal-not-a-fire-fighter.md"
   - "/sources/quote.md"
   - "/sources/surface-area.md"
+  - "/sources/lead-with-purpose-a-guide-to-delegation.md"
+  - "/sources/difference-between-managing-process-and-managing-goals.md"
+  - "/sources/druckers-blueprint-product-owner-to-effective-executive-pt-2.md"
+
 ---
 
 # delegation

@@ -1,3 +1,21 @@
+## [2026-10-17] ingest | improving.com — all 511 posts
+- Created 511 source summaries: sources/* (Improving's Thoughts blog, 2011–2026, by ~60 authors)
+- Created 409 new pages: 185 concepts and 224 entities (each recurring across >=2 posts); applied the recurring threshold for a large corpus, leaving one-off terms in summary prose
+- Updated 12 existing pages with new sources (active-listening, ai-maturity-model, definition-of-done, delegation, forward-deployed-engineering, gratitude, growth-mindset, outcome-based-pricing, policy-as-code, psychological-safety, work-life-balance, github)
+- Regenerated root index.md plus concepts/, entities/, and sources/ indexes (1,105 summaries, 439 concepts, 430 entities)
+- Updated overview.md with the three-corpus synthesis (devlinliles.com, driventodevelop.com, improving.com)
+- Verified the link graph: fixed 2 namespace errors; zero broken content links
+
+## [2026-10-17] fetch | improving.com — 511 new posts
+- Fetched 511 posts (910 images) into references/improving.com/
+- Regenerated references/improving.com/index.md (511 posts) and references/index.md
+- Skipped page(s) without an article body: podcast
+
+## [2026-10-17] create | improving.com Thoughts fetcher
+- Added scripts/fetch_improving_thoughts.py: archiver for Improving's Thoughts blog (not a Ghost site — Contentful-backed with no RSS; discovers articles via the all-blogs listing + sitemap, parses JSON-LD metadata and the div.prose article body, skips webinars/category/locale/hub pages)
+- Reuses the generic helpers in scripts/ghost_blog.py; added an optional footer parameter to build_source_index so the per-source index describes this site's discovery accurately (Ghost callers unchanged)
+- Updated AGENTS.md directory tree and Tooling section
+
 ## [2026-10-17] ingest | driventodevelop.com — all 240 posts
 - Created 240 source summaries: sources/* (driventodevelop.com posts by David O'Hara)
 - Created 115 new pages: 65 concepts and 50 entities (each recurring across >=2 posts)

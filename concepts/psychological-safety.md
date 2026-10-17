@@ -9,6 +9,10 @@ sources:
   - "/sources/leading-with-empathy.md"
   - "/sources/the-leadership-gap-just-got-a-number.md"
   - "/sources/your-manager-is-the-ai-strategy.md"
+  - "/sources/parallels-between-consulting-and-parenting.md"
+  - "/sources/the-parallels-between-consulting-and-parenting.md"
+  - "/sources/the-importance-of-effective-communication-in-remote-working.md"
+
 ---
 
 # Psychological Safety

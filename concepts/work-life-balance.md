@@ -8,6 +8,10 @@ tags: [career, leadership, family]
 sources:
   - "/sources/a-new-chapter.md"
   - "/sources/time-for-work.md"
+  - "/sources/the-real-scoop-on-quiet-quitting.md"
+  - "/sources/how-rest-produces-excellence.md"
+  - "/sources/unveiling-the-power-of-conscious-capitalisms-higher-purpose.md"
+
 ---
 
 # work-life balance

@@ -5,47 +5,85 @@ okf_version: "0.1"
 
 Last updated: 2026-10-17
 
-## Concepts (254)
+## Concepts (439)
 
+* [7 R strategies](/concepts/application-modernization-strategy.md) - The migration options from retain and retire to rehost, replatform, refactor, and rebuild, used to plan modernization.
+* [abstraction debt](/concepts/abstraction-debt.md) - The hidden cost of abstractions that leak or hide needed decisions from users.
 * [Abundance Mindset](/concepts/abundance-mindset.md) - Deliberately seeing what is present rather than what is missing, treating work and life as integrated rather than opposed.
 * [acceptance criteria](/concepts/acceptance-criteria.md) - Explicit, testable conditions a task must satisfy, separating done from merely coherent and catching defects at definition time.
+* [acquisition strategy](/concepts/acquisition-strategy.md) - Growing capability and geography by acquiring firms, as Improving did repeatedly.
 * [Active Listening](/concepts/active-listening.md) - Listening to uncover the real need behind a stated one, treated here as a trust behavior rather than a soft skill.
 * [Active Metadata](/concepts/active-metadata.md) - Metadata captured automatically as a byproduct of system operation, keeping catalogs current without manual curation.
 * [adversarial validators](/concepts/adversarial-validators.md) - Independent critic agents that attack delegated work before handoff, the trust requirement for autonomous delivery.
 * [agent identity](/concepts/agent-identity.md) - Treating agents as non-human identities subject to scoping, least privilege, and runtime policy like any principal.
+* [agent memory](/concepts/agent-memory.md) - Giving agents durable long-term context through vector stores, summaries, and cross-session persistence.
+* [agentic AI](/concepts/agentic-ai.md) - AI that pursues goals across multiple steps and tools rather than answering a single prompt.
+* [agentic AI cost management](/concepts/ai-cost-management.md) - Controlling agentic spend through task scoping, model routing, and cost observability.
+* [agile leadership](/concepts/agile-leadership.md) - Leading with coaching, trust, and self-managing teams rather than control.
+* [agile transformation](/concepts/agile-transformation.md) - Moving an organization toward agility, where process adoption alone fails without mindset change.
+* [AI adoption](/concepts/ai-adoption.md) - The organizational work of moving AI from experiments into measured production workflows, gated by trust and readiness.
+* [AI augmentation](/concepts/ai-augmentation.md) - Using AI to expand what a worker can do rather than replace the worker, requiring clear human intent.
+* [AI bias](/concepts/ai-bias.md) - Systematic unfairness in model outputs traced to data, labeling, and objective choices.
+* [AI business case](/concepts/ai-business-case.md) - Framing an AI investment around evidence, risk-adjusted return, and the sponsor's actual priorities.
+* [AI Center of Excellence](/concepts/ai-center-of-excellence.md) - A cross-functional body that centralizes AI standards, use-case intake, and governance without becoming a bottleneck.
+* [AI change management](/concepts/ai-change-management.md) - Sequencing trust-building and role evolution before deploying AI tooling, because transformations fail on people.
+* [AI code review](/concepts/ai-code-review.md) - Automated review that catches patterns but lacks architectural context, leaving judgment to humans.
 * [AI Governance](/concepts/ai-governance.md) - Runtime controls, identity, and audit infrastructure that make autonomous AI systems accountable, reversible, and auditable.
 * [AI Inventory](/concepts/ai-inventory.md) - A live registry of the models, agents, and integrations an organization runs, and the layer runtime governance depends on.
+* [AI literacy](/concepts/ai-literacy.md) - The working understanding of AI capabilities and limits that lets people use and question it well.
 * [AI maturity model](/concepts/ai-maturity-model.md) - An eight-stage map of how much work an organization can responsibly hand to AI, judged by artifacts rather than tools.
+* [AI monitoring](/concepts/ai-monitoring.md) - Continuously observing deployed models for drift and quality, which carries a real, budgetable compute cost.
+* [AI operating model](/concepts/ai-operating-model.md) - The designed decision rights and enforcement that assign who decides at each stage of an AI delivery loop.
+* [AI readiness](/concepts/ai-readiness.md) - Whether data, process, talent, and governance are in place before autonomous AI can be deployed.
 * [AI ROI measurement](/concepts/ai-roi-measurement.md) - The claim that most AI programs measure activity such as usage and spend instead of a pre-defined dollar outcome with a named owner.
+* [AI sovereignty](/concepts/ai-sovereignty.md) - Designing model-agnostic architecture to avoid single-vendor pricing, viability, and churn risk.
+* [AI strategy](/concepts/ai-strategy.md) - A prioritized plan connecting AI use cases to business outcomes, data readiness, and governance.
 * [AI Trust Evolution](/concepts/ai-trust-evolution.md) - The staged process by which organizations extend autonomy to AI as trust is earned and backed by governance infrastructure.
 * [AI-native organization](/concepts/ai-native-organization.md) - An organization that treats AI as a designed architectural foundation rather than a feature bolted onto existing processes.
 * [alert fatigue](/concepts/alert-fatigue.md) - The desensitization that follows noisy, low-signal alerting, undermining the observability and safety systems that depend on human response.
 * [anomaly detection](/concepts/anomaly-detection.md) - Finding unusual behavior in telemetry or delivery signals, increasingly augmented by LLMs that rank hypotheses rather than act autonomously.
+* [application modernization](/concepts/application-modernization.md) - Evolving legacy applications to modern architectures incrementally, with tests and a clear strategy.
+* [application security](/concepts/application-security.md) - Finding and fixing vulnerabilities in applications across the development lifecycle, now including LLM-specific risks.
+* [artifact signing](/concepts/artifact-signing.md) - Cryptographically signing build artifacts and binding signatures to a verified, current identity.
 * [Audit Trail](/concepts/audit-trail.md) - A persisted, per-action record of what an AI system did and why, providing the evidence that makes autonomy accountable.
 * [automated testing](/concepts/automated-testing.md) - Encoding expected behavior as repeatable, fast checks that validate requirements and serve as scaffolding for reliable delivery.
+* [behavioral AI](/concepts/behavioral-ai.md) - Inferring and predicting human behavior from data, with real-time personalization and unresolved privacy, bias, and autonomy tensions.
+* [belonging](/concepts/belonging.md) - The felt inclusion that makes people able to contribute fully.
 * [Benchmark Saturation](/concepts/benchmark-saturation.md) - The point where leading models cluster at the top of a benchmark, making score gaps statistically meaningless and claims unfalsifiable.
 * [Benchmark Validity](/concepts/benchmark-validity.md) - Whether a benchmark score actually predicts real-world performance, or only measures a narrow, distorted slice of capability.
 * [biological age](/concepts/biological-age.md) - An estimate of physiological aging from blood biomarkers, used to track whether interventions are actually working.
 * [biomarker testing](/concepts/biomarker-testing.md) - Repeated bloodwork panels that map many biomarkers over time to guide personal health decisions.
+* [blockchain](/concepts/blockchain.md) - A distributed, append-only ledger with consensus-based validation, valued as an automated trusted third party.
 * [Bolt-on Governance](/concepts/bolt-on-governance.md) - Governance implemented as separate documents and manual catalogs beside the pipeline, which drifts stale and changes no behavior.
 * [Boredom Tolerance](/concepts/boredom-tolerance.md) - The capacity to sit with idle moments rather than reach for stimulation, which some experience as generative and others as aversive.
 * [Boundary enforcement](/concepts/boundary-enforcement.md) - Keeping agents and systems inside their architectural and permission limits through automated checks rather than review.
+* [business intelligence](/concepts/business-intelligence.md) - Turning data into decision-ready reporting, dashboards, and analysis.
+* [business process automation](/concepts/business-process-automation.md) - Automating repeatable business workflows with software and AI, keeping humans in the loop for exceptions.
+* [buy, build, or partner](/concepts/buy-build-partner.md) - Choosing among purchasing, building, and partnering for a capability, from near-the-shelf defaults to defensible custom work.
 * [Calibration](/concepts/calibration.md) - Whether a model's expressed confidence matches its actual accuracy, and the training dynamics that systematically distort it.
 * [Capability Forecasting](/concepts/capability-forecasting.md) - Predicting future model capability, complicated by emergent abilities and by disagreement over whether AI is in normal science.
 * [Capability vs Activity](/concepts/capability-vs-activity.md) - The distinction between what an organization can reliably do with AI and what it has merely deployed, used to diagnose real maturity.
 * [Capacity Planning](/concepts/capacity-planning.md) - Deciding where compute and human capacity go, from RTP passthrough to AI-freed time redeployed against demand.
+* [career development](/concepts/career-development.md) - Deliberate growth of skills and roles over a career.
 * [Cascading hallucination](/concepts/cascading-hallucination.md) - When an ungrounded claim at an early step is treated as fact downstream, producing confident wrong answers.
 * [Causal Lineage Map](/concepts/causal-lineage-map.md) - Tracing how model-level lift becomes P&L, exposing where attribution leaks through cannibalization and window misalignment.
 * [chain-of-thought prompting](/concepts/chain-of-thought-prompting.md) - Eliciting intermediate reasoning steps to unlock dormant capability, and the reasoning chain adversarial tracks attack.
 * [Change Management](/concepts/change-management.md) - Leading change so people are brought along, pairing the change itself with its reason and earning trust before asking for compliance.
 * [checkpointing](/concepts/checkpointing.md) - Splitting long or expensive work into durable sub-steps so a failure resumes instead of redoing completed work.
+* [CI/CD](/concepts/ci-cd.md) - Automated integration and delivery pipelines that build, test, and deploy on every change — and the scaffolding they encode.
 * [circuit breakers](/concepts/circuit-breakers.md) - Stopping calls to a failing dependency once errors trip a threshold, bounding the blast radius of failure.
+* [citizen developer](/concepts/citizen-developer.md) - A non-professional developer who builds applications and automations with low-code tools, still needing design and governance guardrails.
 * [civil discourse](/concepts/civil-discourse.md) - Debate aimed at understanding rather than victory, which requires tolerating unpopular opinions and refining one's own thinking.
+* [cloud cost management](/concepts/cloud-cost-management.md) - Controlling cloud spend through right-sizing, reserved and spot capacity, architecture choices, and telemetry discipline.
+* [cloud migration](/concepts/cloud-migration.md) - Moving workloads to the cloud, from lift-and-shift to containerized and cloud-native re-architecture.
 * [code readability](/concepts/code-readability.md) - Making names, constants, and signatures carry meaning so code explains itself without comments.
+* [code review](/concepts/code-review.md) - Peer inspection of changes that spreads knowledge and catches defects early, a bottleneck as AI speeds generation.
+* [cognitive load](/concepts/cognitive-load.md) - The mental effort a tool or process imposes on developers, which platforms exist to reduce.
 * [cognitive reframing](/concepts/cognitive-reframing.md) - Deliberately changing how you interpret a situation or memory, turning reactive emotion and rumination into intentional learning.
 * [cognitive scaffolding](/concepts/cognitive-scaffolding.md) - Externalized structures — vocabulary, tests, CI/CD, governance — that hold and compound a team's thinking beyond individuals.
 * [comfort zone](/concepts/comfort-zone.md) - The familiar range of routine where growth stalls; stretching past it is where learning and payoffs live.
 * [Commitment Accounting](/concepts/commitment-accounting.md) - Treating each promise as a check drawn on a credibility account that must be covered or renegotiated early.
+* [Community Giving](/concepts/community-giving.md) - Contributing time, knowledge, and money to the community beyond the business, a recurring Improving theme.
 * [company culture](/concepts/company-culture.md) - The behaviors produced where people and values intersect, alive only when leaders live the values they state.
 * [comparison trap](/concepts/comparison-trap.md) - Measuring your life against others' robs gratitude and joy; compare instead to your own potential.
 * [Compensating actions](/concepts/compensating-actions.md) - Pairing every forward action with a reverse action, unwound in order on failure, so multi-step transactions can roll back.
@@ -55,53 +93,95 @@ Last updated: 2026-10-17
 * [Confidence Calibration](/concepts/confidence-calibration.md) - Making a model's stated confidence match its actual accuracy, and disclosing that evidence so trust is inspectable.
 * [Confidence Thresholds](/concepts/confidence-thresholds.md) - Routing decisions by how confident or cheap each check is, escalating only ambiguous cases to expensive review.
 * [Confidence-Correctness Gap](/concepts/confidence-correctness-gap.md) - Agents fail differently from people: their stated confidence decouples from whether their output is actually correct.
+* [confirmation bias](/concepts/confirmation-bias.md) - Seeking evidence that confirms existing beliefs, a trap in transformations and decisions.
 * [conscious capitalism](/concepts/conscious-capitalism.md) - A business philosophy that assumes profit while serving all stakeholders and growing people deliberately.
+* [Conscious Culture](/concepts/conscious-culture.md) - A values-driven culture built intentionally within teams and individuals, not left to chance.
+* [conscious leadership](/concepts/conscious-leadership.md) - Leading with awareness, empowerment, and enablement toward a higher purpose.
 * [Constitutional AI](/concepts/constitutional-ai.md) - Rule-based alignment against a written constitution, which this corpus critiques as relocating rather than resolving arbitrary axioms.
+* [constrained optimization](/concepts/constrained-optimization.md) - Choosing the best option under explicit constraints, expressed through decision variables, an objective, and a solver.
 * [consulting talent model](/concepts/consulting-talent-model.md) - The traditional pyramid of leverage over junior analysts, now being restructured as AI absorbs high-volume document work.
+* [container orchestration](/concepts/container-orchestration.md) - Scheduling and managing containers at scale, chiefly with Kubernetes, from a single node to enterprise clusters.
 * [contentment](/concepts/contentment.md) - A learned satisfaction with who you are, reached through experiencing its absence and practicing gratitude rather than chasing happiness.
 * [context drift](/concepts/context-drift.md) - Production agents act on stale world state after multi-step actions, silently diverging from reality.
+* [context engineering](/concepts/context-engineering.md) - Deliberately assembling the durable, shared context that makes AI-assisted work reliable.
 * [Context Management](/concepts/context-management.md) - Keeping exactly the right information in an agent's working window, treating context as a whiteboard rather than a filing cabinet.
 * [Context Pollution](/concepts/context-pollution.md) - Filling an agent's context window with irrelevant or wrong information that misleads it despite ample room.
 * [Context Window](/concepts/context-window.md) - The bounded span of text a model can attend to at once — a limit on knowledge, not a substitute for memory.
 * [continuous glucose monitoring](/concepts/continuous-glucose-monitoring.md) - Wearable sensors that track blood glucose continuously, exposing how specific foods, order, and activities move it.
+* [Continuous Learning](/concepts/continuous-learning.md) - Treating skill growth as ongoing rather than episodic, so people keep pace with changing tools and ways of working.
+* [contract lifecycle management](/concepts/contract-lifecycle-management.md) - Managing contracts end to end — creation, approval, signature, and storage — often by configuring Microsoft 365 rather than buying bespoke tools.
 * [Control plane](/concepts/control-plane.md) - The stateless signaling and policy layer that is separated from the stateful data plane so each can scale.
 * [Coordination Overhead](/concepts/coordination-overhead.md) - The cost of keeping parallel agents or workers aligned, which grows faster than their number.
 * [corporate currency](/concepts/corporate-currency.md) - The informal social economy in which attention, favors, and commitments are priced and exchanged.
+* [corporate innovation lab](/concepts/innovation-lab.md) - A dedicated unit that incubates new products with a distinct execution model, autonomy, and hard accountability metrics.
+* [corporate retreat](/concepts/corporate-retreat.md) - A company-wide gathering that builds relationships and culture across geographies.
 * [Corroboration](/concepts/corroboration.md) - Independent confirmation that lets an unverified fact earn its way up to action-worthy status.
 * [cost-adjusted capacity](/concepts/cost-adjusted-capacity.md) - The rate at which token spend converts into mergeable work, which collapses past roughly 30-minute tasks.
 * [Critical Thinking](/concepts/critical-thinking.md) - The disciplined habit of reasoning for yourself, tested by writing and protected from being outsourced.
+* [cross-border data transfer](/concepts/cross-border-data-transfer.md) - Moving data across jurisdictions, which AI prompts and agent tool calls trigger invisibly unless traced per request.
 * [cross-encoder reranker](/concepts/cross-encoder-reranker.md) - A model that reads query and candidate together to rescore retrieval results; the single largest lift in retrieval quality.
+* [cross-functional teams](/concepts/cross-functional-teams.md) - Teams with all the skills to deliver without handoffs.
+* [customer success](/concepts/customer-success.md) - Proactively ensuring clients achieve outcomes, driving retention and expansion measured by NPS, CSAT, and CLTV.
 * [Data Catalog](/concepts/data-catalog.md) - A searchable inventory of data and AI assets whose value depends on active, continuously current metadata.
 * [Data Contract](/concepts/data-contract.md) - An enforceable specification of a dataset's schema, ownership, and SLOs, validated by the system rather than documented in a committee.
+* [data debt](/concepts/data-debt.md) - The accumulated cost of unreliable, undocumented data that quietly degrades analytics and AI.
 * [Data Governance](/concepts/data-governance.md) - The policies, ownership, and runtime controls that keep data trustworthy, findable, and compliant as it moves across platforms.
+* [data integration](/concepts/data-integration.md) - Connecting and consolidating data across sources, batch and streaming.
+* [data lineage](/concepts/data-lineage.md) - Tracing where data came from and how it changed, captured at runtime rather than documented after the fact.
 * [Data Mesh](/concepts/data-mesh.md) - A decentralized data architecture with domain ownership, data-as-a-product, and federated computational governance.
 * [Data Ownership](/concepts/data-ownership.md) - Assigning named accountability for data so quality, contracts, and governance have an owner who answers for outcomes.
+* [data platform modernization](/concepts/data-platform-modernization.md) - Replacing brittle legacy data stacks with interoperable, AI-ready platforms.
+* [data quality](/concepts/data-quality.md) - The accuracy, completeness, and consistency of data, treated as an engineered property with owners and gates.
+* [data readiness](/concepts/data-readiness.md) - Whether an organization's data is clean, governed, and connected enough for AI to work.
+* [data residency](/concepts/data-residency.md) - Keeping data within required jurisdictions, a driver of sovereignty, gateway design, and regional architecture.
+* [data sovereignty](/concepts/data-sovereignty.md) - Keeping data subject to the laws of the jurisdiction where it resides, a driver of sovereignty and gateway architecture.
+* [data storytelling](/concepts/data-storytelling.md) - Communicating insight through narrative and well-chosen visualizations that fit how people perceive and decide.
+* [data visualization](/concepts/data-visualization.md) - Designing charts and interfaces that let people explore and understand data.
 * [deep connection](/concepts/deep-connection.md) - Deliberately trading efficiency for depth in relationships, so conversations reach a person's real state rather than their schedule.
 * [Deep Thinking](/concepts/deep-thinking.md) - Deliberately reserving time and tools to read, connect, and reflect rather than skim, resisting the phone's pull on idle moments.
+* [defect management](/concepts/defect-management.md) - Triaging and tracking defects through incident, problem, and bug stages so backlogs stay actionable rather than accumulating.
 * [Definition of Done](/concepts/definition-of-done.md) - The agreed bar a change must clear before it counts as finished, used to stop creating new technical debt.
 * [delegation](/concepts/delegation.md) - Handing off work and expertise so leaders can see the big picture and grow the team.
 * [deliberate practice](/concepts/deliberate-practice.md) - Structured, feedback-driven effort aimed at improving performance, distinguished from mere repetition and from accumulated hours.
 * [Demand Limit](/concepts/demand-limit.md) - The ceiling that available demand, not production capability, places on the value AI-driven work can create.
 * [Demand-Limited vs Collapsable Tasks](/concepts/demand-limited-vs-collapsable-tasks.md) - A classification of tasks by whether AI compresses labor or expands demand, each requiring a different strategic response.
 * [Dense Embeddings](/concepts/dense-embeddings.md) - Vector representations that compress meaning, strong on concepts but weak on exact identifiers, so retrieval must pair them with keyword search.
+* [Design Maturity](/concepts/design-maturity.md) - The organizational level of design capability and its influence — the extent to which design shapes strategy.
+* [design patterns](/concepts/design-patterns.md) - Reusable solutions to recurring design problems, and the shared vocabulary they create across a team.
+* [design thinking](/concepts/design-thinking.md) - An iterative, human-centered approach to problem framing and solutioning built on empathy, ideation, and purposeful iteration.
 * [deterministic validation](/concepts/deterministic-validation.md) - Enforcing rules through deterministic checks outside the model, because probabilistic agents cannot reliably comply.
+* [developer experience](/concepts/developer-experience.md) - The friction developers feel delivering software, treated as a product to improve.
 * [DevOps](/concepts/devops.md) - A synthesis of development and operations culture that resolved an apparent either/or and became standard practice.
+* [DevSecOps](/concepts/devsecops.md) - Embedding security into DevOps culture and pipelines rather than bolting it on as a final gate.
 * [Diffusion of Innovations](/concepts/diffusion-of-innovations.md) - Rogers' model of how innovations spread across adopter segments, used as a diagnostic for where an organization sits.
+* [digital accessibility](/concepts/accessibility.md) - Making digital products usable by people with disabilities, meeting WCAG levels and the ADA's compliance requirements.
+* [digital transformation](/concepts/digital-transformation.md) - Reorienting a business around digital capability, not just new tools.
 * [dispatcher pattern](/concepts/dispatcher-pattern.md) - A routing layer that decouples agent logic from model providers, making model selection a configuration decision.
 * [Distributed cognition](/concepts/distributed-cognition.md) - Hutchins' theory that intelligence lives across people, tools, and protocols — so system design, not model capability, drives outcomes.
+* [distributed tracing](/concepts/distributed-tracing.md) - Following a request across services via propagated trace context, and the collector topology that keeps traces whole.
 * [Distribution shift](/concepts/distribution-shift.md) - When production inputs diverge from training data, degrading model accuracy in ways confidence cannot reveal.
+* [domain-driven design](/concepts/domain-driven-design.md) - Modeling software around the business domain and bounded contexts, the method behind service decomposition.
 * [Edge Inference](/concepts/edge-inference.md) - Running model inference on the device itself, rather than round-tripping to the cloud, for latency, reliability, and privacy.
+* [Effective Communication](/concepts/effective-communication.md) - Conveying intent clearly and listening well, especially across remote and cultural distance.
 * [Egress bandwidth](/concepts/egress-bandwidth.md) - The outbound throughput a media instance spends fanning streams to viewers; the bottleneck that scales with viewers per stream.
 * [Embedded Governance](/concepts/embedded-governance.md) - Governance enforced inside platforms and engineering workflows rather than documented alongside them, so policy and lineage stay accurate.
 * [Emergent Capabilities](/concepts/emergent-capabilities.md) - Abilities that appear non-linearly as models scale, making small-model pilots a lower bound rather than a forecast.
 * [emotional regulation](/concepts/emotional-regulation.md) - Treating emotions as useful signals rather than drivers, and catching them early enough to choose a response.
 * [Empathy](/concepts/empathy.md) - The active practice of understanding others' feelings and intent, forming the base of trust and safety.
+* [empathy mapping](/concepts/empathy-mapping.md) - A research synthesis tool that captures what users say, think, do, and feel to build a shared picture of their experience.
+* [employee engagement](/concepts/employee-engagement.md) - The discretionary effort and commitment employees bring, shaped by culture and recognition.
+* [employee recognition](/concepts/employee-recognition.md) - Acknowledging contributions in ways that matter, as with Improving 100.
+* [Employee Value Proposition](/concepts/employee-value-proposition.md) - What employees get in return for their work — tangible and intangible — used to attract, self-select, and retain talent.
 * [encoded standards](/concepts/encoded-standards.md) - Turning personal judgment and craft into reusable, shareable agents and rules so quality compounds across a team.
 * [End-to-End Success Rate](/concepts/end-to-end-success-rate.md) - The probability a whole multi-step pipeline succeeds, which falls far below per-step accuracy as steps multiply.
 * [Epistemic Humility](/concepts/epistemic-humility.md) - Treating model capability and expressed confidence as uncertain, bounded by scale thresholds and training artifacts rather than stable truth.
+* [ERP consolidation](/concepts/erp-consolidation.md) - Unifying multiple ERP systems into one governed financial and operational record.
 * [Error Propagation](/concepts/error-propagation.md) - How a single bad value or mistake flows through a multi-step pipeline, compounding cost and corrupting later outputs.
+* [ESG reporting](/concepts/esg-reporting.md) - Reporting environmental, social, and governance metrics against frameworks such as GRI, SASB, and TCFD.
+* [ETL](/concepts/etl.md) - Extract-transform-load pipelines that move and reshape data between systems.
 * [evals-as-code](/concepts/evals-as-code.md) - Treating evaluation graders and test cases as version-controlled artifacts wired into CI, rather than one-off human review.
 * [evaluation harness](/concepts/evaluation-harness.md) - A structured test rig — golden dataset, rubric, runner, and regression gate — that replaces intuition in AI evaluation.
+* [event-driven architecture](/concepts/event-driven-architecture.md) - Systems that communicate through streams of events, decoupling producers from consumers.
 * [experiential wisdom](/concepts/experiential-wisdom.md) - Wisdom as the right application of knowledge in context, earned mainly by acting, erring, and owning the result.
 * [expression trees](/concepts/expression-trees.md) - Code-as-data representations in .NET that let LINQ predicates and sort lambdas be composed dynamically at runtime.
 * [false dichotomy](/concepts/false-dichotomy.md) - An either/or framing that hides the real options and blocks compromise, integration, and nuance.
@@ -112,90 +192,164 @@ Last updated: 2026-10-17
 * [form-bound work](/concepts/form-bound-work.md) - Work defined by structure and format that AI can generate, as opposed to judgment-bound interpretation.
 * [forward deployed engineering](/concepts/forward-deployed-engineering.md) - Embedding engineers inside a client's environment to ship working systems before enterprise rollout is approved.
 * [functional medicine](/concepts/functional-medicine.md) - A systems-oriented approach to health that uses extensive biomarker testing and personalized recommendations to target root causes.
+* [functional programming](/concepts/functional-programming.md) - Building software from pure functions and immutable data, with algebraic types and compile-time checking.
+* [GitOps](/concepts/gitops.md) - Using Git as the source of truth for declarative infrastructure and deployment state, reconciled by a delivery tool.
 * [glass-to-glass latency](/concepts/glass-to-glass-latency.md) - The delay from a camera capturing a frame to a viewer seeing it, dominated by keyframes and buffering rather than network transit.
 * [Golden Dataset](/concepts/golden-dataset.md) - A fixed, representative set of labeled cases used to score prompts and models reproducibly over time.
+* [golden image](/concepts/golden-image.md) - A prebuilt, hardened machine image used as the consistent basis for launching servers or containers.
+* [golden path](/concepts/golden-path.md) - A supported, opinionated route for common tasks that makes the right way the easy way.
 * [Goodhart's Law](/concepts/goodharts-law.md) - When a measure becomes a target it ceases to be a good measure — the recurring failure mode of AI evaluation.
 * [Governance engine](/concepts/governance-engine.md) - The layer providing audit trails, boundary enforcement, and approval points so autonomous systems can be granted permission safely.
+* [governed AI gateway](/concepts/governed-ai-gateway.md) - A single controlled ingress that routes model traffic for cost, vendor risk, and data-residency control.
 * [gratitude](/concepts/gratitude.md) - A deliberately practiced habit of noticing what you have, presented as the path to contentment rather than a mood you wait for.
 * [Grit](/concepts/grit.md) - Persisting through difficulty rather than around it, treating hard things as the worthwhile path to mastery and fulfillment.
 * [growth mindset](/concepts/growth-mindset.md) - Framing challenges and setbacks as opportunities to learn, the belief that ability and resilience are built rather than fixed.
 * [Hallucination](/concepts/hallucination.md) - Confidently asserted model output that is unsupported or false; one of several categories of AI mistruth, not the only one.
+* [healthcare AI](/concepts/healthcare-ai.md) - Applying AI in clinical, payer, and research settings under privacy regulation, where governance and trust are the binding constraints.
 * [Heart Rate Variability](/concepts/heart-rate-variability.md) - The variation between heartbeats used by wearables as a core signal of strain, recovery, and readiness.
+* [high-performance computing](/concepts/high-performance-computing.md) - Large-scale compute for research and simulation, increasingly delivered as elastic, governed cloud capacity.
+* [higher purpose](/concepts/higher-purpose.md) - A reason for the business beyond profit that aligns stakeholders.
 * [human approval points](/concepts/human-approval-points.md) - Designed pauses where a human authorizes an agent action, placed by how irreversible that action is.
 * [human punch-out points](/concepts/human-punch-out-points.md) - Places in an automated workflow where a human must step in because the system cannot reliably check itself.
+* [human-centered design](/concepts/human-centered-design.md) - Designing from users' needs and contexts rather than from the technology or the artifact.
 * [human-in-the-loop](/concepts/human-in-the-loop.md) - Keeping a person in the decision path of an AI workflow, graduated by each task's risk and reversibility.
+* [hybrid cloud](/concepts/hybrid-cloud.md) - Combining on-premises and cloud infrastructure, often for regulation, hard-to-migrate systems, or existing investment.
 * [Hybrid intelligence](/concepts/hybrid-intelligence.md) - A designed integration of neural capability, symbolic constraints, and human judgment, governed by an accountability layer.
 * [Hybrid Retrieval](/concepts/hybrid-retrieval.md) - Combining keyword and dense vector search so each covers the other's failure surface; the baseline for serious retrieval.
+* [Hybrid Work](/concepts/hybrid-work.md) - Blending remote and in-office work, using each setting for what it does best — focus and collaboration.
+* [imposter syndrome](/concepts/imposter-syndrome.md) - Doubting one's own competence despite evidence, common among high performers.
 * [In-pipeline processing](/concepts/in-pipeline-processing.md) - Running media work such as mixing, recording, or computer vision inside a pipeline while the stream is in flight.
+* [inclusion and diversity](/concepts/inclusion-and-diversity.md) - Building equitable, multicultural workplaces, including women and LGBTQ+ employees in tech.
+* [inclusive design](/concepts/inclusive-design.md) - Designing for the full range of human diversity from the start, anticipating disabled and marginalized users' needs rather than retrofitting.
+* [incremental delivery](/concepts/incremental-delivery.md) - Shipping in small, complete slices to learn and build momentum.
 * [Independent Verification](/concepts/independent-verification.md) - Evidence checked by a party with no stake in the claim, rather than self-reported or vendor-run monitoring.
+* [infrastructure as code](/concepts/infrastructure-as-code.md) - Defining infrastructure in version-controlled code that is reviewed and applied automatically, with reusable constructs.
 * [Intellectual Humility](/concepts/intellectual-humility.md) - Admitting what you do not know and seeking another's context before concluding they are wrong.
 * [Intelligence Operating System](/concepts/intelligence-operating-system.md) - An enterprise layer that separates foundational governance concerns from AI applications, like an OS separates kernel from programs.
 * [Intent Era](/concepts/intent-era.md) - The third era of Agile, in which human intent, not execution capacity, is the binding constraint on delivered value.
 * [Intentional Focus](/concepts/intentional-focus.md) - Deliberately reserving time, attention, and tools for deep thought instead of defaulting to skimming and distraction.
+* [internal developer platform](/concepts/internal-developer-platform.md) - A self-service layer of tools and services that reduces developer cognitive load.
+* [internal developer portal](/concepts/internal-developer-portal.md) - The catalog and interface layer of an IDP that surfaces services, docs, and golden paths.
 * [internal narrative](/concepts/internal-narrative.md) - The running inner voice that interprets events and can quietly constrain ambition if left unexamined.
+* [Internet of Things](/concepts/iot.md) - Networked physical devices that sense and act, feeding data pipelines from maker sensors to factory floors.
 * [Interpretability](/concepts/interpretability.md) - Understanding why a model produces an output, as distinct from observing that its behavior looks correct.
 * [intuition rust](/concepts/intuition-rust.md) - The gradual dulling of expert judgment when repetitive practice is outsourced to AI, leaving output intact but skill eroded.
 * [IQueryable](/concepts/iqueryable.md) - The LINQ abstraction that lets queries compose in expression-tree form, enabling dynamic filtering and sorting.
+* [IT engagement model](/concepts/engagement-model.md) - The commercial shape of an outsourcing relationship — fixed price, dedicated team, T&M, staff augmentation, managed service, or hybrid.
+* [IT outsourcing](/concepts/it-outsourcing.md) - Contracting a third party to deliver IT capability, spanning onshore, nearshore, and offshore models and their trends.
 * [Jevons paradox](/concepts/jevons-paradox.md) - When efficiency gains lower the cost of a resource, total consumption of it rises rather than falls.
 * [Jitter buffer](/concepts/jitter-buffer.md) - A receiver-side buffer that absorbs network timing variance, trading added latency for smoother playback.
+* [jobs to be done](/concepts/jobs-to-be-done.md) - Framing products around the job a user is trying to accomplish, rather than around personas or features.
 * [judgment-bound work](/concepts/judgment-bound-work.md) - Work requiring human interpretation, synthesis, and recommendation, which should be protected rather than delegated to AI.
+* [Kanban](/concepts/kanban.md) - Managing flow and limiting work in progress rather than committing to fixed iterations.
 * [Keyframe interval](/concepts/keyframe-interval.md) - The spacing between intra-coded frames; a shorter GOP cuts join latency for live viewers at bandwidth cost.
 * [Keyword Search](/concepts/keyword-search.md) - Lexical retrieval such as BM25 that matches exact terms, excelling on identifiers but failing on meaning.
 * [knowledge graph](/concepts/knowledge-graph.md) - A graph of typed entities and relationships that grounds retrieval and reasoning in explicit structure.
+* [Kubernetes autoscaling](/concepts/kubernetes-autoscaling.md) - Scaling workloads to demand, including to zero with event-driven scalers such as KEDA, and its cost and telemetry bill.
 * [Labor Compression](/concepts/labor-compression.md) - AI's workforce effect framed as fewer hours per unit of output, not wholesale replacement of roles.
+* [lakehouse](/concepts/lakehouse.md) - An architecture combining data-lake storage with warehouse-style transactions and governance.
 * [Latency Budget](/concepts/latency-budget.md) - The finite delay a system can spend before a task fails, allocated across inference, network, and buffering stages.
 * [leading by example](/concepts/leading-by-example.md) - Influence through lived behavior rather than stated intention, with the twist that talking about your own effort weakens the effect.
+* [Lean](/concepts/lean.md) - Eliminating waste and maximizing value flow, from the Toyota Production System.
 * [Learning by Doing](/concepts/learning-by-doing.md) - Understanding that comes from acting and making things, not from collecting information or chasing titles.
 * [Learning From Failure](/concepts/learning-from-failure.md) - Owning mistakes, root-causing them, and converting them into growth rather than deflecting blame.
+* [learning strategy](/concepts/learning-strategy.md) - Aligning training and development with business objectives and measurable outcomes.
 * [Least privilege](/concepts/least-privilege.md) - Granting agents and services only the access each action needs, enforced at runtime rather than assumed from policy.
+* [legacy modernization](/concepts/legacy-modernization.md) - Respecting and incrementally evolving legacy systems rather than rewriting them wholesale.
 * [Limiting Beliefs](/concepts/limiting-beliefs.md) - Self-imposed constraints on what we can do, most of which we create ourselves and can choose to reject.
+* [LLM evaluation](/concepts/llm-evaluation.md) - Continuously measuring AI output quality with datasets, metrics, and CI gates, because AI failures are silent.
 * [look-at-me tax](/concepts/look-at-me-tax.md) - The reputational discount self-promotion carries because its motive is visible to the audience.
 * [Lost in the middle](/concepts/lost-in-the-middle.md) - The degradation of recall for information placed mid-context, so retrieved passages buried in the middle get ignored.
+* [low-code development](/concepts/low-code-development.md) - Building applications with minimal hand-written code, typically on suites such as Microsoft Power Platform.
 * [Lusser's Law](/concepts/lussers-law.md) - A series system's reliability is the product of its components' reliabilities, so chained steps compound errors.
 * [Madman Architect Carpenter Judge](/concepts/madman-architect-carpenter-judge.md) - Betty Flowers' four creative roles for drafting, and the rule that they must be run in sequence to work.
+* [make invalid states unrepresentable](/concepts/make-invalid-states-unrepresentable.md) - Encoding constraints in types so illegal values cannot be constructed, making validation a compile-time concern.
+* [managed service provider](/concepts/managed-service-provider.md) - A firm that runs a client's IT under contract, increasingly proactively.
+* [managed services](/concepts/managed-services.md) - Ongoing, proactively operated IT under agreed service levels, distinct from augmentation and break-fix support.
+* [manual testing](/concepts/manual-testing.md) - Human-driven exploratory and usability testing that automation cannot fully replace, best paired with automated checks.
+* [master data management](/concepts/master-data-management.md) - Maintaining a single trusted definition of core business entities across systems.
 * [meal ordering](/concepts/meal-ordering.md) - Eating vegetables, then protein, then starch to blunt glucose spikes, as revealed by continuous monitoring.
+* [medallion architecture](/concepts/medallion-architecture.md) - Layering data into bronze, silver, and gold zones of increasing refinement.
 * [Media relay](/concepts/media-relay.md) - The stateful data-plane tier that forwards real-time audio and video between participants, distinct from stateless signaling.
+* [mentorship](/concepts/mentorship.md) - Guided development through a more experienced partner.
 * [metadata knowledge graph](/concepts/metadata-knowledge-graph.md) - A graph model of asset relationships and active metadata that lets people and models discover prompts, agents, and data.
+* [metrics logs traces](/concepts/metrics-logs-traces.md) - The three telemetry pillars, and the storage and cardinality tax of keeping them in separate systems.
+* [microservices](/concepts/microservices.md) - Decomposing systems into independently deployable services with clear domain boundaries.
+* [Microsoft Partner](/concepts/microsoft-partner.md) - A firm officially recognized by Microsoft to deliver and support Microsoft technologies, selected on trust and expertise.
 * [Model Drift Detection](/concepts/model-drift-detection.md) - Continuously monitoring deployed models for behavior change, a monitoring layer in a runtime AI governance control plane.
 * [model routing](/concepts/model-routing.md) - Assigning each task or task segment to the cheapest model tier that meets its accuracy requirement.
 * [Model selection](/concepts/model-selection.md) - Choosing a model by matching measured capability, cost, latency, and failure profile to a task rather than defaulting to the largest.
+* [model-agnostic architecture](/concepts/model-agnostic-architecture.md) - Abstracting the model behind a provider-neutral interface so models can be swapped without rewriting applications.
 * [Model-as-judge](/concepts/model-as-judge.md) - Using a language model to score outputs, powerful but untrustworthy unless calibrated to human consensus and cost-ordered.
+* [modern data platform](/concepts/modern-data-platform.md) - A platform with separated storage and compute, smart storage, and built-in governance.
+* [modern ways of working](/concepts/modern-ways-of-working.md) - Systems thinking, lean, OKRs, and customer-centricity applied to how work is organized.
 * [Multi-Agent Coordination](/concepts/multi-agent-coordination.md) - The problem of making specialized agents work together, where failures concentrate at the boundaries between them.
+* [multi-cloud](/concepts/multi-cloud.md) - Running across more than one cloud provider to reduce lock-in and improve resilience, at the cost of complexity.
+* [Multiculturalism](/concepts/multiculturalism.md) - Working well across cultures, addressing power distance, language, and communication norms.
 * [multitasking myth](/concepts/multitasking-myth.md) - The claim that humans cannot truly multitask; every context switch costs attention and depth.
+* [nearshore outsourcing](/concepts/nearshore-outsourcing.md) - Sourcing software work to nearby, time-zone-aligned countries — chiefly Latin America — balancing cost with collaboration.
+* [neural networks](/concepts/neural-networks.md) - Layered models that learn representations from data, whose weight dynamics can be studied but remain hard to interpret.
+* [observability](/concepts/observability.md) - Understanding system state from its outputs — metrics, logs, and traces — without shipping new code to ask a new question.
+* [observability-driven development](/concepts/observability-driven-development.md) - Designing for telemetry and SLOs from day one rather than instrumenting after incidents.
+* [offshore outsourcing](/concepts/offshore-outsourcing.md) - Sourcing software work to distant, lower-cost regions for scale and follow-the-sun coverage, at the cost of latency and governance risk.
 * [Open-Weight Models](/concepts/open-weight-models.md) - Models whose trained weights are released for self-hosting — an economic and regulatory battleground, not just a license.
 * [Operating model](/concepts/operating-model.md) - The designed structure of roles, decisions, and workflows that lets an organization integrate human judgment with AI execution.
 * [Optimism](/concepts/optimism.md) - The belief that the future can be better — treated as a prerequisite for taking responsibility, not a personality trait.
 * [orchestration layer](/concepts/orchestration-layer.md) - The query-time planning and routing tier that coordinates models and tools, shown to be the strongest lever on agent reliability.
 * [outcome accountability](/concepts/outcome-accountability.md) - Tying work to a measurable, dollar-figured outcome with one named owner instead of tracking activity.
 * [outcome-based pricing](/concepts/outcome-based-pricing.md) - Charging for results rather than hours, as AI compresses production time and clients refuse to pay for it.
+* [outcomes over outputs](/concepts/outcomes-over-outputs.md) - Measuring design by the behavior change and business results it produces, rather than by the artifacts delivered.
+* [over-engineering](/concepts/over-engineering.md) - Adding unnecessary abstraction and complexity that raises cost and cognitive load without delivering user value.
+* [partner selection](/concepts/partner-selection.md) - Vetting a services partner on capability, delivery maturity, security, legal protection, and cultural fit.
 * [Peer accountability](/concepts/peer-accountability.md) - Shared standards upheld within a cohort, turning personal discipline into durable team culture without managerial hierarchy.
 * [Per-Node Scoring](/concepts/per-node-scoring.md) - Grading each agent step locally at handoff, which cannot see forward in time and so misses delayed causal faults.
 * [Permission Pre-Filtering](/concepts/permission-pre-filtering.md) - Hard-excluding candidates the caller cannot access before scoring, keeping probabilistic tags out of the exclusion path.
 * [Personal Accountability](/concepts/personal-accountability.md) - Owning what you can control, refusing denial and finger-pointing, and correcting what you see wrong.
 * [perspective-taking](/concepts/perspective-taking.md) - Deliberately adopting another person's context to understand disagreement as difference rather than error.
+* [PI planning](/concepts/pi-planning.md) - A scaled-agile planning event that aligns teams on a shared increment.
+* [pilot purgatory](/concepts/pilot-purgatory.md) - The state where AI proofs of concept never reach production, stalling on integration, governance, and ownership.
 * [Plan-then-Execute](/concepts/plan-then-execute.md) - An agent pattern that drafts a complete plan for approval before any action, trading latency for a reviewable gate.
+* [platform as a product](/concepts/platform-as-a-product.md) - Running the platform with product practices: users, feedback, roadmaps, and adoption metrics.
+* [platform engineering](/concepts/platform-engineering.md) - Building internal platforms as products so delivery teams get self-service capabilities with guardrails.
 * [Platform Lock-In](/concepts/platform-lock-in.md) - The risk of committing to one vendor's AI stack as alliances shift and the safe bet becomes flexibility.
 * [POCO separation](/concepts/poco-separation.md) - Keeping persistence-ignorant plain objects separate from the framework plumbing that loads and saves them.
 * [Policy as Code](/concepts/policy-as-code.md) - Encoding governance rules as executable checks enforced by systems at runtime, instead of documents enforced by committees after the fact.
+* [prior authorization](/concepts/prior-authorization.md) - Payer approval required before care, now a governance and AI-automation focus under new CMS interoperability deadlines.
 * [Process Reward Models](/concepts/process-reward-models.md) - Models that score each step of a trajectory, approximating per-move feedback where only an end-of-run reward exists.
+* [product backlog](/concepts/product-backlog.md) - The prioritized, refined list of work a product team draws from.
+* [product ownership](/concepts/product-ownership.md) - Owning the value a product delivers, deciding what to build and why.
 * [Productivity amplification](/concepts/productivity-amplification.md) - Raising output per hour so the same role does more, one of two mechanisms behind labor compression.
 * [productivity paradox](/concepts/productivity-paradox.md) - The pattern where broadly available AI raises everyone's execution floor and so confers advantage on no one.
 * [progressive deployment](/concepts/progressive-deployment.md) - Rolling AI capability across every stage of the delivery loop rather than concentrating investment in code completion.
 * [Prompt Engineering](/concepts/prompt-engineering.md) - Shaping model output by establishing a language game in the prompt rather than issuing literal instructions.
+* [prompt evaluation](/concepts/prompt-evaluation.md) - Treating prompts like code: defining done, then regression-testing them with quantitative and qualitative checks.
 * [Prompt Injection](/concepts/prompt-injection.md) - Instruction-shaped text in a model's context executed as an operator command — a use/mention confusion contained, not fixed.
 * [protection harness](/concepts/protection-harness.md) - A set of automated gates that check artifacts between workflow steps and refuse those that fail them.
 * [Psychological Safety](/concepts/psychological-safety.md) - The shared belief that people can speak, take risks, and make mistakes without punishment, built by empathy and manager support.
+* [public sector AI](/concepts/public-sector-ai.md) - Applying AI to government and public research under strict compliance, where security and documentation are non-negotiable.
+* [quality assurance](/concepts/quality-assurance.md) - Engineering confidence in a product's fitness, spanning process, data, and layered testing rather than only test execution.
 * [Quality Gates](/concepts/quality-gates.md) - Validation checkpoints at pipeline transitions that stop a bad value before it becomes the next step's input.
+* [query folding](/concepts/query-folding.md) - Pushing transformations back to the source database so reporting tools fetch less data.
 * [Quiet Drift](/concepts/quiet-drift.md) - Unreviewed AI drafts propagating as fact because only a busy human checks the output.
+* [quiet quitting](/concepts/quiet-quitting.md) - Withdrawing discretionary effort, a symptom of engagement and balance problems.
+* [RAG evaluation](/concepts/rag-evaluation.md) - Scoring retrieval-augmented generation on faithfulness, context recall, and answer relevance against thresholds.
 * [rapamycin](/concepts/rapamycin.md) - An mTOR-inhibiting drug used experimentally for healthspan, dosed weekly and discontinued here after side effects.
+* [reactive systems](/concepts/reactive-systems.md) - Message-driven, elastic, resilient systems per the Reactive Manifesto, built from loosely coupled services.
+* [real-time data streaming](/concepts/real-time-data-streaming.md) - Processing events continuously as they occur, with delivery guarantees, ordering, and replay.
 * [Reciprocal Rank Fusion](/concepts/reciprocal-rank-fusion.md) - Merging ranked retrieval lists by rank position instead of raw score, the standard way to fuse hybrid search results.
+* [reducing cognitive load](/concepts/cognitive-load-design.md) - Designing interfaces and platforms that absorb decisions and complete workflows, minimizing unnecessary mental effort for users.
 * [Regional AI Economy](/concepts/regional-ai-economy.md) - The thesis that DFW's AI advantage comes from converging infrastructure, talent, capital, and regulated-industry demand rather than AI-native startups.
+* [release frequency](/concepts/release-frequency.md) - How often a team ships, constrained by automation and definition of done.
+* [Remote Work](/concepts/remote-work.md) - Distributed work — its collaboration tools, communication demands, security surface, and management.
 * [Replication Crisis](/concepts/replication-crisis.md) - The unreliability of published AI benchmark results when prompts, parameters, and test selection go undocumented.
 * [Repository pattern](/concepts/repository-pattern.md) - An abstraction that presents persistent data as an in-memory collection while centralizing reusable, testable queries.
 * [Reranking](/concepts/reranking.md) - A second scoring pass that reorders a broad candidate set before a small passage budget is spent.
 * [resilience](/concepts/resilience.md) - A buildable capacity to meet adversity as growth rather than merely bouncing back from it, in leaders and children alike.
+* [responsible AI](/concepts/responsible-ai.md) - Enforcing ethics, fairness, and privacy as continuously monitored runtime controls rather than annual audits.
+* [Rest and Recovery](/concepts/rest-and-recovery.md) - Deliberate restoration as the basis of sustained high performance, rather than collapse or mindless idling.
 * [Retrieval oversaturation](/concepts/retrieval-oversaturation.md) - Adding more retrieval signals degrades relevance as corpora grow; sharper filtering and a fixed passage budget beat piling on vectors.
 * [Retrieval-Augmented Generation](/concepts/retrieval-augmented-generation.md) - Injecting external documents into a model's context so answers reflect current evidence instead of frozen training priors.
+* [revenue cycle management](/concepts/revenue-cycle-management.md) - Managing healthcare billing and claims, where denial rates, data quality, and governance make it a target for AI automation.
 * [reversibility](/concepts/reversibility.md) - Governing AI agents by whether their failures can be undone, rather than by autonomy level or risk category.
 * [Review Bottleneck](/concepts/review-bottleneck.md) - AI made generation fast but verification slow, so effective throughput is gated by human review capacity.
 * [Review Gate](/concepts/review-gate.md) - A governed registry requires a review gate with separation of duties, evaluation, version pinning, and grounding — not just a folder of skills.
@@ -211,98 +365,166 @@ Last updated: 2026-10-17
 * [sandbox escape](/concepts/sandbox-escape.md) - An agent breaking out of its runtime isolation, showing containment fails at the action layer rather than the prompt.
 * [Scalable Video Coding](/concepts/scalable-video-coding.md) - Layered video encoding that lets an SFU forward adaptive quality per viewer without server-side transcoding.
 * [Schema Drift](/concepts/schema-drift.md) - Divergence between a copied schema and its canonical source, silently invalidating data until something fails.
+* [Scrum mastery](/concepts/scrum-mastery.md) - The depth and practice of Scrum beyond certification.
+* [secrets management](/concepts/secrets-management.md) - Reducing and controlling credentials through elimination first, then scoping, then proactive leak detection.
+* [security culture](/concepts/security-culture.md) - Making security everyone's responsibility rather than a late gate, sustained by leadership, metrics, and blame-free feedback.
 * [Selective Forwarding Unit](/concepts/selective-forwarding-unit.md) - A media server that forwards encoded packets to many viewers, paying ingest once instead of decoding and re-encoding.
 * [self-awareness](/concepts/self-awareness.md) - The hard, honest work of seeing your own ego, triggers, and inner state, which this corpus treats as the root of growth.
 * [semantic drift](/concepts/semantic-drift.md) - A gradual, exception-free accumulation of off-target output that stack traces never surface.
+* [semantic layer](/concepts/semantic-layer.md) - A governed business-meaning layer over physical data that keeps metrics consistent across tools.
 * [Semantic Search](/concepts/semantic-search.md) - Retrieval by meaning via embeddings, which complements but never replaces exact-string keyword search.
+* [servant leadership](/concepts/servant-leadership.md) - Leading by serving the team's growth and removing obstacles.
+* [service design](/concepts/service-design.md) - Designing end-to-end services across all touchpoints, often visualized with blueprints that expose cross-system dependencies.
 * [Service Discovery](/concepts/service-discovery.md) - Resolving which capability to use at runtime — now applied to AI assets, not just network services.
+* [service level objective](/concepts/service-level-objective.md) - The target reliability a service commits to, defined before code and rigorous enough to catch capacity failure before users do.
+* [shadow AI](/concepts/shadow-ai.md) - AI tools adopted outside IT approval, repeating shadow IT's governance gap at greater scale.
 * [shadow IT](/concepts/shadow-it.md) - Tools adopted outside IT approval — now repeated by shadow AI at ten times the scale.
 * [Shared vocabulary](/concepts/shared-vocabulary.md) - The named concepts a team can think with; its quality bounds the quality of collective thought.
+* [shift-left security](/concepts/shift-left-security.md) - Moving security checks earlier in the delivery lifecycle, from pre-commit scanning to security gates in the pipeline.
 * [shitty first draft](/concepts/shitty-first-draft.md) - Separating raw generation from refinement so judgment does not strangle the ideas before they exist.
 * [Simulcast](/concepts/simulcast.md) - Sending multiple resolution layers so each viewer receives quality matched to its decode capability.
+* [single sign-on](/concepts/single-sign-on.md) - Centralized authentication so users sign in once across services, inheriting MFA and reducing credential sprawl.
 * [Single-Agent Ceiling](/concepts/single-agent-ceiling.md) - The performance plateau a lone agent hits because one perspective cannot hold every competing delivery concern.
+* [site reliability engineering](/concepts/site-reliability-engineering.md) - Applying software engineering to operations, with SLOs, error budgets, and layered defenses that keep pagers quiet.
 * [Skill Discovery](/concepts/skill-discovery.md) - Finding the right agent skill at the moment of need, a retrieval problem repeated at the skill layer.
 * [Skill Leveling Effect](/concepts/skill-leveling-effect.md) - AI gains skew to junior workers, compressing the performance gap and raising the premium on judgment.
 * [Skill Registry](/concepts/skill-registry.md) - A governed, reviewed catalog of agent skills — not just a Git folder of markdown files.
 * [Sleep Tracking](/concepts/sleep-tracking.md) - Continuously measuring sleep duration, stages, and recovery with a wearable to guide personal sleep experiments.
 * [social capital](/concepts/social-capital.md) - The earned trust and standing exchanged in organizations — and now extended, cautiously, to AI systems.
 * [Software Craftsmanship](/concepts/software-craftsmanship.md) - An identity defined by the standards a developer refuses to abandon under pressure, not a job title or toolset.
+* [software supply chain security](/concepts/software-supply-chain-security.md) - Securing dependencies, builds, and artifacts against tampering, malicious packages, and compromised maintainers.
 * [Specification pattern](/concepts/specification-pattern.md) - Encapsulating a query or business rule as a composable, testable object that repositories can execute and reuse.
 * [Speculative Decoding](/concepts/speculative-decoding.md) - Accelerating inference by having a cheap draft model propose tokens that a larger target model verifies in parallel.
 * [Stacking Errors](/concepts/stacking-errors.md) - Chained steps multiply error rates, so end-to-end reliability falls far below per-step accuracy without gates.
+* [staff augmentation](/concepts/staff-augmentation.md) - Adding external specialists into an existing team while the client keeps architecture and delivery ownership.
 * [stakeholder model](/concepts/stakeholder-model.md) - A view of business that serves employees, suppliers, customers, and community alongside shareholders, profit included.
+* [stakeholder orientation](/concepts/stakeholder-orientation.md) - Serving employees, customers, suppliers, and community alongside shareholders.
 * [state isolation](/concepts/state-isolation.md) - Keeping each agent's working state separate so shared mutable context cannot corrupt concurrent multi-agent work.
+* [statistical machine learning](/concepts/statistical-machine-learning.md) - Classical, interpretable ML methods — regression, trees, and SVMs — that still earn their place beside deep learning.
 * [stepped-wedge design](/concepts/stepped-wedge-design.md) - A phased-rollout causal design in which groups switch to treatment in randomized sequence, yielding within- and between-group comparisons.
+* [strategic demand management](/concepts/strategic-demand-management.md) - Balancing incoming demand against capacity to avoid overload and waste.
+* [stream processing](/concepts/stream-processing.md) - Computing over unbounded event streams, often with engines such as Flink or Spark Structured Streaming.
 * [supplement stacking](/concepts/supplement-stacking.md) - Combining many supplements and peptides into timed daily doses as part of a data-driven health routine.
 * [Sycophancy](/concepts/sycophancy.md) - The tendency of RLHF-trained models to agree with users over being accurate, baked in by the training signal.
 * [Symbolic AI](/concepts/symbolic-ai.md) - Rule- and logic-based AI that encodes knowledge explicitly; provable but incomplete, so architecture must absorb the residual.
 * [Synthetic Control](/concepts/synthetic-control.md) - A causal method that builds a counterfactual from a weighted combination of untreated units to estimate an intervention's effect.
+* [systems thinking](/concepts/systems-thinking.md) - Understanding problems as interconnected systems rather than isolated parts.
 * [Tacit Knowledge](/concepts/tacit-knowledge.md) - Unwritten organizational and model knowledge that agents and benchmarks routinely miss, requiring deliberate capture.
 * [Targeted Fine-Tuning](/concepts/targeted-fine-tuning.md) - Fine-tuning a narrow, identified part of a model or a small model for one task, rather than broad retraining.
 * [task agents](/concepts/task-agents.md) - Personal, scoped agents that execute a single unit of work under an engineer's encoded standards and review.
 * [Task Decomposition](/concepts/task-decomposition.md) - Breaking agent work into shorter, gated steps to counter compounding error and stale world state.
 * [Technical Debt](/concepts/technical-debt.md) - The compounding result of continually trading craftsmanship for velocity, a behavioral problem with technical symptoms.
 * [temporal retrieval](/concepts/temporal-retrieval.md) - Retrieval that reasons about when a fact was true, treating validity as a property of the fact rather than the document.
+* [test automation](/concepts/test-automation.md) - Encoding checks so they run without a human, from unit and integration suites to cross-browser end-to-end tests.
+* [test pyramid](/concepts/test-pyramid.md) - Balancing fast unit tests, slower integration tests, and the fewest end-to-end tests that prove behavior.
 * [test-driven development](/concepts/test-driven-development.md) - Writing tests that codify intent before or alongside code, extended in this corpus to evals for AI agents.
+* [thin vertical slice](/concepts/thin-vertical-slice.md) - A narrow end-to-end slice that delivers real value early.
 * [three pillars of observability](/concepts/three-pillars-of-observability.md) - The metrics/logs/traces split for observability, and the storage and cardinality tax its separation imposes.
 * [time horizon](/concepts/time-horizon.md) - The length of task an AI model can complete reliably; it doubles roughly every four to seven months.
 * [token cost](/concepts/token-cost.md) - The per-token expense of LLM inference, which scales with context complexity and demands per-task observability.
 * [Tool Calling](/concepts/tool-calling.md) - A model's ability to select and invoke the right tool; bounded by a thin neural circuit and fragile under compression.
+* [trust behaviors](/concepts/trust-behaviors.md) - The specific, learnable actions — from The Speed of Trust — that build or tax credibility.
 * [trust building](/concepts/trust-building.md) - Earning confidence through consistency and accountability; trust grows with use and collapses under the demand for reassurance.
 * [trust infrastructure](/concepts/trust-infrastructure.md) - The audit trails, quality gates, and approval points that must exist before autonomy or tooling can be adopted.
 * [trusted signals](/concepts/trusted-signals.md) - Reliable, verifiable indicators that let teams hand whole workflows to autonomous agents and coordinate many in parallel.
+* [type safety](/concepts/type-safety.md) - Using the type system to make invalid states unrepresentable and catch errors at compile time.
 * [uniform governance](/concepts/uniform-governance.md) - The failure mode of applying identical oversight to every AI agent, regardless of autonomy, risk, or reversibility.
 * [Unit of work](/concepts/unit-of-work.md) - A repository abstraction that groups queries and commands into one testable, reusable unit of data access.
+* [User Experience](/concepts/user-experience.md) - Designing the whole experience of using a product — not just its interface or aesthetics.
+* [user research](/concepts/user-research.md) - Learning about users through interviews, observation, and testing to ground design in real needs rather than assumptions.
+* [UX Maturity](/concepts/ux-maturity.md) - How deeply an organization treats design as a strategic capability rather than an afterthought.
+* [value proposition](/concepts/value-proposition.md) - The specific value an offering delivers to a defined customer, framed from their perspective and defended under AI-era pricing.
 * [verification tax](/concepts/verification-tax.md) - The share of effort spent checking AI output; lowering it buys more throughput than upgrading models.
 * [Version Pinning](/concepts/version-pinning.md) - Locking exact versions of skills, models, and tools so production behavior stays reproducible and governed.
+* [vibe coding](/concepts/vibe-coding.md) - Building software by prompting an AI without structured context, which trades short-term speed for drift.
 * [Virtuous Cycle](/concepts/virtuous-cycle.md) - A self-reinforcing loop in which a small good action produces conditions that make the next one easier.
 * [Vocabulary mismatch](/concepts/vocabulary-mismatch.md) - When a query and a document mean the same thing but share no words, defeating keyword search and manual tags.
+* [Web 3.0](/concepts/web3.md) - The decentralized, creator-driven evolution of the web, whose real business story is synchronous live streaming and its tensions.
 * [Woodshop-to-Factory Transition](/concepts/woodshop-to-factory-transition.md) - The category change from AI-assisted craftsmanship to autonomous agents requiring factory-style operating infrastructure.
+* [work in progress](/concepts/work-in-progress.md) - The partially finished work that slows flow, governed by WIP limits.
 * [work-life balance](/concepts/work-life-balance.md) - The idea that work and family time should be balanced; these sources argue balance is the wrong frame.
 * [workflow sequencing](/concepts/workflow-sequencing.md) - Ordering which workflows to automate first, earning confidence by proving each protection harness gate holds.
 * [Working Memory](/concepts/working-memory.md) - The active, retained context an agent holds during a task — a designed mechanism, not a bigger context window.
+* [zero trust security](/concepts/zero-trust-security.md) - Verifying every request as if the network is already breached, with least privilege and continuous checks.
 
-## Entities (206)
+## Entities (430)
 
 * [Accenture](/entities/accenture.md) - Global consulting firm cited in this corpus as a marker of the market's doubts about repricing delivery work.
+* [ACT Framework](/entities/act-framework.md) - Improving's structured IT delivery framework — Anchor, Consistency, Transition — for de-risking complex projects.
 * [AG1](/entities/ag1.md) - Athletic Greens' daily greens powder, a core morning supplement in the author's longevity and health-optimization routine.
 * [AgentBench](/entities/agentbench.md) - An agentic evaluation benchmark used as a reference point in this corpus's writing on eval-driven development.
 * [Agentic Resource Discovery](/entities/agentic-resource-discovery.md) - Open specification for federated agent capability discovery via domain-owned ai-catalog.json files, distinct from a governed registry.
 * [Agile Manifesto](/entities/agile-manifesto.md) - 2001 statement of four trade-off values that AI-era writing reframes as multiplicative dimensions rather than scarcity-driven priorities.
+* [AI Summer Camp](/entities/ai-summer-camp.md) - Improving's Houston program teaching high school students and parents to use AI responsibly as a thought partner.
 * [Akamai](/entities/akamai.md) - Cloud and edge platform whose agent-governance writing argues oversight should scale with how reversible an agent's failures are.
+* [Albert Mehrabian](/entities/albert-mehrabian.md) - Researcher behind the 7-38-55 communication model, cited on how remote work strips non-verbal signal.
 * [All-In Podcast](/entities/all-in-podcast.md) - A technology and venture podcast whose AI debates this corpus cites as a venue for open-weight and cognition arguments.
 * [AllianceTexas](/entities/alliancetexas.md) - Large master-planned development in Fort Worth hosting major industrial and AI infrastructure projects, including Wistron's campus.
 * [AlphaGo](/entities/alphago.md) - DeepMind's Go-playing system, cited as the reference case for per-move feedback and hybrid neural-symbolic search.
 * [Amazon](/entities/amazon.md) - Hyperscaler cited for licensing-plus-hiring AI talent deals and as the operator of AWS's model services.
 * [Amazon Bedrock](/entities/amazon-bedrock.md) - AWS's managed model service, cited for zero-data-retention defaults and for selling serving-layer engineering.
+* [Amazon ECS](/entities/amazon-ecs.md) - AWS container orchestration service whose capacity providers blend On-Demand and Spot to cut costs.
+* [Amazon Neptune](/entities/amazon-neptune.md) - AWS managed graph database, used as the production target for Apache TinkerPop and Gremlin workloads.
+* [Amazon Timestream](/entities/amazon-timestream.md) - AWS time-series database with a Prometheus connector that turns it into a scalable remote store for metrics.
+* [Americans with Disabilities Act](/entities/americans-with-disabilities-act.md) - US law driving digital accessibility requirements, including Title II web rules that reference WCAG.
 * [Amir Rajan](/entities/amir-rajan.md) - .NET developer and author who defends the repository abstraction and records a deliberate apprenticeship in Ruby.
+* [Andrew Watson](/entities/andrew-watson.md) - Improving writer on types, Rust, and code review.
+* [Angular](/entities/angular.md) - Google's TypeScript single-page application framework, recommended here for enterprise separation of concerns and testability.
 * [Anthropic](/entities/anthropic.md) - AI lab behind Claude and Claude Code; a recurring subject of this corpus on capability, governance, and safety.
+* [Apache Arrow](/entities/apache-arrow.md) - Columnar in-memory format whose Flight SQL protocol offers roughly 20x faster data access than JDBC/ODBC.
+* [Apache Camel](/entities/apache-camel.md) - Integration framework whose MQTT5-to-Kafka connector was patched here for at-least-once delivery.
+* [Apache Flink](/entities/apache-flink.md) - Stream-processing engine for stateful computation over events, positioned here as the de facto standard and an agent runtime.
+* [Apache Hive](/entities/apache-hive.md) - SQL-on-Hadoop data warehouse layer used as the storage and query tier of a high-throughput on-prem ETL pipeline.
+* [Apache Kafka](/entities/apache-kafka.md) - The distributed event streaming platform at the center of the corpus's real-time data and event-driven architectures.
+* [Apache Software Foundation](/entities/apache-software-foundation.md) - The foundation stewarding Apache projects such as Kafka, Spark, Flink, and TinkerPop.
+* [Apache Spark](/entities/apache-spark.md) - Distributed data-processing engine for batch and streaming, used across ETL, analytics, and machine learning.
+* [Apache TinkerPop](/entities/apache-tinkerpop.md) - Open-source graph computing framework whose Gremlin traversal language is the SQL of graph databases.
+* [Argentina](/entities/argentina.md) - South American nearshore destination whose Buenos Aires talent came to Improving via the Leniolabs acquisition.
+* [Argo CD](/entities/argo-cd.md) - GitOps continuous-delivery tool for Kubernetes, used for declarative deployments and SSO-secured access.
 * [Aristotle](/entities/aristotle.md) - Ancient Greek philosopher whose eudaimonia and phronesis concepts frame arguments about fulfillment and model character.
 * [Arthur Brooks](/entities/arthur-brooks.md) - Writer and social scientist whose work on happiness, boredom, and resilience informs several culture and work essays in this corpus.
 * [Arvind Narayanan](/entities/arvind-narayanan.md) - AI researcher whose framing of AI as a general purpose technology anchors posts on diffusion and cost.
 * [Ascend](/entities/ascend.md) - Data platform referenced in posts on data contracts, ownership, and treating governance as code.
 * [Astra](/entities/astra.md) - OpenAI's unreleased frontier model, cited in posts on safety disclosure and reward-hacking containment failure.
 * [Atlan](/entities/atlan.md) - A data catalog vendor used in this corpus to illustrate active metadata and catalog-based discovery for both people and machines.
+* [Atlanta](/entities/atlanta.md) - Southeastern US market Improving entered via Innovative Architects, its seventh enterprise location.
+* [Atulpriya Sharma](/entities/atulpriya-sharma.md) - Improving writer on platform engineering, internal developer platforms, golden paths, and developer experience.
 * [Augment Code](/entities/augment-code.md) - An agentic development tool cited in this corpus as an example of the definition, containment, and semantic-error problems in AI-assisted delivery.
 * [AutoGen](/entities/autogen.md) - Event-driven multi-agent orchestration framework whose decoupled agents trade debuggability for flexibility.
 * [AV1](/entities/av1.md) - Open video codec whose hardware encode support limits browser endpoint optimization in WebRTC pipelines.
 * [AWS](/entities/aws.md) - Cloud provider whose Bedrock governance controls and zero-data-retention default exemplify policy outside the prompt.
 * [AWS Kiro](/entities/aws-kiro.md) - AWS agentic coding tool cited in posts on agent containment failures and spec-driven development.
+* [AWS Lambda](/entities/aws-lambda.md) - AWS serverless compute, used in Improving's writing as the runtime for a metrics connector.
+* [AWS Well-Architected Framework](/entities/well-architected-framework.md) - AWS's pillar framework for sound cloud architectures, mirrored by Azure and Google Cloud.
 * [Azure OpenAI](/entities/azure-openai.md) - Managed inference service used in posts on silent model updates and what the serving layer actually sells.
+* [Azure Synapse Analytics](/entities/azure-synapse.md) - Microsoft's cloud analytics service, whose notebooks and querying capabilities are now folded into Microsoft Fabric.
 * [Bain](/entities/bain.md) - Global strategy consultancy cited for its AI-enabled share of work and its move away from hourly billing.
+* [BairesDev](/entities/bairesdev.md) - Nearshore/offshore development firm listed in Improving's modernization and managed-services comparisons.
 * [BCG](/entities/bcg.md) - Consultancy whose $200B agentic AI services forecast frames the mid-market opportunity and the sector's pricing shift.
 * [Betty Flowers](/entities/betty-flowers.md) - Writing teacher behind the madman, architect, carpenter, judge roles, cited here for sequential creative thinking.
+* [BigQuery](/entities/bigquery.md) - Google Cloud's serverless data warehouse, the analytics landing zone in this corpus's GCP pipelines and AI solutions.
+* [Bill Curry](/entities/bill-curry.md) - Improving writer on developer platforms and AI agents.
+* [Bit Quill Technologies](/entities/bit-quill.md) - Vancouver data and cloud consultancy acquired by Improving.
+* [Blake McMillan](/entities/blake-mcmillan.md) - Improving writer on Scrum, product ownership, and learning.
 * [Blue Cross Blue Shield of Minnesota](/entities/blue-cross-blue-shield-of-minnesota.md) - A health insurer whose Databricks medallion platform is cited as a case study in embedded, runtime-enforced data governance.
+* [BMAD](/entities/bmad.md) - An agentic-AI software development framework that wraps work in a cast of agent personas to guide non-developers through building.
 * [Braintrust](/entities/braintrust.md) - Evaluation platform cited in posts on eval-driven development and layered agentic grading.
 * [Brené Brown](/entities/bren-brown.md) - Researcher on emotion, vulnerability, and courage, cited here on emotions as servants rather than masters.
 * [C#](/entities/c-sharp.md) - Microsoft's .NET language whose LINQ, lambdas, and tooling shaped a generation of productivity and testing practices.
 * [California Department of Health Care Services](/entities/california-department-of-health-care-services.md) - State health agency that rebuilt its data platform with governance engineered into the pipeline rather than bolted on.
+* [CAMH](/entities/camh.md) - Canadian mental-health research hospital that modernized HPC with Improving.
 * [Camp Gladiator](/entities/camp-gladiator.md) - Group fitness camp that replaced a solitary gym routine, illustrating community as the engine of consistency.
+* [Canada](/entities/canada.md) - Improving's northern market, entered via Calgary's Quadrus and expanded through YoppWorks, Bit Quill, and Jump Analytics.
+* [Cancún](/entities/cancun.md) - Mexican resort destination of the all-expenses-paid Improving 100 recognition trip for top performers.
+* [Capgemini](/entities/capgemini.md) - Global consultancy profiled in data and platform partner comparisons, and a source of Improving's board talent.
+* [Carol Dweck](/entities/carol-dweck.md) - Psychologist behind the growth mindset, cited in Improving's writing on agile at scale.
 * [CBRE](/entities/cbre.md) - Commercial real estate firm whose tech-talent rankings anchor the DFW AI hiring-market story in this corpus.
+* [Centers for Medicare & Medicaid Services](/entities/cms.md) - US healthcare regulator behind interoperability, prior-authorization, and price-transparency rules.
 * [Charity Majors](/entities/charity-majors.md) - Engineer and Honeycomb co-founder cited on wide events, eBPF, and the limits of AIOps.
 * [Charles Sanders Peirce](/entities/charles-sanders-peirce.md) - Philosopher whose abduction and type-token distinction underpin how this corpus explains what LLMs actually do.
 * [CHARM](/entities/charm.md) - A named failure mode: cascading hallucination where an early retrieval error becomes a confidently wrong downstream answer.
 * [ChatGPT](/entities/chatgpt.md) - OpenAI's conversational assistant, used in this corpus as the reference point for AI adoption, vocabulary, and benchmark validity.
+* [Chile](/entities/chile.md) - South American nearshore destination whose Santiago talent came to Improving via the Leniolabs acquisition.
 * [Citadel](/entities/citadel.md) - Hedge fund that absorbed a leveraged fund's entire book, cited as evidence of headline-reactive capital in AI markets.
 * [Claude](/entities/claude.md) - Anthropic's model family, used across this corpus to illustrate interpretability, alignment training, and coding-agent capability.
 * [Claude Code](/entities/claude-code.md) - Anthropic's agentic coding product, cited here for spend control, quality regressions, and the review bottleneck.
@@ -310,24 +532,39 @@ Last updated: 2026-10-17
 * [Claude Opus 4.8](/entities/claude-opus-4-8.md) - Anthropic frontier model used here to show tiered routing economics and the gap between coding benchmarks and merge-ready work.
 * [Claude Security](/entities/claude-security.md) - Anthropic product that sells governed vulnerability findings instead of raw model access, pushing enterprises to build their own approval gate.
 * [Claude Sonnet 4.6](/entities/claude-sonnet-4-6.md) - Anthropic mid-tier model cited for cost-efficient routing and for the gap between diagram recognition and relational reasoning.
+* [Claudio Lassala](/entities/claudio-lassala.md) - Improving writer on legacy modernization, testing, and practical AI-assisted development.
 * [Cloud Security Alliance](/entities/cloud-security-alliance.md) - Standards body whose agent-maturity levels and evidence expectations frame enterprise governance of task agents and vendors.
 * [CNCF](/entities/cncf.md) - Cloud Native Computing Foundation, the neutral home for projects like Kubernetes and OpenTelemetry that shaped observability and platform engineering.
+* [Code Authority](/entities/code-authority.md) - Frisco firm whose merger brought CodeLaunch into Improving.
+* [CodeCup](/entities/code-cup.md) - A Guadalajara innovation program tied to the FIFA World Cup, where Improving mentored 24 startups one-to-one.
+* [CodeLaunch](/entities/code-launch.md) - A zero-equity startup accelerator and pitch competition produced by Improving.
 * [CodeRush](/entities/coderush.md) - Visual Studio productivity add-in compared against ReSharper, praised for context-aware mnemonic templates and unified licensing.
 * [Cognition](/entities/cognition.md) - Maker of the Devin coding agent, cited as a case study in benchmark-versus-production gaps and model-tiering economics.
 * [Collibra](/entities/collibra.md) - A data governance and catalog platform cited in this corpus as the emblem of bolt-on, manual-curation governance that decays.
+* [Columbus](/entities/columbus.md) - Improving's Ohio base, entered via The Sophic Group and merged with Cleveland into Improving Ohio.
+* [Come Together](/entities/come-together.md) - Improving's wellbeing and community initiative, running monthly themes across all of its offices.
 * [Confluence](/entities/confluence.md) - Atlassian knowledge base used here as the substrate for institutional learning and for measuring source authority in a wiki.
+* [Confluent](/entities/confluent.md) - The commercial steward of Apache Kafka, selling managed data streaming and stream processing.
+* [Conscious Capitalism International](/entities/conscious-capitalism-international.md) - The movement and organization Curtis Hite joined as a board member.
+* [Costa Rica](/entities/costa-rica.md) - Nearshore development destination added to Improving's LATAM network via Oceans Code Experts.
+* [Couchbase](/entities/couchbase.md) - Document database used in Improving's AI documentation chatbot.
+* [Curtis Hite](/entities/curtis-hite.md) - Improving's co-founder, CEO, and chairman — the recurring executive voice behind its growth, culture, and acquisitions.
+* [Cypress](/entities/cypress.md) - JavaScript end-to-end testing framework valued for automatic waiting, time-travel debugging, and a built-in runner.
 * [Dallas](/entities/dallas.md) - Texas city that this corpus tracks as a rising AI hub and the home base of a personal health journey.
 * [Dallas Innovates](/entities/dallas-innovates.md) - Dallas publication covering the region's innovation economy, AI adoption, startup funding, and institutional buildout.
 * [Dallas Regional Chamber](/entities/dallas-regional-chamber.md) - Regional business body that hosts DFW's AI awards night, a marker of the region's institutional AI maturity.
 * [Dallas-Fort Worth](/entities/dallas-fort-worth.md) - Texas metro whose converging infrastructure, talent, capital, and demand make it a load-bearing hub for enterprise AI.
 * [Daniel Kahneman](/entities/daniel-kahneman.md) - Psychologist whose work on fast versus slow thinking is invoked to argue that more reasoning tokens do not mean better answers.
+* [Daniel Scheufler](/entities/daniel-scheufler.md) - Improving writer on AI-assisted development, human judgment, prompt evaluation, and API design.
 * [Daron Acemoglu](/entities/daron-acemoglu.md) - MIT economist whose measured AI GDP estimates and labor-compression framing anchor the corpus's skepticism about AI forecasts.
 * [Databricks](/entities/databricks.md) - Data and AI platform whose Unity Catalog embeds governance, lineage, and asset discovery directly in the compute layer.
 * [Datadog](/entities/datadog.md) - Observability vendor whose host-based pricing and OTel GenAI adoption anchor this corpus's observability and FinOps arcs.
+* [David Belcher](/entities/david-belcher.md) - Improving UX leader writing on design maturity and outcomes.
 * [David O'Hara](/entities/david-o-hara.md) - Consultant and writer on people skills in the AI era, and the author documenting his own health experiments.
 * [David Parnas](/entities/david-parnas.md) - Software engineering pioneer whose work on modularity and information hiding underpins the corpus's case for agent isolation and boundary enforcement.
 * [dbt](/entities/dbt.md) - Data transformation tool whose contracts and access controls bring embedded governance to the analytics transformation layer.
 * [Deep Change](/entities/deep-change.md) - The idea that fundamental personal and organizational renewal requires deliberately doing hard, uncomfortable things.
+* [DeepEval](/entities/deepeval.md) - LLM evaluation framework whose RAG Triad metrics gate RAG systems in CI as pass/fail quality checks.
 * [DeepSeek](/entities/deepseek.md) - Open-weight model vendor whose August 2026 price rise exposed cheap-token pricing as a market-share subsidy, not durable cost advantage.
 * [DeepSeek R1](/entities/deepseek-r1.md) - Open-weight reasoning model whose release triggered a market selloff the corpus treats as a template for headline-driven capital.
 * [Deloitte](/entities/deloitte.md) - Global consulting firm restructuring its practices as AI absorbs the high-volume work junior analysts performed.
@@ -336,155 +573,331 @@ Last updated: 2026-10-17
 * [Devin](/entities/devin.md) - Autonomous coding agent used in the corpus as the reference point for the gap between demos and merge-ready enterprise work.
 * [Devlin Liles](/entities/devlin-liles.md) - Improving consultant and writer whose posts on delivery maturity, scaffolding, and shared vocabulary anchor this corpus.
 * [Docker](/entities/docker.md) - Container platform used in the corpus as a diffusion case study and as an early example of tooling stalling on trust rather than capability.
+* [Don McGreal](/entities/don-mcgreal.md) - Improving author and Professional Scrum Trainer.
 * [DORA](/entities/dora.md) - DevOps Research and Assessment, whose delivery metrics expose how AI-generated code degrades stability and how IDPs shift productivity.
+* [DragonSpears](/entities/dragonspears.md) - Chicago software developer acquired by Improving.
+* [Dremio](/entities/dremio.md) - Data lakehouse query engine behind the Arrow Flight SQL speedups.
+* [Drupal](/entities/drupal.md) - Enterprise content management system this corpus argues for running headlessly as an API-first content source.
 * [Dwarkesh Patel](/entities/dwarkesh-patel.md) - AI essayist and podcast host cited in the corpus for essays on where AI labs capture value and on research-agent judgment.
 * [Dynatrace](/entities/dynatrace.md) - APM vendor used in the corpus to illustrate host-based pricing pressure and the limits of pre-LLM AIOps.
+* [Echo](/entities/echo.md) - Improving's AI-powered internal knowledge base that uses RAG and multiple LLMs to surface institutional knowledge.
+* [Ed Catmull](/entities/ed-catmull.md) - Pixar co-founder whose Brain Trust, described in Creativity, Inc., models the product ownership Improving's Scrum writing wants.
 * [Edwin Hutchins](/entities/edwin-hutchins.md) - Cognitive scientist whose distributed cognition theory frames the corpus's argument that intelligence lives in the system, not the model.
+* [Emily Stickle](/entities/emily-stickle.md) - Improving writer on agile leadership and communication.
 * [Entity Framework](/entities/entity-framework.md) - Microsoft's .NET ORM, the setting for the corpus's repository-pattern, IQueryable, and POCO-separation discussions.
 * [Entra ID](/entities/entra-id.md) - Microsoft's cloud identity platform, cited as the issuer and identity substrate behind agent authentication and least-privilege controls.
+* [EPAM Systems](/entities/epam-systems.md) - Global engineering services firm in partner comparisons.
+* [Eric Evans](/entities/eric-evans.md) - Author of Domain-Driven Design, recommended in Improving's microservices writing for decomposing systems into business domains.
+* [Ernst & Young](/entities/ey.md) - Professional services firm behind the Entrepreneur Of The Year award and a source of cited AI-productivity research.
 * [EU AI Act](/entities/eu-ai-act.md) - EU regulation whose high-risk obligations, data-quality rules, and liability provisions anchor AI governance across this corpus.
 * [Everett Rogers](/entities/everett-rogers.md) - Sociologist whose diffusion of innovations model is used in this corpus to diagnose where organizations actually sit on the AI adoption curve.
 * [Everlywell](/entities/everlywell.md) - At-home testing company whose food sensitivity panel anchored the author's elimination-diet experiments.
+* [Faizan Fahim](/entities/faizan-fahim.md) - Improving writer and buyer's-guide author on offshore and nearshore outsourcing, engagement models, and partner selection.
+* [Falco](/entities/falco.md) - Open-source Kubernetes runtime security tool used for threat detection and audit visibility on agent workloads.
+* [Fastly](/entities/fastly.md) - Edge cloud and CDN provider, managed via an Improving Terraform module.
+* [FHIR](/entities/fhir.md) - Healthcare data interoperability standard behind CMS prior-authorization and transparency deadlines.
+* [Flutter](/entities/flutter.md) - Google's Dart-based cross-platform UI toolkit for building native mobile, desktop, and web apps from one codebase.
 * [Forbes](/entities/forbes.md) - Business publication whose contributor pieces anchor the corpus's arguments on conscious capitalism and people skills in the AI era.
 * [Fort Worth](/entities/fort-worth.md) - Texas city that became a focal point of the DFW AI build-out through major supercomputer and manufacturing investments.
+* [FoxPro](/entities/foxpro.md) - Legacy rapid-application-development database cited here as a tool dismissed in its day yet running businesses for decades.
 * [Fred Brooks](/entities/fred-brooks.md) - Software engineering author whose law about coordination overhead informs limits on single-agent and multi-agent AI delivery.
 * [Frigate](/entities/frigate.md) - Open-source network video recorder used across the corpus for edge object detection, RTSP ingest, and activity understanding.
 * [Frisco, Texas](/entities/frisco-texas.md) - North Texas city used in this corpus as a testbed for autonomous delivery and a setting for community fitness.
 * [Function Health](/entities/function-health.md) - Membership lab-testing service offering two rounds of 100+ biomarkers a year with functional-medicine interpretation.
+* [Gallup](/entities/gallup.md) - Research firm cited in the corpus on employee engagement, quiet quitting, and workplace AI use.
 * [Gartner](/entities/gartner.md) - Analyst firm whose quadrant shifts and failure-rate forecasts frame governance, observability, and platform adoption across this corpus.
+* [Gary Bergmann](/entities/gary-bergmann.md) - Improving writer on agile transformation and lean.
+* [Gary Chapman](/entities/gary-chapman.md) - Author of The 5 Love Languages, adapted by Improving into five workplace leadership needs.
 * [GDPR](/entities/gdpr.md) - EU data protection regulation cited in this corpus as a driver of data governance and of privacy-preserving edge recognition architectures.
 * [Gemini](/entities/gemini.md) - Google's model family, appearing in this corpus through Google's enterprise agent identity push and enterprise platform comparisons.
 * [George Leonard](/entities/george-leonard.md) - Author of Mastery whose growth-line model explains plateaus, entropy, and the effort mastery requires.
 * [GitHub](/entities/github.md) - Code hosting platform that anchors this corpus's apprenticeship, pricing, and AI-tooling discussions.
 * [GitHub Copilot](/entities/github-copilot.md) - GitHub's AI coding assistant, cited for cache-hit benchmark illusions and the single-agent ceiling on delivery work.
+* [GitLab](/entities/gitlab.md) - DevOps platform used in this corpus as an SSO identity provider and as a host for built-in feature-flag tooling.
+* [GlobalLogic](/entities/global-logic.md) - Digital engineering firm whose executives later joined Improving's leadership and board.
+* [Globant](/entities/globant.md) - Digital-first LATAM engineering firm appearing in nearshore and offshore partner comparisons.
+* [Go](/entities/go.md) - Google's compiled, concurrent-friendly language, used here for services and contrasted with Rust on type safety.
 * [Google](/entities/google.md) - Alphabet's research and cloud giant, central to this corpus's federated discovery, DeepMind leadership, and causal-measurement arcs.
 * [Google CausalImpact](/entities/google-causalimpact.md) - Google's Bayesian structural time-series tool for estimating causal lift, cited as a method for turning model gains into P&L numbers.
+* [Google Cloud](/entities/google-cloud.md) - Google's cloud platform, a core Improving partner across public sector, healthcare, data engineering, and enterprise AI work.
+* [Google Cloud Next](/entities/google-cloud-next.md) - Google Cloud's annual conference, recapped repeatedly here as the venue for its AI and agentic announcements.
 * [Google DeepMind](/entities/google-deepmind.md) - Google's AI research lab, whose DiffusionGemma decode work and 2026 leadership split show research and operational authority diverging.
 * [GPT-3](/entities/gpt-3.md) - OpenAI's landmark language model, used in this corpus as a baseline for prompting effects and as a foil in the neuron-count debate.
 * [GPT-4](/entities/gpt-4.md) - OpenAI's frontier model used across the corpus to illustrate abduction, tokenization limits, and engagement-optimized RLHF.
 * [GPT-4o](/entities/gpt-4o.md) - OpenAI's multimodal model, used in this corpus as evidence that RLHF training signals produce sycophancy and overconfidence.
 * [GPT-5](/entities/gpt-5.md) - OpenAI's frontier model, marking the point where capability kept rising while per-token prices reversed upward.
 * [GPT-5.5](/entities/gpt-5-5.md) - A frontier model whose benchmark strengths mask relational-reasoning, chain-failure, and long-context compliance gaps.
+* [Grafana](/entities/grafana.md) - Observability visualization platform, the query and dashboard layer of the open-source LGTM stack.
 * [Grafana Labs](/entities/grafana-labs.md) - Observability vendor behind the LGTM stack, cited in this corpus's APM-cost and AIOps arcs.
+* [Grafana Loki](/entities/grafana-loki.md) - Grafana's log aggregation system that indexes only metadata and labels, making it lighter and cheaper than Elasticsearch.
+* [Grafana Tempo](/entities/grafana-tempo.md) - Grafana's distributed tracing backend, the trace store of the open-source LGTM observability stack.
 * [Grammarly](/entities/grammarly.md) - AI writing assistant used in this corpus to illustrate how tooling interacts with the stages of the writing process.
+* [GraphRAG](/entities/graphrag.md) - Graph-based retrieval-augmented generation that organizes data into a knowledge graph for holistic, multi-hop answers.
+* [Great Place to Work](/entities/great-place-to-work.md) - Workplace-certification body behind Improving's Best Workplaces awards and a cited recognition survey.
 * [Greg Abbott](/entities/greg-abbott.md) - Texas governor whose directives on data-center grid costs and approval pauses shape the state's AI infrastructure policy.
 * [GSM8K](/entities/gsm8k.md) - A grade-school math word-problem benchmark whose scores swing widely with prompting strategy.
 * [GStreamer](/entities/gstreamer.md) - A multimedia pipeline framework that underpins Kurento and other media-processing stacks in this corpus.
+* [Guadalajara](/entities/guadalajara.md) - Mexico's leading nearshore tech hub, a core Improving delivery location and the site of its CodeCup mentorship program.
+* [Guatemala](/entities/guatemala.md) - Central American nearshore destination and Improving development hub, added via the MangoChango acquisition.
 * [H.264](/entities/h-264.md) - The dominant video codec in live pipelines, valued for broad browser decode compatibility in WebRTC.
 * [Hard Fork](/entities/hard-fork.md) - The New York Times tech podcast used in this corpus as a venue for AI consolidation and curation debates.
 * [Harvard Business Review](/entities/harvard-business-review.md) - Business publication cited in this corpus for AI-as-foundation and judgment-apprenticeship arguments.
+* [HashiCorp](/entities/hashicorp.md) - Maker of Terraform and Packer; infrastructure-as-code tooling.
+* [HashiCorp Packer](/entities/packer.md) - HashiCorp's tool for building golden machine images as code across cloud platforms.
+* [HCLTech](/entities/hcltech.md) - Global IT services firm profiled in Improving's modernization, managed-services, and data guides.
 * [HealthSpan](/entities/healthspan.md) - Longevity-focused health brand whose rapamycin protocol was tried and then discontinued after side effects.
 * [Hedden Information Management](/entities/hedden-information-management.md) - Information-management consultancy whose taxonomy and retrieval lessons inform this corpus on tagging decay.
 * [Helix](/entities/helix.md) - A principles-first AI knowledge and reasoning engine whose experiments yielded lessons on verification depth and skill learning.
 * [Herbert Simon](/entities/herbert-simon.md) - Nobel-winning economist and AI pioneer whose concept of satisficing is applied in this corpus to reasoning-token budgets and review capacity.
 * [Highway.Data](/entities/highway-data.md) - A .NET repository and query library defended in this corpus as a testable abstraction worth keeping.
+* [HIPAA](/entities/hipaa.md) - US health data privacy law, a compliance constraint shaping healthcare data platforms and partner selection.
 * [Honeycomb](/entities/honeycomb.md) - An observability vendor associated in this corpus with wide events, high-cardinality analysis, and the shift away from three-pillar stacks.
+* [Houston](/entities/houston.md) - Improving enterprise location and community-engagement base, home to the AI Summer Camp and The Ion partnership.
 * [Hugging Face](/entities/hugging-face.md) - A model and dataset hub that appears in this corpus as the target of a 2026 agent sandbox escape and as a catalog-style discovery surface.
 * [HumanLayer](/entities/humanlayer.md) - Human-in-the-loop tooling for agents, used in this corpus to argue for intervention and approval design.
 * [IBM](/entities/ibm.md) - Enterprise AI vendor used in this corpus to illustrate self-reported claims, build-ahead-of-demand risk, and AI-native delivery restructuring.
 * [ICE](/entities/ice.md) - The WebRTC NAT-traversal mechanism whose relay fallback quietly doubles bandwidth and adds latency.
 * [IDLife](/entities/idlife.md) - Supplement company that uses a DNA test to personalize supplement packs, plus a low-sugar hydration product.
+* [Imaginet](/entities/imaginet.md) - Microsoft-focused consultancy acquired by Improving.
 * [Improving](/entities/improving.md) - Consultancy whose eight-stage AI maturity model, delivery research, and AI-era delivery and pricing positions run through this corpus.
+* [Improving 100](/entities/improving-100.md) - Improving's peer-nominated employee recognition program whose reward is an all-expenses-paid trip for top performers.
+* [ImprovingU](/entities/improvingu.md) - Improving's internal, employee-taught training program for continuous, community-shared learning.
+* [Inc. 5000](/entities/inc-5000.md) - Inc. magazine's list of fastest-growing private US companies, on which Improving appeared 15 times.
+* [India](/entities/india.md) - The largest offshore talent pool and, via the InfraCloud acquisition, Improving's cloud-native and AI delivery base in Asia.
+* [Informatica](/entities/informatica.md) - Legacy ETL and data-management vendor that enterprises migrate away from.
+* [Innovative Architects](/entities/innovative-architects.md) - Atlanta consultancy acquired by Improving.
 * [InsideTracker](/entities/insidetracker.md) - Bloodwork and biological-age testing platform judged solid but not compelling enough to keep using.
 * [Island](/entities/island.md) - Enterprise browser company framed as an agent-governance vendor, raised $400M at a $6.4B valuation.
+* [ISO/IEC 42001](/entities/iso-42001.md) - The international standard for AI management systems, cited as a control catalogue that still needs runtime enforcement.
+* [iTexico](/entities/itexico.md) - Nearshore firm whose 2020 merger brought Improving into Mexico.
+* [James Clear](/entities/james-clear.md) - Author of Atomic Habits, cited in Improving's trust writing on consistency over single peaks.
+* [James Duong](/entities/james-duong.md) - Bit Quill co-founder and Apache Arrow contributor behind Flight SQL, pitched as a ~20x faster alternative to JDBC/ODBC.
+* [Janine Jeanson](/entities/janine-jeanson.md) - Improving writer on AI in business and Microsoft tools.
 * [Janus](/entities/janus.md) - An open-source WebRTC media server chosen in this corpus for SIP-bridging and SFU workloads.
+* [Java](/entities/java.md) - The long-standing JVM enterprise language, used here for services, Kafka pipelines, and native-image cloud deployments.
+* [Jenkins](/entities/jenkins.md) - Long-standing CI automation server, cited here for dynamic build parameters and as a lesson in trust and secret handling.
 * [Jim Gray](/entities/jim-gray.md) - Database pioneer whose fault-tolerance and fail-fast work underpins this corpus's case for engineered agent reliability.
+* [Jira](/entities/jira.md) - Issue and project-tracking tool that recurs here as the default backlog system, an automation target, and a delivery-maturity signal.
+* [John Boyd](/entities/john-boyd.md) - Military strategist cited in Improving's AI-augmentation writing for putting people, process, and technology in that order.
+* [John Mackey](/entities/john-mackey.md) - Whole Foods co-founder and Conscious Capitalism co-founder, whose movement is Improving's stated operating philosophy.
 * [John Searle](/entities/john-searle.md) - Philosopher of mind whose Chinese Room argument frames this corpus's critique of behavioral AI benchmarks and performative agent actions.
 * [John Stuart Mill](/entities/john-stuart-mill.md) - Utilitarian philosopher whose harm-principle and liberty arguments frame this corpus's debate over AI alignment and guardrail paternalism.
 * [John von Neumann](/entities/john-von-neumann.md) - Mathematician whose work on reliable computation from unreliable components underlies the reliability math of chained agents.
+* [Josh Harrison](/entities/josh-harrison.md) - Improving Ohio president and writer on corporate innovation labs, AI systems engineering, and Microsoft services.
+* [Jump Analytics](/entities/jump-analytics.md) - Canadian analytics firm acquired by Improving.
 * [Karl Popper](/entities/karl-popper.md) - Philosopher of science whose falsifiability criterion anchors this corpus's critique of unfalsifiable AI benchmarks and evals.
+* [Kathy Henely](/entities/kathy-henely.md) - Former Perficient COO who became Improving's first independent board member in August 2021.
+* [Kathy Sierra](/entities/kathy-sierra.md) - Author cited in Improving essays for the \"make users awesome\" principle, contrasted with developer-hero over-engineering.
+* [KEDA](/entities/keda.md) - Kubernetes Event-Driven Autoscaling, a CNCF-graduated scaler that can scale workloads to zero.
+* [Ken Ledyard](/entities/ken-ledyard.md) - Improving's Microsoft partner alliance voice.
+* [Keycloak](/entities/keycloak.md) - Open-source identity provider used as the trust root for self-hosted Sigstore artifact signing.
+* [KeyDB](/entities/keydb.md) - A multithreaded Redis fork, benchmarked against Redis here.
+* [Kristin Johnson](/entities/kristin-johnson.md) - Improving writer behind most of its acquisition, leadership, and newsroom announcements.
+* [KubeCon](/entities/kubecon.md) - The CNCF's flagship cloud-native conference, a recurring venue for Improving platform-engineering and security talks.
 * [Kubernetes](/entities/kubernetes.md) - Container orchestrator whose autoscaling and self-healing behavior anchors this corpus's observability-cost and remediation arguments.
 * [Kurento](/entities/kurento.md) - A GStreamer-based media pipeline framework with a WebRTC-facing API, used when media must be processed in flight.
+* [Kyverno](/entities/kyverno.md) - Kubernetes policy engine used for admission control, prompt-injection defense, and AI tool authorization.
+* [Lakeshore Learning](/entities/lakeshore-learning.md) - Retailer used as a running case in AI reliability writing.
 * [LangChain](/entities/langchain.md) - LLM application framework whose routing and context tooling anchor this corpus's cost and context-management arguments.
+* [Langfuse](/entities/langfuse.md) - LLM observability and evaluation platform used here for prompt management, tracing, and self-hosted eval.
 * [LangGraph](/entities/langgraph.md) - An agent orchestration framework built on checkpointed DAGs, presented as the production-grade option for complex agent workflows.
 * [LangSmith](/entities/langsmith.md) - LangChain's tracing and evaluation platform, positioned in this corpus as tooling for eval-driven, observable agent development.
+* [Las Vegas](/entities/las-vegas.md) - Host city of Improving's annual company retreat, the gathering that builds cross-geography belonging.
+* [Latin America](/entities/latin-america.md) - The premier nearshore region — time-zone-aligned, cost-competitive, and central to Improving's global delivery growth.
+* [Leniolabs](/entities/leniolabs.md) - Argentine software firm acquired by Improving to enter South America.
 * [Levels](/entities/levels.md) - Continuous glucose monitoring service pairing a Dexcom G6 sensor with an app that interprets glucose responses.
 * [LINQ](/entities/linq.md) - Microsoft's .NET query language and library whose lambda syntax and expression trees enable dynamic, composable data access.
+* [Lisa Lueck](/entities/lisa-lueck.md) - Improving writer on learning strategy and Scrum certification.
+* [LiteLLM](/entities/litellm.md) - Provider-neutral LLM proxy that appears here as a mature open-source governed gateway and abstraction layer.
 * [LiveKit](/entities/livekit.md) - Open-source SFU media server that is the default real-time video platform for most teams in this corpus.
+* [LlamaIndex](/entities/llama-index.md) - Framework for building LLM applications over data, cited here as an orchestration layer to isolate from business logic.
+* [Lowell Messner](/entities/lowell-messner.md) - SVP who leads Improving's corporate Microsoft Services Team, extending its Microsoft partnership across all enterprises.
+* [Maersk](/entities/maersk.md) - Shipping giant whose internal developer platform effort is a case study here.
+* [MangoChango](/entities/mangochango.md) - Guatemala-based software firm acquired by Improving.
 * [Mark Hyman](/entities/mark-hyman.md) - Functional medicine physician whose framing of epigenetics and longevity opened the author's health journey and led to Function Health.
+* [Mark Kovacevich](/entities/mark-kovacevich.md) - Improving writer on Conscious Capitalism and trust.
+* [Mark Runyon](/entities/mark-runyon.md) - Improving writer on trust, leadership, and the PATH program.
+* [Mark Soule](/entities/mark-soule.md) - Improving writer on streaming, KEDA, and security models.
+* [Maryna Boryshkevych](/entities/maryna-boryshkevych.md) - Improving writer on application modernization.
 * [Mastery](/entities/mastery.md) - George Leonard's account of long-term skill development — growth bursts, downward-sloping plateaus, and the daily effort mastery demands.
+* [McKesson](/entities/mckesson.md) - Healthcare distributor cited in Improving's platform-first argument.
 * [McKinsey & Company](/entities/mckinsey-company.md) - Global consulting firm whose AI frameworks and economic forecasts are cited and critiqued across this corpus.
 * [mediasoup](/entities/mediasoup.md) - An open-source SFU library offering the lowest CPU per participant at the cost of building platform layers yourself.
+* [Medtronic](/entities/medtronic.md) - Medical device manufacturer using real-time streaming for production lines.
 * [MemoryAgentBench](/entities/memoryagentbench.md) - Benchmark finding that no current agent memory system masters retrieval, learning, long-range understanding, and selective forgetting.
 * [Meta](/entities/meta.md) - AI lab whose open-weight releases and safety positions are read in this corpus as business-model alignment, not neutral evidence.
 * [METR](/entities/metr.md) - Research nonprofit whose time-horizon and grading studies anchor claims about AI capability, mergeability, and evaluation gaps.
+* [Mexico](/entities/mexico.md) - A leading nearshore destination and the base of Improving's LATAM growth, entered via the iTexico merger.
 * [Michael Nygard](/entities/michael-nygard.md) - Author of Release It! whose stability patterns inform this corpus's layered defense and execution-safety architecture for AI agents.
 * [Microsoft](/entities/microsoft.md) - Platform vendor whose tooling, acquisitions, and AI pricing appear throughout the corpus as both subject and example.
+* [Microsoft Access](/entities/microsoft-access.md) - Legacy desktop database appearing here both as a long-lived RAD success and as a fragmentation and governance problem.
+* [Microsoft Cloud Adoption Framework](/entities/cloud-adoption-framework.md) - Microsoft's structured guidance for cloud migration, security, governance, and strategy on Azure.
+* [Microsoft Copilot](/entities/microsoft-copilot.md) - Microsoft's AI assistant across Teams, Power BI, Planner, and Power Platform, priced around $30/user/month.
 * [Microsoft Entra Agent ID](/entities/microsoft-entra-agent-id.md) - Microsoft's identity service for AI agents, giving non-human principals first-class identity, scoping, and runtime policy.
+* [Microsoft Fabric](/entities/microsoft-fabric.md) - Microsoft's unified SaaS analytics platform built on OneLake, consolidating Synapse, Data Factory, and Power BI.
+* [Microsoft Planner](/entities/microsoft-planner.md) - Microsoft's cloud-native task and project management tool, rebuilt on the Power Platform with Copilot and Teams integration.
+* [Microsoft Power Platform](/entities/power-platform.md) - Microsoft's low-code suite: Power Apps, Power Automate, Power BI, and Power Pages, plus Copilot Studio.
 * [Microsoft Purview](/entities/microsoft-purview.md) - Microsoft's data governance and compliance product, positioned in this corpus as the governance arm of a unified AI asset layer.
+* [Microsoft Syntex](/entities/microsoft-syntex.md) - Microsoft's content AI for SharePoint, including eSignature and metadata extraction from documents.
+* [Microsoft Teams](/entities/microsoft-teams.md) - Microsoft's collaboration hub for meetings, chat, and front-line work, increasingly the surface for Copilot and apps.
+* [Microsoft Viva](/entities/microsoft-viva.md) - Microsoft's employee-experience suite; Viva Engage is its social layer for community and culture.
+* [Milvus](/entities/milvus.md) - Open-source vector database used here as the memory store behind an AI SRE agent and a vector-store option for agent memory.
+* [Minneapolis](/entities/minneapolis.md) - Improving's Twin Cities market, entered via The Willow Group and expanded through Object Partners.
+* [MIT](/entities/mit.md) - Research university whose studies on AI pilots, human-AI collaboration, and developer productivity are cited across this corpus.
 * [Model Context Protocol](/entities/model-context-protocol.md) - Open protocol standardizing how agents connect to tools and data, made stateless in 2026 while remaining an under-specified contract.
+* [MongoDB](/entities/mongodb.md) - Document database used in this corpus for deployment automation and as the setting for a SCRAM SHA-256 authentication deep dive.
+* [MQTT](/entities/mqtt.md) - Lightweight publish-subscribe protocol for IoT sensor and device messaging, here feeding Kafka pipelines.
 * [Mythos 5](/entities/mythos-5.md) - Frontier model whose suspension and vendor risk warnings anchor this corpus's arguments on model-approval governance.
+* [Neil Peart](/entities/neil-peart.md) - Rush drummer and lyricist whose line about choosing not to decide is quoted in Improving essays on change and demand.
 * [Netflix](/entities/netflix.md) - Streaming incumbent cited in this corpus as the reference case for strategic risk-taking and for leadership's handling of being wrong.
 * [NIST AI RMF](/entities/nist-ai-rmf.md) - US framework for managing AI risk, criticized for omitting data governance and for treating policy as enforcement.
+* [Norwegian Cruise Line Holdings](/entities/nclh.md) - Cruise operator whose reservation platform Improving modernized.
+* [Notion](/entities/notion.md) - Workspace tool that appears here as an MCP-connected automation target, a block-based editor, and a team knowledge base.
 * [NUnit](/entities/nunit.md) - The .NET unit-testing framework the corpus uses to verify sorting extensions, scaffolded TDD tests, and generated code.
 * [Nvidia](/entities/nvidia.md) - AI compute supplier whose deals, letters, and demand exposure are used in this corpus to test AI-boom claims.
+* [Object Partners](/entities/object-partners.md) - Minneapolis software firm acquired by Improving.
 * [Obsidian](/entities/obsidian.md) - Markdown note-taking tool adopted as the vehicle for deep thinking and associative linking, with acknowledged friction in its to-do inbox.
 * [Okta](/entities/okta.md) - Identity platform cited in the corpus as the place where agent and human identities get governed, scoped, and audited.
+* [Ollama](/entities/ollama.md) - Tool for running local LLMs, used here for sovereign, offline-capable work such as CVE triage and data-transfer demos.
+* [OneLake](/entities/onelake.md) - Microsoft Fabric's unified, governed data lake that organizes data into business domains with endorsement.
 * [ONVIF](/entities/onvif.md) - IP-camera interoperability standard the corpus uses to shorten GOPs and tune latency from the camera itself.
 * [OpenAI](/entities/openai.md) - Frontier AI lab whose models, agent incidents, benchmarks, and policy posture recur across this corpus.
 * [OpenAI Swarm](/entities/openai-swarm.md) - Lightweight multi-agent orchestration framework cited in the corpus's debate over coordination models and irreversibility.
+* [OpenLineage](/entities/openlineage.md) - Open, vendor-neutral standard for collecting data lineage metadata, including from real-time systems.
 * [OpenTelemetry](/entities/opentelemetry.md) - The vendor-neutral telemetry standard that decoupled instrumentation from analytics and now covers AI agent traces.
 * [OpenTelemetry GenAI semantic conventions](/entities/opentelemetry-genai-semantic-conventions.md) - Emerging telemetry standard defining span types for agent observability, so decision traces can be reconstructed.
 * [OpenVidu](/entities/openvidu.md) - Higher-level room framework built on Kurento that teams actually build against for WebRTC media applications.
+* [Oracle](/entities/oracle.md) - Enterprise software and cloud vendor, relevant in multi-cloud and ERP contexts.
+* [Ottawa](/entities/ottawa.md) - Improving's Canadian public-sector hub, base of YoppWorks and Google Cloud award-winning government work.
 * [Outlive](/entities/outlive.md) - Peter Attia's longevity book, credited with prompting a rapamycin experiment and framing a data-driven, individualized health protocol.
 * [OWASP](/entities/owasp.md) - Security body whose LLM Top 10 ranks prompt injection as the top risk, anchoring the corpus's containment argument.
 * [PageRank](/entities/pagerank.md) - Link-analysis algorithm the corpus adapts to propagate source authority through a knowledge graph cheaply.
+* [PATH](/entities/path-program.md) - Improving's internal coaching and career-development program, run in repeating 90-day cycles.
+* [Patrick Lencioni](/entities/patrick-lencioni.md) - Author of The Five Dysfunctions of a Team, cited in Improving writing on why remote teams mistake agreement for alignment.
 * [Paul David](/entities/paul-david.md) - Economic historian whose electrification analogy the corpus uses to explain AI's slow productivity payoff.
 * [Peter Attia](/entities/peter-attia.md) - Longevity physician and author of Outlive, whose work prompted the rapamycin experiment in the author's health journey.
+* [Peter Drucker](/entities/peter-drucker.md) - Management thinker whose The Effective Executive frames Improving's product-owner series and its writing on leadership.
 * [Peter Naur](/entities/peter-naur.md) - Computer scientist whose theory-building view of programming frames the corpus's tacit-knowledge and apprenticeship arguments.
+* [pgvector](/entities/pgvector.md) - Postgres extension for vector similarity search, cited here as a way to keep semantic memory inside a relational store.
+* [Playwright](/entities/playwright.md) - Cross-browser end-to-end test automation framework with native parallelism and a Microsoft testing MCP server.
+* [Power Apps](/entities/power-apps.md) - Microsoft's low-code application builder for canvas and model-driven apps on the Power Platform.
+* [Power Automate](/entities/power-automate.md) - Microsoft's workflow automation service, connecting 500+ apps and automating business processes.
+* [Power BI](/entities/power-bi.md) - Microsoft's business intelligence and reporting tool, central to BI, visualization, and Fabric reporting.
+* [Power Pages](/entities/power-pages.md) - Microsoft's low-code builder for externally visible websites and portals, extending Power Apps.
+* [ProKanban.org](/entities/prokanban-org.md) - The body behind Applying Professional Kanban (APK) certification and The Kanban Guide.
+* [Prometheus](/entities/prometheus.md) - Open-source metrics monitoring system and time-series database, the default metrics layer of the cloud-native stack.
+* [Promptfoo](/entities/promptfoo.md) - Prompt testing and evaluation tool used here to automate quantitative prompt checks and model comparisons.
+* [ProSource Solutions](/entities/prosource-solutions.md) - Ohio consultancy, Improving's sixth enterprise location.
+* [Protobuf](/entities/protobuf.md) - Interface definition language and serialization format enabling schema-evolved messages across Kafka producers and consumers.
 * [PwC](/entities/pwc.md) - Professional-services firm whose quantified AI economic forecasts are cited as an example of task-exposure extrapolation.
+* [Python](/entities/python.md) - The dominant language for data and AI work, used across ETL pipelines, Spark jobs, and cloud data platforms.
+* [Quadrus Development](/entities/quadrus.md) - Calgary firm behind Improving's first expansion into Canada.
+* [Ragas](/entities/ragas.md) - RAG evaluation library cited here as a reference-free metrics library and a sibling to DeepEval.
 * [ReAct](/entities/react.md) - Reasoning-and-acting agent pattern in which a model interleaves thought steps with tool calls, referenced in agent-reliability discussions.
 * [Redis](/entities/redis.md) - In-memory data store used as the coordination layer behind distributed SFU meshes and as a queue between live and processing tiers.
 * [ReSharper](/entities/resharper.md) - JetBrains .NET productivity extension for Visual Studio, favoured for refactoring navigation and solution-wide code generation.
 * [Rex Miller](/entities/rex-miller.md) - Author cited in this corpus on how change lands on people and on the personal pursuit of better sleep through data.
+* [Rob Ulaszek](/entities/rob-ulaszek.md) - Improving writer on Microsoft Power Platform, low-code development, and AI-assisted knowledge management.
+* [Robert Frost](/entities/robert-frost.md) - Poet whose \"Mending Wall\" frames an Improving essay arguing APIs are fences that shape organizational behavior.
+* [Robert K. Greenleaf](/entities/robert-greenleaf.md) - Originator of servant leadership, cited in Improving's writing on agile leadership and micromanagement.
 * [Robert Lusser](/entities/robert-lusser.md) - Reliability engineer whose series-system law explains why chained agent steps compound failure multiplicatively.
 * [Robert Solow](/entities/robert-solow.md) - Economist whose productivity paradox — computers everywhere but in the productivity statistics — anchors critiques of AI economic forecasts.
+* [Robyn Fuentes](/entities/robyn-fuentes.md) - Improving's President of Houston and Austin, a long-tenured leader and author on microservices and delivery.
 * [RTSP](/entities/rtsp.md) - Camera streaming protocol that carries media over RTP, letting gateways repackage feeds for WebRTC instead of transcoding.
+* [Rust](/entities/rust.md) - Memory-safe systems language with compile-time guarantees, cited for security and for its learning-curve trade-offs.
+* [SAFe](/entities/safe.md) - The Scaled Agile Framework — one of four common enterprise scaling frameworks, not a universal default.
 * [Samsung](/entities/samsung.md) - Large technology employer cited in this corpus's writing on the Dallas-Fort Worth AI talent market and on regions that attract business.
+* [SAP](/entities/sap.md) - Dominant enterprise ERP vendor whose S/4HANA core, BTP extension platform, and analytics stack anchor this corpus's data-gap writing.
+* [SAP Analytics Cloud](/entities/sap-analytics-cloud.md) - SAP's cloud business intelligence and planning tool, positioned as the successor to BusinessObjects and BPC.
+* [SAP BTP](/entities/sap-btp.md) - SAP Business Technology Platform, the extension and integration layer that keeps the S/4HANA core clean.
+* [SAP Business Data Cloud](/entities/sap-business-data-cloud.md) - SAP's governed data and analytics layer that joins SAP and non-SAP data in real time for AI-ready business insight.
+* [SAP Datasphere](/entities/sap-datasphere.md) - SAP's cloud business data fabric for governed self-service analytics, evolution of Data Warehouse Cloud and home of BW Bridge.
+* [SAP S/4HANA](/entities/sap-s4hana.md) - SAP's in-memory ERP suite, the transactional core the corpus's clean-core and data-gap arguments are built around.
+* [Sarthak Routh](/entities/sarthak-routh.md) - Improving writer on Confluent, Google Cloud, data streaming, and modern application architecture.
+* [Sarvani Yallapragada](/entities/sarvani-yallapragada.md) - Improving writer on LLM and RAG evaluation, MCP, AI security, and data debt.
+* [Scala](/entities/scala.md) - Statically typed JVM language fusing object-oriented and functional programming, and Improving's language for distributed services.
 * [Scott Guthrie](/entities/scott-guthrie.md) - Microsoft executive associated with .NET and Entity Framework; cited in a talk rewritten around a Code-First CTP release.
+* [Scott McMichael](/entities/scott-mcmichael.md) - Improving leader who ran the Innovative Architects acquisition and now serves as Managing Director of North America.
+* [Scott Poulin](/entities/scott-poulin.md) - Improving writer on healthcare AI and data.
+* [Scrum Guide](/entities/scrum-guide.md) - The canonical definition of Scrum — source of its roles, five values, and self-managing-team principle.
 * [Scrum.org](/entities/scrum-org.md) - Scrum training and certification body whose Definition of Done and testing guidance underpin debt-reduction advice in this corpus.
+* [Sean Antonello](/entities/sean-antonello.md) - Improving writer of the SAP data-gap series.
+* [Selenium](/entities/selenium.md) - Long-standing browser automation framework with the widest browser and language support and the largest ecosystem.
 * [ServiceNow](/entities/servicenow.md) - Enterprise platform whose Accenture partnership signals forward-deployed delivery and whose MCP agent access widens the identity attack surface.
 * [Shane Parrish](/entities/shane-parrish.md) - Decision-making writer cited in this corpus on rewriting the meaning of the past and positioning for an uncertain future.
 * [SHAP](/entities/shap.md) - Shapley-value attribution method for explaining model outputs and allocating credit among jointly moving initiatives.
 * [SharePoint](/entities/sharepoint.md) - Microsoft's enterprise content platform, used in this corpus as a testbed for authority-aware, permission-filtered retrieval.
+* [Shelby Sansone Stephens](/entities/shelby-sansone-stephens.md) - Prolific Improving writer covering data, culture, inclusion, and company news.
+* [Shribha Kalia](/entities/shribha-kalia.md) - Improving writer of partner buyer's guides ranking IT services and platform vendors.
+* [Sigstore](/entities/sigstore.md) - Keyless signing infrastructure (Fulcio, Cosign, Rekor) for software artifacts.
 * [SkillsBench](/entities/skillsbench.md) - Benchmark that scored 47,150 public agent skills at 6.2/12 average quality, evidencing skill-layer curation problems.
+* [Slalom](/entities/slalom.md) - Consulting-first firm that expanded into nearshore and offshore delivery, in Improving's partner comparisons.
 * [Snowflake](/entities/snowflake.md) - Cloud data platform featured in this corpus as a setting for governance-as-code, catalogs, and data quality ownership.
 * [SOC 2 Type II](/entities/soc-2-type-ii.md) - Audit standard used in this corpus as a vendor-trust artifact that goes stale and must be re-checked at request time.
+* [South America](/entities/south-america.md) - Southern nearshore region Improving entered through the Leniolabs acquisition, extending delivery into Chile and Argentina.
 * [Speed of Trust](/entities/speed-of-trust.md) - Covey's trust framework of 13 behaviors, cited across the corpus as the basis for building client and leadership trust.
 * [Spotify](/entities/spotify.md) - Streaming platform cited both for algorithmic taste flattening and for the limits of internal developer platforms.
+* [Spring Boot](/entities/spring-boot.md) - Java framework for building services, used here with Kafka, observability stacks, and native-image deployments.
+* [Stephen M.R. Covey](/entities/stephen-mr-covey.md) - Author of The Speed of Trust, whose thirteen trust behaviors are the basis of Improving's recurring trust-behavior series.
 * [SWE-bench](/entities/swe-bench.md) - Software-engineering benchmark for coding agents whose contamination, broken tests, and harness sensitivity make scores unreliable.
+* [Tahoe Partners](/entities/tahoe-partners.md) - Chicago Microsoft partner acquired by Improving.
+* [Tata Consultancy Services](/entities/tcs.md) - Global IT services firm appearing in outsourcing comparisons.
+* [Terraform](/entities/terraform.md) - HashiCorp's infrastructure-as-code tool, used across this corpus for multi-environment, multi-cloud provisioning.
 * [Texas](/entities/texas.md) - State at the center of the AI data center boom, now setting rules for who pays for grid infrastructure.
 * [The Free Press](/entities/the-free-press.md) - Independent media outlet publishing essays on parenting, education, and work that anchor several sources in this corpus.
+* [The Improving Edge Podcast](/entities/improving-edge-podcast.md) - Improving's podcast, source of practitioner conversations on AI-driven business models and enterprise technology.
+* [The Ion](/entities/the-ion.md) - Houston innovation hub partnered with Improving for startup education.
 * [The Mythical Man-Month](/entities/the-mythical-man-month.md) - Fred Brooks's 1975 book on software project management, source of Brooks's law: adding people to a late project makes it later.
 * [ThoughtWorks](/entities/thoughtworks.md) - Software consultancy whose data-mesh and data-contract practice work anchors much of this corpus's data governance writing.
+* [Thrivent](/entities/thrivent.md) - Financial services firm with a Databricks and Confluent data platform.
+* [Tim Dickey](/entities/tim-dickey.md) - Improving writer on product, thought leadership, and Web 3.0.
+* [Tim Rayburn](/entities/tim-rayburn.md) - Improving technologist writing on context engineering.
 * [Together AI](/entities/together-ai.md) - Inference and open-weight model platform; appears here as the site of IBM's demand-limited 2027 inference cluster and an open-weight cost case.
+* [Tomorrow Technology. Today](/entities/tomorrow-technology-today.md) - Improving's webinar series on enterprise tech trends, with recaps covering AI, data, platform engineering, and architecture.
 * [Toniiq](/entities/toniiq.md) - Supplement vendor trialed in the Health Journey series, credited in a biological-age result, then retracted over unreliable supply.
+* [Toronto](/entities/toronto.md) - Site of Improving's Canadian headquarters and a stop on its data-streaming and CodeLaunch programs.
+* [Trinity Hunt Partners](/entities/trinity-hunt-partners.md) - Private equity firm that took majority interest in Improving.
 * [TURN](/entities/turn.md) - Traversal Using Relays around NAT: the WebRTC relay server that forwards media when direct peer connections fail, at double bandwidth cost.
 * [Uber](/entities/uber.md) - Ride-hailing company whose AI budget burn became the corpus's cautionary case for unproven AI spend.
 * [Unity Catalog](/entities/unity-catalog.md) - Databricks governance layer that puts policy and lineage inside the platform rather than beside it.
+* [Vancouver](/entities/vancouver.md) - Canadian city where Improving acquired Bit Quill, now a data-and-cloud office and co-op development hub.
+* [Velero](/entities/velero.md) - Kubernetes backup and restore tool used to migrate resources and persistent volumes between clusters.
 * [Venture Dallas](/entities/venture-dallas.md) - Dallas capital-allocation event and organization cited as evidence of the region's growing local venture layer.
+* [Vertex AI](/entities/vertex-ai.md) - Google Cloud's machine learning platform, rebranded in 2026 as the Gemini Enterprise Agent Platform.
+* [Vertica](/entities/vertica.md) - Analytical database with a Spark connector for parallel transfer.
 * [Visual Studio](/entities/visual-studio.md) - Microsoft's .NET IDE; the host environment for the add-in, naming, and VSIX packaging practices discussed across this corpus.
 * [vLLM](/entities/vllm.md) - Open-source LLM serving engine known for high-throughput scheduling and KV-cache management, used here as the reference self-hosted inference stack.
 * [Wall Street Journal](/entities/wall-street-journal.md) - Business publication cited in the corpus for sleep research coverage and reporting on the corporate AI cost backlash.
 * [Ward Cunningham](/entities/ward-cunningham.md) - Programmer credited with the technical-debt metaphor and the wiki; a reference point for craftsmanship and naming arguments.
+* [WCAG](/entities/wcag.md) - Web Content Accessibility Guidelines — the standard defining A/AA/AAA accessibility levels and a legal benchmark.
 * [WebRTC](/entities/webrtc.md) - Browser real-time media standard whose topology, latency, and cost tradeoffs recur across this corpus's live-video posts.
 * [WHOOP](/entities/whoop.md) - Wearable strap that continuously tracks heart rate variability, strain, sleep, and recovery, used as the author's health-tracking foundation.
+* [Windsurf](/entities/windsurf.md) - Agentic coding IDE (formerly Codeium; now part of Cognition) that recurs here as a demo environment for AI-assisted delivery.
+* [Wipro](/entities/wipro.md) - Global IT services firm profiled across Improving's outsourcing, modernization, and managed-services guides.
 * [Wistron](/entities/wistron.md) - Manufacturer investing $761M in a Fort Worth AI supercomputing facility that anchors DFW's infrastructure buildout.
+* [Women of Improving](/entities/women-of-improving.md) - Improving's employee-led initiative supporting women in tech through global events, local gatherings, and outreach.
+* [Yang Xia](/entities/yang-xia.md) - Improving consultant and the firm's first Apache PMC member, working on Apache TinkerPop and its Gremlin query language.
+* [YoppWorks](/entities/yoppworks.md) - Canadian cloud consultancy acquired by Improving.
+* [Zigatta](/entities/zigatta.md) - Frisco software firm acquired by Improving, extending into Mexico.
 
-## Sources (594)
+## Sources (1105)
 
 * [The Day Your Agent Got Its Own Email Address](/sources/the-day-your-agent-got-its-own-email-address.md) - Google giving enterprise agents their own Workspace identities turns agent governance into an identity-architecture decision Microsoft and Google now compete over.
 * [The Categorization Skill That Never Changed](/sources/the-categorization-skill-that-never-changed.md) - Bolting unrelated features into one prompt file degraded categorization accuracy until the skill was split behind a thin dispatcher.
 * [The Breakeven Point Nobody Was Watching For](/sources/the-breakeven-point-nobody-was-watching-for.md) - Hosting-mode cost decisions get frozen at launch; a simple monitoring service should surface the breakeven crossover.
 * [The Box That Already Shipped - Rollback by Reversibility Type](/sources/the-box-that-already-shipped-rollback-by-reversibility-type.md) - A single generic undo handler falsely reports success; tag each action by reversibility type and branch rollback strategy.
+* [Platform Engineering Companies to Know Before You Sign a Contract](/sources/platform-engineering-companies.md) - Guide to nine platform engineering firms and the criteria — Kubernetes depth, IDP experience, multi-cloud — that separate practice from staffing.
 * [Your Next Browser May Come from Dallas](/sources/your-next-browser-may-come-from-dallas.md) - Frames Island's $400M raise as evidence DFW has become where enterprise AI governance products get built and funded.
 * [The Benchmark That Never Gets a Vote](/sources/the-benchmark-that-never-gets-a-vote.md) - Certifying a model on a public benchmark misses the real task distribution; only a stratified internal set should gate releases.
 * [The Backward Rerun - Attribution for a Failure Three Weeks Late](/sources/the-backward-rerun-attribution-for-a-failure-three-weeks-late.md) - Per-node scores are snapshots that miss delayed failures; causal replay with checkpointing identifies the true node retroactively.
 * [The Auto-Send Button Nobody Had Earned Yet](/sources/the-auto-send-button-nobody-had-earned-yet.md) - Exposing auto-send as a feature flag gives every user unearned autonomy; gate it behind per-user demonstrated approval history.
+* [Why Trust Is the Hardest Part of Agentic AI Governance](/sources/agentic-ai-governance.md) - Argues agent governance must be engineered before autonomy because agent failures compound faster than human review can track.
+* [What Is an AI Agent? Real Examples and What Deployment Requires](/sources/what-is-ai-agent.md) - Defines an AI agent as software that acts without step-by-step approval, and argues deployment needs boundaries, checkpoints, and an audit trail.
 * [The Attribution Budget - Why Telemetry Never Answers Why](/sources/the-attribution-budget-why-telemetry-never-answers-why.md) - Complete telemetry answers what happened, not why; attribution must be built and budgeted as its own component.
 * [The Approval That Expires - Building a Vendor Gate on Evidence](/sources/the-approval-that-expires-building-a-vendor-gate-on-evidence.md) - A flat vendor allow-list approved stale evidence over 30% of the time; a request-time evidence pipeline with explicit thresholds dropped that to zero.
 * [The Approval Step I Wasn't Allowed to Collapse Yet](/sources/the-approval-step-i-wasnt-allowed-to-collapse-yet.md) - Collapsing a manager and compliance sign-off into one approval violated policy on over 70% of compliance-only cases; a fidelity checker blocked it.
 * [The 5 Percent Problem](/sources/the-5-percent-problem.md) - Enterprise AI spending is doubling while measurable impact stays flat; the few succeeding firms embed AI in measured workflows and redesign roles.
+* [Real Time Is the Easy Part: Lessons from Building Data Streaming Platforms at Scale](/sources/real-time-is-the-easy-part.md) - Argues real-time streaming is easy to start and hard to run, covering observability, delivery guarantees, ordering, replay, governance, and agents.
 * [The Agent Governance Stack Is Finally Here](/sources/the-agent-governance-stack-is-finally-here.md) - Five enterprise AI governance products shipped in twelve days, signaling that agent governance has moved from philosophy to tooling, inventory first.
 * [The Accuracy Number That Was True Once](/sources/the-accuracy-number-that-was-true-once.md) - A one-time 91% launch eval hid a 15-point decline from corpus churn and query drift; continuous re-scoring with drift alerts caught it in 30 days.
 * [The 503 That Kept a Chat Interface Honest](/sources/the-503-that-kept-a-chat-interface-honest.md) - Building the chat interface before retrieval, orchestration, and audit readiness shipped a confidently wrong assistant; gating the endpoint fixed it.
@@ -493,21 +906,26 @@ Last updated: 2026-10-17
 * [Ten Days of Miscalibrated Sensors Before the Calendar Noticed](/sources/ten-days-of-miscalibrated-sensors-before-the-calendar-noticed.md) - A firmware recalibration shifted sensor features and a fixed retrain calendar missed it for ten days; drift triggers plus champion-challenger gates fix it.
 * [Sixty Snippets a Rule Check Could Have Caught](/sources/sixty-snippets-a-rule-check-could-have-caught.md) - Tier a review pipeline cheapest-first — rules, then model judge, then human — so expensive checks only see cases that need them.
 * [Short, Bounded Pipelines - Trading a Seamless Run for a Shorter Leash on Drift](/sources/short-bounded-pipelines-trading-a-seamless-run-for-a-shorter-leash-on-drift.md) - Break long agent runs into short stages ending in real checkpoints, so errors are caught before they compound downstream.
+* [How to Scale AI Beyond the Pilot: Moving From Proof of Concept to Enterprise Operations](/sources/scale-ai-beyond-pilot.md) - Argues AI pilots stall in pilot purgatory because the organizational work — governance, integration, talent, budget, change — was skipped.
 * [Seventy Easy Questions Paying Premium Rates](/sources/seventy-easy-questions-paying-premium-rates.md) - A difficulty classifier routing help-desk requests to matched reasoning budgets cut average cost 40% with no accuracy loss.
 * [Seven Out of Ten Stopped Meaning What It Used To](/sources/seven-out-of-ten-stopped-meaning-what-it-used-to.md) - Why an LLM judge's 7/10 auto-approve threshold broke after a silent model swap, and the calibration gate that fixes it.
 * [Quality Gates at Every Transition - Stopping a Bad Value Before It Becomes the Next Step's Input](/sources/quality-gates-at-every-transition-stopping-a-bad-value-before-it-becomes-the-next-steps-input.md) - A pipeline of individually accurate steps can still be confidently wrong; a cheap gate at every handoff stops bad values propagating.
 * [Order 31 and the Refund That Never Went Through](/sources/order-31-and-the-refund-that-never-went-through.md) - Ad hoc tool response shapes let a buried \"ok\" field pass as success; a schema-validated envelope forces failures to surface.
 * [One Flag Per Claim Isn't an Audit Trail - Telemetry at the Call Level](/sources/one-flag-per-claim-isnt-an-audit-trail-telemetry-at-the-call-level.md) - Claim-level sensitivity flags collapse multi-call sessions; per-node telemetry gives auditors call-level PHI and routing answers.
 * [One Exemplar Is Enough, and a Second One Leaks](/sources/one-exemplar-is-enough-and-a-second-one-leaks.md) - Few-shot prompts need one exemplar for structure; repeating examples adds token cost and lets the model echo exemplar values.
+* [Managed Services Partners: A Buyer's Guide to Choosing the Right Fit](/sources/managed-services-partners.md) - Buyer's guide to ten managed services companies and the SLA, security, and delivery-model criteria for choosing a partner to run IT operations.
 * [One Clause at a Time - Previewing Every Edit Before It Commits](/sources/one-clause-at-a-time-previewing-every-edit-before-it-commits.md) - Previewing every agent-proposed edit as a clause-level diff before commit catches wrong edits, at the cost of review fatigue.
 * [One Bad Ticket, One Cleared Connector - Segregating Sensitivity by Chunk](/sources/one-bad-ticket-one-cleared-connector-segregating-sensitivity-by-chunk.md) - Connector-level sensitivity flags leak embedded PII; classifying and gating permission per chunk drops the PII-in-citation rate to zero.
 * [Load the Schema, Don't Paste It](/sources/load-the-schema-dont-paste-it.md) - Pasting a schema into a prompt creates a second source of truth that drifts; load the canonical schema fresh at assembly time instead.
+* [Retreat No. 1 (of Many): A First-Timer's Vegas Story](/sources/improving-las-vegas-retreat-first-timer-story.md) - A new Improver's first-person account of the 20th company retreat in Las Vegas and the culture that made him feel he could show up as himself.
+* [What Is an Enterprise AI Operating Model and How Do You Build One](/sources/enterprise-ai-operating-model.md) - Argues an AI operating model assigns who decides at each of eight delivery-loop stages, and that decision rights must be instrumented, not documented.
 * [DFW Is Now #4 and the Capital Layer Is the Real Story](/sources/dfw-is-now-4-and-the-capital-layer-is-the-real-story.md) - Dallas cracked the top four startup ecosystems; O'Hara argues the real story is local VC assets growing from $1.3B to $4B.
 * [Every Ticket Went to the Expensive Model, Just in Case](/sources/every-ticket-went-to-the-expensive-model-just-in-case.md) - A 600-ticket case study showing that defaulting every request to a premium model wastes money, and that cheap-first escalation fixes it.
 * [Every Stage Logged Green While Acme Corp Split in Two](/sources/every-stage-logged-green-while-acme-corp-split-in-two.md) - A five-stage contract pipeline logged every stage green while entity resolution silently failed, splitting vendors into duplicate graph nodes.
 * [Eighteen Percent, Two Models Ago](/sources/eighteen-percent-two-models-ago.md) - A DrugQA abstention gate rested on a launch-era 18% error figure that nobody re-measured across two model swaps.
 * [DFW's Innovation Economy Is Wider Than You Think](/sources/dfws-innovation-economy-is-wider-than-you-think.md) - DFW's innovation economy is broader than capex headlines; startup infrastructure is catching up to its anchor-tenant base.
 * [Uniform Governance Is How Agents Die](/sources/uniform-governance-is-how-agents-die.md) - Agents fail because governance treats every action as maximally risky; oversight should scale with reversibility instead.
+* [Why Kubernetes GPU Scheduling Keeps Breaking Your Golden Path](/sources/gpu-platform-engineering-golden-path.md) - Argues GPU platform engineering should not abstract over unsettled layers — DRA migration, tenant isolation, driver lifecycle — that hide unmade decisions.
 * [Coherent But Wrong - The Case for a Second Planning Checkpoint](/sources/coherent-but-wrong-the-case-for-a-second-planning-checkpoint.md) - A support agent's coherent plan issued the wrong resolution, motivating a separate goal-validation checkpoint after the coherence check.
 * [Checkpointing Inside the Node - Resuming Instead of Redoing](/sources/checkpointing-inside-the-node-resuming-instead-of-redoing.md) - Decomposing one long, atomic pipeline node into checkpointed sub-steps so timeouts resume instead of redoing completed work.
 * [Check It Before It Crosses - Verifying a Claim Before the Next Agent Trusts It](/sources/check-it-before-it-crosses-verifying-a-claim-before-the-next-agent-trusts-it.md) - A groundedness gate before each agent handoff stops planted errors and unsupported claims from propagating.
@@ -520,20 +938,24 @@ Last updated: 2026-10-17
 * [Approved, Except Nobody Could Say Which Gate Approved It](/sources/approved-except-nobody-could-say-which-gate-approved-it.md) - Collapsing multi-gate results into one status hides which gate failed; persisting per-gate traces made bad loans attributable.
 * [Your Coding Agent Doesn't Know What Your Last Three Engineers Knew](/sources/your-coding-agent-doesnt-know-what-your-last-three-engineers-knew.md) - Coding agents lack the unwritten conventions in engineers' heads; a shared memory layer helps only if someone captures it.
 * [Reversibility Is the Governing Criterion](/sources/reversibility-is-the-governing-criterion.md) - Argues AI agent autonomy should be governed by how reversible a failure is, not by risk category or autonomy level.
+* [Best Business Intelligence and Advanced Analytics Companies: Buyer's Guide & Comparison](/sources/business-intelligence-advanced-analytics-companies.md) - Buyer's guide to ten BI and advanced analytics firms, with criteria around platform depth, governance, and quantified outcomes.
 * [A User's Guess and a Sensor's Reading, Filed the Same Way](/sources/a-users-guess-and-a-sensors-reading-filed-the-same-way.md) - Tagging facts with source and verification status at write time lets a remediation agent gate actions by how well-founded each fact is.
 * [94 Percent Confidence, Exact Match, Auto-Resolved](/sources/94-percent-confidence-exact-match-auto-resolved.md) - Disclosing confidence scores and evidence on every autonomous decision turns faith in a label into inspectable evidence.
 * [Who Owns AI When the Chief Scientist Isn't the One Running It](/sources/who-owns-ai-when-the-chief-scientist-isnt-the-one-running-it.md) - Google's AI leadership split moved prestige to Hassabis and operational authority to Kavukcuoglu, prompting senior researchers to leave.
 * [Two Prices, One Model Family, Two Different Customers](/sources/two-prices-one-model-family-two-different-customers.md) - Reads Meta's five-day, two-release model sequence as one segmentation strategy serving two distinct buyers.
 * [The Price War Had an End Date](/sources/the-price-war-had-an-end-date.md) - DeepSeek's eighteen months of falling prices were a market-share subsidy, not a permanent cost structure, and the August 2026 warning ended it.
+* [Building a Prompt Evaluation Habit Your Team Can Trust](/sources/building-prompt-evaluation-habit.md) - Argues prompts reused across a team must be tested like code, with quantitative and qualitative checks run at the same speed as the AI.
 * [The Model Found the Zero-Day. Who Signs the Patch?](/sources/the-model-found-the-zero-day-who-signs-the-patch.md) - AI can now find vulnerabilities experts missed, but verification and sign-off didn't speed up — review becomes the unbudgeted bottleneck.
 * [The Compression Cliff Nobody Budgeted For](/sources/the-compression-cliff-nobody-budgeted-for.md) - Prompt compression for token savings degrades tool-calling reliability as a cliff, not a smooth dial, and benchmarks miss it.
 * [Read the Accuracy Number Next to the Cost Number](/sources/read-the-accuracy-number-next-to-the-cost-number.md) - Routing savings percentages need a paired accuracy metric, measured on the client's workload and on the hardest requests.
+* [How to Build an AI Center of Excellence: Structure, Roles, and What to Avoid](/sources/how-to-build-ai-center-of-excellence.md) - Argues an AI CoE's first job is splitting AI practices into three governance tiers, and that governance must participate during work, not audit after.
 * [Culture Is the Constraint](/sources/culture-is-the-constraint.md) - McKinsey data shows culture, not technical readiness, predicts AI success; leaders must visibly change behavior, not just announce priorities.
 * [Shadow AI Is Shadow IT at 10x](/sources/shadow-ai-is-shadow-it-at-10x.md) - Argues shadow AI repeats the shadow IT pattern at far greater scale, so governance must enable rather than restrict.
 * [Parallel Decode Is the Inference Bet Nobody's Marketing Yet](/sources/parallel-decode-is-the-inference-bet-nobodys-marketing-yet.md) - Google DeepMind's DiffusionGemma generates tokens in parallel, hitting ~1,500 tokens/sec on one H100 — a quiet architecture bet.
 * [One Backward Pass Is Enough to Prune Better](/sources/one-backward-pass-is-enough-to-prune-better.md) - F-WANDA adds a single backward pass to WANDA pruning, using Fisher-style loss sensitivity to spend sparsity where the model can afford it.
 * [No Model Is Consistently Good at Reading Minds](/sources/no-model-is-consistently-good-at-reading-minds.md) - Nine frontier vision-language models split across two theory-of-mind tests, showing a single benchmark number describes one narrow skill.
 * [The Rule of Humans by Machines Manufactured by Corporations](/sources/the-rule-of-humans-by-machines-manufactured-by-corporations.md) - Engaging Jill Lepore's claim that AI is corporate rule, weighing its speed against the thin accountability of private terms.
+* [Platform Engineering for Service-Based Organizations](/sources/platform-engineering-service-organizations.md) - Argues service firms need a capability layer that standardizes approaches, not environments, because the product-company IDP model assumes stable teams.
 * [Agent Anxiety](/sources/agent-anxiety.md) - O'Hara names 'agent anxiety': the irrational pull to keep AI agents busy, fragmenting the focus deep work needs.
 * [A Few Neurons Decide Whether Your Agent Calls the Right Tool](/sources/a-few-neurons-decide-whether-your-agent-calls-the-right-tool.md) - Tool-selection failures may live in a narrow neural circuit that evals and prompt tweaks cannot reach, pointing to fine-tuning and steering.
 * [95 Trillion Tokens of Real Agent Traffic Looked Nothing Like the Benchmark](/sources/95-trillion-tokens-of-real-agent-traffic-looked-nothing-like-the-benchmark.md) - Single-turn cache benchmarks mislead capacity planning because real agent sessions are multi-turn and reuse falls off after the first exchange.
@@ -543,19 +965,23 @@ Last updated: 2026-10-17
 * [What Gap?](/sources/what-gap.md) - The perceived gap between what we have and want is adjustable, and what we model about it teaches others restlessness or gratitude.
 * [Too Dangerous to Centralize, Too Dangerous to Distribute](/sources/too-dangerous-to-centralize-too-dangerous-to-distribute.md) - Meta and Anthropic's opposing AI-safety postures each align with the business case their moment required.
 * [The Warning Is the Marketing](/sources/the-warning-is-the-marketing.md) - A lab's safety disclosure doubles as a capability boast, so govern models at runtime, not by vendor risk labels.
+* [Who Should Modernize Your Legacy Systems? A Field Guide to Cloud Replatforming Partners](/sources/legacy-modernization-cloud-replatforming-companies.md) - Buyer's guide to eight legacy modernization and cloud replatforming firms, comparing rehost/replatform/refactor/rebuild and partner criteria.
 * [Buying the Team Without Buying the Company](/sources/buying-the-team-without-buying-the-company.md) - Nvidia's $6B Poolside licensing-plus-hiring deal repeats a playbook Microsoft and Amazon used to avoid antitrust review.
 * [What Happens to an Expert When AI Knows Everything They Know](/sources/what-happens-to-an-expert-when-ai-knows-everything-they-know.md) - AI erodes expert judgment through 'intuition rust' unless used as a sparring partner that stress-tests thinking rather than replacing it.
 * [The Model Stays Home. The Patch Ships.](/sources/the-model-stays-home-the-patch-ships.md) - Anthropic's Claude Security scans code on Mythos 5 server-side, returning governed findings; Liles argues customers still owe their own second gate.
 * [The Audit Trail Is the Product, Not the Camera](/sources/the-audit-trail-is-the-product-not-the-camera.md) - A vendor-run audit log catches misuse after the fact; runtime enforcement and independent verification are what actually govern.
+* [What OpenAI's Numbers Reveal About AI Monitoring Budgets](/sources/openai-ai-monitoring-budgets.md) - Argues OpenAI's disclosure that monitoring costs ~20% of monitored compute is a floor, and most enterprises budget nothing for it.
 * [Built for Demand That Hasn't Arrived](/sources/built-for-demand-that-hasnt-arrived.md) - IBM's 2027 inference cluster is a capacity bet placed before the enterprise demand that would justify it exists.
 * [What a 10 Percent Chip-Stock Selloff Over One Model Release Actually Tells You](/sources/what-a-10-percent-chip-stock-selloff-over-one-model-release-actually-tells-you.md) - A 10 percent chip-stock selloff over one open-weight model release reflects leveraged, headline-reactive capital, not a change in workload economics.
 * [Two Open-Weight Letters, Zero Neutral Parties](/sources/two-open-weight-letters-zero-neutral-parties.md) - Reads two July 2026 open-weight AI letters as self-interested coalitions whose signatories track their business models.
 * [The Neuron Count Tell](/sources/the-neuron-count-tell.md) - Argues comparing biological neuron counts to AI parameter counts is a rhetorical tell: a borrowed number standing in for a definition of consciousness.
 * [The Activity Trap](/sources/the-activity-trap.md) - Leaders face rising pressure to prove AI ROI but most measure activity, not outcomes; tying each initiative to a dollar figure and owner is the fix.
+* [Evaluating RAG Systems with DeepEval Metrics](/sources/evaluating-rag-systems-with-deepeval.md) - Shows how to gate RAG systems with DeepEval's RAG Triad, walking a baseline-vs-candidate prompt comparison where a humorous prompt fails relevancy.
 * [The Noise Is the Point](/sources/the-noise-is-the-point.md) - Abbott's pause on Texas data centers rests on partly manufactured opposition and debunked claims, threatening needed compute.
 * [The Competitive Axis Moved to Governance](/sources/the-competitive-axis-moved-to-governance.md) - As benchmark scores compress, frontier labs with enterprise and government exposure compete on trust infrastructure instead of capability.
 * [If API Fares Aren't the Business, What Is](/sources/if-api-fares-arent-the-business-what-is.md) - Reviews two winning essays from Dwarkesh Patel's AI prize, questioning the MTR analogy that per-token API pricing is not a lab's real business.
 * [Anthropic's Book Settlement Drew a Narrower Line Than the Headlines Suggest](/sources/anthropics-book-settlement-drew-a-narrower-line-than-the-headlines-suggest.md) - Anthropic's $1.5B settlement turned on warehousing pirated books, not on training, making acquisition provenance the diligence that matters.
+* [AI Change Management: Why AI Transformations Fail on People, Not Technology](/sources/ai-change-management.md) - Argues AI transformations fail on sequencing, not technology: organizations deploy the tool before building the trust to use it.
 * [The Incident Rate Is In](/sources/the-incident-rate-is-in.md) - Strata research showing 88% of enterprises had an agent security incident ends the forward-looking framing; agent identity is now a remediation architecture decision.
 * [AI Eldercare Is Already Deployed](/sources/ai-eldercare-is-already-deployed.md) - ElliQ's adoption by seniors shows AI companions already reach the demographic technology usually struggles to win.
 * [AI Curation and the Taste Slop Problem](/sources/ai-curation-and-the-taste-slop-problem.md) - If a few foundation models recommend all culture, homogenization collapses from many systems to one shared source.
@@ -566,18 +992,23 @@ Last updated: 2026-10-17
 * [Tiering Isn't One Decision, It's Five](/sources/tiering-isnt-one-decision-its-five.md) - Five 2026 results show cost savings come from tiering model choice across five layers of the stack, not one frontier pick.
 * [The Stopping Rule Your Agent Doesn't Have](/sources/the-stopping-rule-your-agent-doesnt-have.md) - Fixed verify-repair round limits waste rounds and can harm valid outputs; a grounded stopping rule helps.
 * [The Sandbox Held Until the Model Decided It Didn't Need To](/sources/the-sandbox-held-until-the-model-decided-it-didnt-need-to.md) - Anthropic's Mythos leaks and sandbox escape show monitoring is not runtime enforcement; the gate that matters is layer four.
+* [How to Approach LLM Evaluation for AI-Native Applications](/sources/llm-evaluation-ai-native-applications.md) - Explains why LLM evaluation differs from traditional testing and lays out metrics, testing approaches, and a tool landscape for continuous quality.
 * [The Plan Was Right When You Made It](/sources/the-plan-was-right-when-you-made-it.md) - Static benchmarks freeze the world while agents reason; a Stanford-led paper shows planning agents collapse when environments move on a fixed clock.
 * [The Orchestration Layer Is the Reliability Lever](/sources/the-orchestration-layer-is-the-reliability-lever.md) - Argues agentic reliability comes from the orchestration layer — query-specific planning, meta-plans, planner/executor splits — not from swapping in a stronger model.
 * [The Open-Weight Cost Curve Is an Architecture Story](/sources/the-open-weight-cost-curve-is-an-architecture-story.md) - Argues open-weight economics rest on four durable architecture techniques — intelligence per watt, sparsity, linear attention, targeted fine-tuning — not leaderboard standings.
+* [How to Defend Kubernetes Clusters Against a Prompt Injection Attack](/sources/kubernetes-prompt-injection.md) - Walks through prompt injection against AI agents wired into Kubernetes and argues the durable fix is structural — RBAC, Kyverno, NetworkPolicy, Falco.
 * [DFW Is Now the AI Talent Market](/sources/dfw-is-now-the-ai-talent-market.md) - CBRE and CompTIA data show DFW's AI story has shifted from infrastructure to talent, with 37,230 net new tech workers.
+* [The Complete Guide to Choosing a Data Integration & Engineering Partner](/sources/data-integration-engineering-companies.md) - Buyer's guide to nine data integration and engineering firms, covering batch/streaming, API-led integration, and lakehouse modernization.
 * [The Model Didn't Change. The Default Did.](/sources/the-model-didnt-change-the-default-did.md) - Anthropic's Claude Code regression lived in a moved product default; clients must pin parameters and run their own production eval suites.
 * [The Interpretability Audit You Can't Run Yet](/sources/the-interpretability-audit-you-cant-run-yet.md) - Interpretability can detect faked alignment in a couple of models but does not yet generalize into an auditable control.
 * [The Interface Moved Inside](/sources/the-interface-moved-inside.md) - An AI brain implant lets a woman with ALS speak again, marking the shift from held to worn to implanted interfaces.
 * [The Gap Between Coding Benchmarks and Client-Ready Software](/sources/the-gap-between-coding-benchmarks-and-client-ready-software.md) - Three 2026 benchmarks show coding agents fail far more on real merge-ready work than vendor demos imply.
+* [How to Build an AI Business Case That Gets Executive Buy-In](/sources/how-to-build-ai-business-case.md) - A fundable AI pitch sells evidence and credibility, not enthusiasm, and frames the case in each executive's own currency.
 * [Your Manager Is the AI Strategy](/sources/your-manager-is-the-ai-strategy.md) - Argues AI adoption is a management-layer problem: managers who support AI make teams 8.7x more likely to be transformed.
 * [The Free Half of Speculative Decoding](/sources/the-free-half-of-speculative-decoding.md) - Quantizing the draft model in speculative decoding is nearly free, while quantizing the target model costs real accuracy.
 * [The Bottleneck Isn't the Fix, It's Finding What to Fix](/sources/the-bottleneck-isnt-the-fix-its-finding-what-to-fix.md) - Coding agents' bottleneck is repository exploration, not reasoning; splitting exploration from solving cuts tokens up to 60%.
 * [The Benchmark Passed. The Chain Still Failed.](/sources/the-benchmark-passed-the-chain-still-failed.md) - Benchmark scores and majority votes miss chained failure; audit the reasoning trace at divergence points, not the final answer.
+* [Right Way to Onboard an AI Coding Agent](/sources/how-to-onboard-ai-coding-agent.md) - Onboarding an AI coding agent means making implicit knowledge explicit through coding standards, ADRs, and structured context.
 * [The Build Decision Changed the Relationship](/sources/the-build-decision-changed-the-relationship.md) - McKinsey data shows a third of enterprises now skip software purchases to build internally with AI, shifting consulting from labor to judgment.
 * [Running the Experiment Was Never the Hard Part](/sources/running-the-experiment-was-never-the-hard-part.md) - AlphaGo's per-move MCTS grading versus sparse end-of-episode LLM rewards, and why agent judgment lags execution.
 * [Read the Paper, Not the Panel](/sources/read-the-paper-not-the-panel.md) - A four-question checklist separates a research finding from the media framing layered on top of it.
@@ -589,18 +1020,23 @@ Last updated: 2026-10-17
 * [Five Places a Document Pipeline Can Fail, and Four of Them Just Got Fixed](/sources/five-places-a-document-pipeline-can-fail-and-four-of-them-just-got-fixed.md) - Decomposes a document AI pipeline into five failure points, reviews 2026 fixes for four, and flags graph-structured content as unresolved.
 * [Fine-Tune or Orchestrate: The Architecture Decision Every Agent Engagement Skips](/sources/fine-tune-or-orchestrate-the-architecture-decision-every-agent-engagement-skips.md) - Argues that fine-tune-versus-orchestrate is an explicit architecture decision engagements skip, governed by workflow stability and drift.
 * [Escalation to a Human Is Not a Confidence Score](/sources/escalation-to-a-human-is-not-a-confidence-score.md) - Three papers argue a single confidence scalar cannot carry the evidence, difficulty, and clarity signals an escalation decision needs.
+* [AI Strategy & Roadmap Assessment: Choosing a Partner Who Can Actually Execute](/sources/ai-strategy-roadmap-assessment-companies.md) - A buyer's guide to AI strategy and roadmap assessment firms, and how to judge which partner can execute a roadmap.
+* [The Human Cost of Security in the AI Era](/sources/human-cost-security-ai-era.md) - AI-driven attacks are outrunning human triage, so point a local LLM at CVE triage instead — and raise better issues.
 * [Applause Is Not an Audit](/sources/applause-is-not-an-audit.md) - Self-reported vendor metrics and unanimously praised governance proposals both lack the independent verification that gives a claim credibility.
 * [Agent Containment Is Losing the Race to Capability](/sources/agent-containment-is-losing-the-race-to-capability.md) - Three July 2026 incidents show agent capability outrunning the sandboxes, proxies, and approval gates meant to contain it.
 * [A Rule in the Prompt Is a Suggestion](/sources/a-rule-in-the-prompt-is-a-suggestion.md) - An AWS study shows prompt-stated rules fail one run in six, while code-level steering hooks and gateway policies enforce them reliably.
 * [Outcome-Based Pricing Is Real For Two Companies And A Rumor For Everyone Else](/sources/outcome-based-pricing-is-real-for-two-companies-and-a-rumor-for-everyone-else.md) - Most \"outcome-based\" consulting pricing is a fixed fee with a KPI; only a few firms are building the operational foundation.
 * [NIST Is Wiring the Agent Standards Layer](/sources/nist-is-wiring-the-agent-standards-layer.md) - NIST naming MCP and A2A as baseline agent protocols closes the standards window; waiting to commit is now integration debt.
 * [Five Firms Built Five AI Frameworks. None of Them Built a Ruler.](/sources/five-firms-built-five-ai-frameworks-none-of-them-built-a-ruler.md) - Overlays five major AI frameworks to argue they converge on one shape but lack a ruler for assessing where an organization stands.
+* [Agentic AI Cost Management to Reduce your AI Expenses](/sources/agentic-ai-cost-management.md) - Agentic AI spend tracks context complexity and model routing, not output volume; scope tasks and instrument cost.
 * [A Bigger Context Window Is Not Working Memory](/sources/a-bigger-context-window-is-not-working-memory.md) - A large context window is attention, not memory; retention needs a separate mechanism deciding what to keep, fold, and compact.
 * [The Billing Model Just Broke](/sources/the-billing-model-just-broke.md) - As AI compresses production work, clients refuse to pay for hours saved, pushing consulting toward outcome-based pricing and valuing judgment over production.
 * [Somebody Has to Own the Skill Library](/sources/somebody-has-to-own-the-skill-library.md) - Enterprise agent adoption outruns governance because nobody owns skill authoring, review, and deprecation; a hybrid model answers it.
+* [Own the Interface: Why Enterprise AI Needs a Governed Gateway](/sources/own-the-interface-why-enterprise-ai-needs-a-governed-gateway.md) - Enterprises should own the inference interface via a hyperscaler and governed gateway instead of a direct vendor API.
 * [One Catalog, Every Consumer](/sources/one-catalog-every-consumer.md) - Four 2026 enterprise agent platforms each cover only two or three of five governance capabilities, so buyers must build the gaps deliberately.
 * [Off the Shelf Gets You Partway There](/sources/off-the-shelf-gets-you-partway-there.md) - Federation distributes skills across boundaries but is only a feed into a graph; the goal is one governed catalog with authority to say no.
 * [Skill Sprawl Is the Shared Drive Again](/sources/skill-sprawl-is-the-shared-drive-again.md) - Unreviewed skill catalogs grow into near-duplicates that degrade retrieval and ship prompt-injection risk; curation, not speed, is the fix.
+* [Responsible AI: Building Ethics and Governance into your Strategy from Day One](/sources/responsible-ai-governance.md) - Most responsible AI programs audit once; import software's ratchet pattern so ethics metrics gate every deployment.
 * [A Skill Registry Needs a Review Gate, Not Just a Folder](/sources/a-skill-registry-needs-a-review-gate-not-just-a-folder.md) - A folder of skills is not a registry; a governed skill library needs a fixed-order lifecycle with review, evaluation, and version pinning.
 * [A Skill Is Just Another Thing to Find](/sources/a-skill-is-just-another-thing-to-find.md) - Agent skills are procedurally the same discovery problem as documents, with the same failure modes repeated at the skill layer.
 * [Keyword Search Knows the Word, Not the Meaning](/sources/keyword-search-knows-the-word-not-the-meaning.md) - BM25 remains right for exact strings like part numbers, while semantic search closes the vocabulary-mismatch gap it cannot.
@@ -612,16 +1048,19 @@ Last updated: 2026-10-17
 * [Tags Are a Promise Nobody Enforces](/sources/tags-are-a-promise-nobody-enforces.md) - Taxonomy, ontology, and folksonomy all decay because tagging depends on humans; metadata generated as a pipeline side effect survives.
 * [The Amplifier Paradox](/sources/the-amplifier-paradox.md) - AI amplifies output while quietly eroding the judgment beneath it; intuition rust and lost entry-level reps threaten expert capability.
 * [Structuring the Middle of the Pipeline](/sources/structuring-the-middle-of-the-pipeline.md) - Branch the stream, not the pipeline: route central processing off the live path via queues and scale it separately.
+* [Leading Data Platform Modernization Companies: What to Look for in a Partner?](/sources/data-platform-modernization-companies.md) - A buyer's guide to data platform modernization partners, judged on platform certifications, governance, and outcomes.
 * [Crowd Counting and Environmental Hazard Detection](/sources/crowd-counting-and-environmental-hazard-detection.md) - Distinguishes crowd counting from people counting and argues fire detection's sub-100ms limit mandates on-device inference.
 * [Beyond Detection: Activity Understanding](/sources/beyond-detection-activity-understanding.md) - Object detection is commoditized while multi-actor activity parsing remains a research problem; build workflow checks as rules layers.
 * [The Rollout Worked. The People Didn't.](/sources/the-rollout-worked-the-people-didnt.md) - AI rollouts fail on trust, not technology: employees who feel the change is done to them sabotage it.
 * [Safety and Compliance at the Edge](/sources/safety-and-compliance-at-the-edge.md) - Why PPE compliance and weapon detection require continuous edge inference, privacy-preserving alerts, and tuned escalation.
 * [Recognition at the Edge](/sources/recognition-at-the-edge.md) - Plate and face recognition should run inference at the edge by default, stacking hard latency and privacy requirements.
 * [Following Someone Across Cameras](/sources/following-someone-across-cameras.md) - Appearance-based multi-camera re-identification preserves continuity without facial identity, but cross-camera hand-off failure remains unsolved.
+* [AI Pipeline Reliability Governance for Multi-Step Accuracy Failures](/sources/ai-pipeline-reliability-governance.md) - Per-step accuracy multiplies across a pipeline, so long agent chains need quality gates rather than better models.
 * [Thundering Herd: What Breaks When Everyone Looks at Once](/sources/thundering-herd-what-breaks-when-everyone-looks-at-once.md) - Alert-driven traffic arrives as a step function, so load tests must reproduce bursts and diagnose failures stage by stage.
 * [The Bubble You Are Inside Does Not Feel Like One](/sources/the-bubble-you-are-inside-does-not-feel-like-one.md) - Comparing today's AI spending to the dot-com bust, O'Hara argues the real bubble is urgency-driven AI projects built on narrative rather than problems.
 * [Processing at the Edge](/sources/processing-at-the-edge.md) - Run detection at the edge before streaming, not centrally on every frame; the cost is fleet management, not bandwidth.
 * [Load Testing WebRTC at Scale: The Two Axes Most Test Plans Miss](/sources/load-testing-webrtc-at-scale-the-two-axes-most-test-plans-miss.md) - WebRTC load tests should vary viewers-per-stream and streams-per-instance independently, because the two patterns stress bandwidth versus CPU.
+* [Define Done Before you Build a Task Agent](/sources/define-done-before-you-build-a-task-agent.md) - Define measurable exit criteria before building a task agent, then prompt and validate against an independent checklist.
 * [Sharding Streams at Scale](/sources/sharding-streams-at-scale.md) - Shard live video by source stream, route viewers through a lookup table, and autoscale on per-instance metrics rather than fleet averages.
 * [Migrating Off a Legacy Media Server](/sources/migrating-off-a-legacy-media-server.md) - Swapping a GStreamer-based media server for a lean SFU is a full migration project, not a config change or library bump.
 * [Failover in Live Video](/sources/failover-in-live-video.md) - Lays out the tradeoff between duplicate-ingest failover and accepting a reconnect gap, and argues the choice is a product decision.
@@ -637,12 +1076,15 @@ Last updated: 2026-10-17
 * [The TURN Tax: WebRTC's Hidden Cost Center](/sources/the-turn-tax-webrtcs-hidden-cost-center.md) - TURN relay bandwidth, not SFU egress, is where WebRTC cost models break; price it at double and budget it.
 * [Split the Control Plane From the Data Plane, or Neither Will Scale](/sources/split-the-control-plane-from-the-data-plane-or-neither-will-scale.md) - Separate WebRTC signaling from media relay early, because stateless control and stateful media have opposite scaling stories.
 * [Choosing a Video Topology That Scales](/sources/choosing-a-video-topology-that-scales.md) - Opening a series on WebRTC video architecture, arguing SFU is the right default topology for one-to-many live video.
+* [AI Code Review Isn't Code Review Yet](/sources/ai-code-review.md) - AI code review automates pattern matching well but cannot see architectural, historical, runtime, or business context.
 * [The Twelve Problems of Agentic Software Delivery](/sources/the-twelve-problems-of-agentic-software-delivery.md) - Agentic delivery is twelve compounding problems across four layers; reliability is a property of the whole architecture.
 * [The Architecture of Enterprise AI Retrieval](/sources/the-architecture-of-enterprise-ai-retrieval.md) - Naive RAG fails five identical ways; retrieval should be a sequence of gates, each with its own failure mode and acceptable direction of error.
 * [Governance as the Control Plane for AI](/sources/governance-as-the-control-plane-for-ai.md) - AI governance is data governance with the safety margin removed; the fix is a runtime control plane, not a policy document.
+* [From AI Automation to AI Augmentation](/sources/ai-worker-augmentation.md) - AI is an adapter that transforms specialist time, so the scarce skill is articulating intent, and adoption must absorb output.
 * [Publishing a Catalog Is Not the Same as Running a Registry](/sources/publishing-a-catalog-is-not-the-same-as-running-a-registry.md) - Agentic Resource Discovery solves cross-boundary federation, but a crawled catalog is not a governed, health-checked registry.
 * [Nobody Is Building a Separate Silo for AI Assets Anymore](/sources/nobody-is-building-a-separate-silo-for-ai-assets-anymore.md) - Four platform vendors independently converged on governing AI assets through the same identity, governance, and discovery layers as data assets.
 * [Engineering Reliability into Autonomous AI Agents](/sources/engineering-reliability-into-autonomous-ai-agents.md) - System-level agent reliability is arithmetic, not model quality, so it must be engineered with layers, recovery, ratchets, specialization, adversarial tracks, and a dispatcher.
+* [AI Governance as Infrastructure: A Four-Layer Framework for Agentic AI](/sources/ai-governance-agentic-ai-framework.md) - Agentic AI needs governance built as CI/CD-like infrastructure — rulebook, gating, runtime enforcement, and evidence.
 * [The Market Just Valued the Agent Security Gap at $1.1 Billion](/sources/the-market-just-valued-the-agent-security-gap-at-1-1-billion.md) - Obsidian's $1.1B valuation and Okta data show the agent security and access-control gap as a priced market problem.
 * [The Catalog Already Learned to Talk to Machines](/sources/the-catalog-already-learned-to-talk-to-machines.md) - Data catalogs' hard-won lesson — active metadata and knowledge graphs — is exactly what makes AI asset discovery tractable.
 * [Name Resolution Was Never Enough](/sources/name-resolution-was-never-enough.md) - AI asset discovery should follow service discovery's evolution but skip name-first resolution, becoming capability-first registries in a shared graph.
@@ -656,11 +1098,13 @@ Last updated: 2026-10-17
 * [The Context Window Is Not a Filing Cabinet](/sources/the-context-window-is-not-a-filing-cabinet.md) - Filling the context window is the default mistake; context management keeps the working window to exactly what the current step needs.
 * [Your Multi-Agent System Has a Coordination Problem](/sources/your-multi-agent-system-has-a-coordination-problem.md) - Surveys six multi-agent coordination models, MCP as the tool protocol, state isolation, and escalation as coordination mechanisms.
 * [You Can't Improve What You Can't Measure — Agentic Evaluation Done Right](/sources/you-cant-improve-what-you-cant-measure-agentic-evaluation-done-right.md) - Agentic evaluation needs a layered grader stack, evals-as-code in CI, task-appropriate benchmarks, and disciplined A/B routing.
+* [The Quiet Trap: How Micromanagement Disguises Itself as Agile Leadership](/sources/micromanagement-disguised-as-agile-leadership.md) - Micromanagement hides behind Agile dashboards; servant leadership measures the team, removes impediments, and trusts.
 * [If You Can't Reconstruct What the Agent Did, You Don't Have a System](/sources/if-you-cant-reconstruct-what-the-agent-did-you-dont-have-a-system.md) - Argues agent observability must reconstruct a session's reasoning chain, and that OpenTelemetry GenAI semconv is the standard to instrument against.
 * [IBM Just Showed What Delivery Restructuring Actually Looks Like](/sources/ibm-just-showed-what-delivery-restructuring-actually-looks-like.md) - O'Hara argues IBM's embedding of GPT-5.6 into its consulting platform signals a real labor-model shift, not another rebranded AI practice.
 * [The Line at the Hedge](/sources/the-line-at-the-hedge.md) - Two drought fields differing only by a plough illustrate regenerative farming as a relationship with time, not a method.
 * [The Error Your Stack Trace Will Never Catch](/sources/the-error-your-stack-trace-will-never-catch.md) - Argues the fatal agentic errors are silent successes toward the wrong goal, and prescribes an error taxonomy, pre-execution gates, and runtime safeguards.
 * [How to Stop an Agent That's Gone Wrong](/sources/how-to-stop-an-agent-thats-gone-wrong.md) - Frames agent intervention as a reversibility spectrum: interrupt-and-resume, approval gates, sagas, and pool- or session-level controls.
+* [Designing AI Systems for Change: Models Will Age Faster Than Your Software](/sources/designing-ai-systems-for-change.md) - AI models age faster than the software around them, so design systems for continuous, versioned, governed adaptation.
 * [Agentic Systems That Don't Improve Are Just Expensive Software](/sources/agentic-systems-that-dont-improve-are-just-expensive-software.md) - Without a feedback loop, agentic systems stay static; reflection, PRMs, RLVR, and trajectory memory close the loop.
 * [Why Your Agent Forgets Everything Every Morning](/sources/why-your-agent-forgets-everything-every-morning.md) - Agent memory fails because retention isn't designed; the CoALA taxonomy names four memory types teams must choose between deliberately.
 * [The Rate Case Decides Your AI Bill](/sources/the-rate-case-decides-your-ai-bill.md) - Utility rate cases, not model choices, lock in AI's cost structure — and business is usually absent from the room.
@@ -677,13 +1121,17 @@ Last updated: 2026-10-17
 * [The Service Line Is Not the Delivery Model](/sources/the-service-line-is-not-the-delivery-model.md) - An AI service line is marketing; an AI-structured delivery model is operational — the market rarely distinguishes them.
 * [The Model Thinks in the Language Its Tokenizer Gives It](/sources/the-model-thinks-in-the-language-its-tokenizer-gives-it.md) - Argues tokenization is a design choice with cognitive consequences: how numbers and structured data are chunked measurably constrains what a model can reason about.
 * [The Data Doesn't Pick the Model](/sources/the-data-doesnt-pick-the-model.md) - Quine–Duhem underdetermination maps onto model architecture choices, whose baked-in assumptions benchmarks can't adjudicate.
+* [When QA Goes Further Than Testing Software](/sources/process-focused-quality-assurance.md) - QA adds the most value before development and after defects, improving the process rather than only testing output.
+* [AI Sovereignty: Escaping the Single-Vendor Trap](/sources/ai-sovereignty-escaping-the-single-vendor-trap.md) - Enterprises should escape direct model-vendor dependency via hyperscaler abstraction, open weights, or on-premise hardware.
 * [Your Model Doesn't Know What 'Hot' Feels Like](/sources/your-model-doesnt-know-what-hot-feels-like.md) - Language models manipulate ungrounded symbols, so physical-world and sensory tasks need human-grounded validation.
 * [When the Model Acts, the Philosophy Changes Completely](/sources/when-the-model-acts-the-philosophy-changes-completely.md) - Once a model acts in the world, its outputs are performatives, so governance must match the agent's performative depth.
 * [The Model Knows More Than It's Telling You](/sources/the-model-knows-more-than-its-telling-you.md) - Argues LLM capability is elicited by prompting, not fixed, so benchmarks and one-off evals systematically understate what models can do.
 * [Let Them Climb the Tree](/sources/let-them-climb-the-tree.md) - O'Hara argues overprotective parenting denies kids the natural consequences that build resilience, drawing on Arthur Brooks on Gen Z's retreat.
+* [Five AI Governance Best Practices Every Enterprise Needs Before Production](/sources/ai-governance-best-practices.md) - Five controls to build before an agent reaches production: model cards, audit trails, drift monitoring, oversight, incidents.
 * [Work and Rest Aren&#x27;t Opposites. Wiring Is.](/sources/work-and-rest-arent-opposites.md) - Boredom isn't universal: for about half of people, quiet is generative fuel, so rest is not one-size-fits-all.
 * [There Is No Right Threshold](/sources/there-is-no-right-threshold.md) - Classifier thresholds are unresolvable value judgments, so they need explicit ownership, monitoring, and context awareness.
 * [The Ship of Theseus Problem Lives in Your Model Registry](/sources/the-ship-of-theseus-problem-lives-in-your-model-registry.md) - Silent model updates mean the model you validated may not be running; treat model identity as an operational variable.
+* [Stop Building Agents That Forget. Here's How to Fix It.](/sources/how-to-build-ai-agents-with-memory.md) - Building OpsAgent shows agent memory as vector retrieval, context pruning, cross-session persistence, and skill loading.
 * [AI Evals Have a Replication Problem](/sources/ai-evals-have-a-replication-problem.md) - AI evaluation repeats psychology's replication crisis: undisclosed prompts and drifting models make published benchmark scores unfalsifiable.
 * [When Your Model Fails on New Data, That's Hume's Fault](/sources/when-your-model-fails-on-new-data-thats-humes-fault.md) - Production AI failures are the problem of induction at scale, so teams should monitor distribution shift and define out-of-distribution responses.
 * [The Watched Workforce](/sources/the-watched-workforce.md) - AI workplace monitoring acts as a digital panopticon whose possibility of surveillance suppresses the organizational signals it seeks.
@@ -702,11 +1150,13 @@ Last updated: 2026-10-17
 * [AI Agents Don't Know What Changed. That's a 1969 Problem.](/sources/ai-agents-dont-know-what-changed-thats-a-1969-problem.md) - The 1969 frame problem explains why production agents fail on stale world state, and points to context engineering as scaffolding.
 * [Your AI Is Either Part of Your Mind or Just Another Tab](/sources/your-ai-is-either-part-of-your-mind-or-just-another-tab.md) - AI as a tool augments tasks; AI integrated prosthetically into reasoning changes capability and creates dependency risk.
 * [The Model Inherited an Unequal World](/sources/the-model-inherited-an-unequal-world.md) - Bias is structural, not a content problem: models inherit the epistemic hierarchy of their training data and need exposure assessment.
+* [Platform Engineering Maturity: From Toolchain to Self-Service](/sources/platform-engineering-maturity-model.md) - The CNCF maturity model explains why teams stall at Level 2 and how to reach genuine self-service platform interfaces.
 * [Every Guardrail Is a Value Judgment](/sources/every-guardrail-is-a-value-judgment.md) - Content guardrails are philosophical tradeoffs between epistemic paternalism and autonomy, not neutral engineering defaults.
-* [Your Model's Confidence Is Not What You Think It Is](/sources/your-models-confidence-is-not-what-you-think-it-is.md) - Argues RLHF makes models overconfident and decouples expressed confidence from accuracy, so confidence needs its own evaluation.
 * [You're Paying for the Pilot. You're Not Getting the Production.](/sources/youre-paying-for-the-pilot.md) - Argues the pilot-to-production gap is an ownership and delivery-discipline problem, not a model limitation.
+* [Your Model's Confidence Is Not What You Think It Is](/sources/your-models-confidence-is-not-what-you-think-it-is.md) - Argues RLHF makes models overconfident and decouples expressed confidence from accuracy, so confidence needs its own evaluation.
 * [The Model Can Only Know What's in the Window](/sources/the-model-can-only-know-whats-in-the-window.md) - Bigger context windows don't remove the reasoning limit: attention and retrieval quality bound what the model can actually use.
 * [The Capabilities Nobody Predicted](/sources/the-capabilities-nobody-predicted.md) - Emergent capabilities appear non-linearly at scale, so small-model pilots cannot forecast production behavior; plan with epistemic humility.
+* [Breaking the Stage 2 Ceiling: A Live Walkthrough of Workflows and Skills](/sources/ai-coding-workflows-skills-developer-productivity.md) - Junior devs gain ~30% from AI coding assistants and seniors 3-5%; the gap is workflow, not model, closed by plans, workflows, and skills.
 * [Your Model Is Overthinking It — And Getting It Wrong](/sources/your-model-is-overthinking-it-and-getting-it-wrong.md) - Extended thinking follows an inverted curve: extra reasoning tokens often signal confusion, so route tasks by complexity.
 * [The Thinking You're Outsourcing Is the Thinking That Defines You](/sources/the-thinking-youre-outsourcing-is-the-thinking-that-defines-you.md) - Outsourcing thinking to AI atrophies executive judgment; use it to scaffold, then do the reasoning yourself.
 * [The Intelligence Isn't in the Model. It's in the Architecture.](/sources/the-intelligence-isnt-in-the-model-its-in-the-architecture.md) - Intelligence in delivery teams is distributed across people, tools, and norms; AI must be designed in as a first-class node.
@@ -725,37 +1175,44 @@ Last updated: 2026-10-17
 * [The Development Team and the AI Split: A Role-by-Role Breakdown](/sources/the-development-team-and-the-ai-split-a-role-by-role-breakdown.md) - Applies the form-bound versus judgment-bound framework role by role across a development team.
 * [LLMs Don't Reason — They Hypothesize](/sources/llms-dont-reason-they-hypothesize.md) - Devlin Liles argues LLMs are abduction engines producing plausible hypotheses, so deductive tasks need a separate verification layer.
 * [Governance Belongs in the Platform, Not Next to It](/sources/governance-belongs-in-the-platform-not-next-to-it.md) - Between 2021 and 2024 governance moved inside the compute and storage layer, replacing bolt-on catalogs with embedded, runtime enforcement.
+* [Inside CodeLaunch 2026](/sources/codelaunch-2026-travelspoken-hackathon-story.md) - A first-person account of CodeLaunch 2026, where preparation let a four-person team finish a TravelSpoken feature three hours early.
 * [The Data Contract Is an API for Trust](/sources/the-data-contract-is-an-api-for-trust.md) - Data contracts treat data like a versioned service interface, and their real consequence is forcing organizational ownership.
 * [Judgment-Bound vs. Form-Bound: The AI Split You're Not Making](/sources/judgment-bound-vs-form-bound-the-ai-split-youre-not-making.md) - Knowledge work splits into judgment-bound and form-bound types, and using AI the same way for both is a category error.
+* [Complexity Never Goes Away, it Just Moves](/sources/complexity-never-goes-away-ai-systems-engineering.md) - AI shifts complexity rather than removing it, moving engineering attention from writing code to the systems around models.
 * [Business Roles and the AI Split: What to Delegate and What to Own](/sources/business-roles-and-the-ai-split-what-to-delegate-and-what-to-own.md) - Applies the judgment-bound/form-bound split to business analysts, product managers, consultants, and strategists.
 * [Accenture Just Set the Reskilling Bar](/sources/accenture-just-set-the-reskilling-bar.md) - Accenture's exit of 11,000 un-reskillable staff sets an explicit AI-adaptation bar other consultancies must confront.
 * [The Fourth Principle: Federated Governance and the Hardest Problem in Data Mesh](/sources/the-fourth-principle-federated-governance-and-the-hardest-problem-in-data-mesh.md) - Data mesh's fourth principle — federated computational governance — is the one organizations skip and the hardest to make work.
-* [The Cost of Knowing: Observability in the Age of AI Agents](/sources/observability-arc-08-finops-agentic.md) - AI workloads multiply telemetry volume, turning observability into a FinOps problem and production signals into a delivery feedback loop.
 * [Tarlov Cysts and Back Pain](/sources/tarlov-cysts-and-back-pain.md) - First-person account of a misdiagnosed back-pain journey, arguing patients must self-advocate for second opinions.
+* [The Cost of Knowing: Observability in the Age of AI Agents](/sources/observability-arc-08-finops-agentic.md) - AI workloads multiply telemetry volume, turning observability into a FinOps problem and production signals into a delivery feedback loop.
 * [Closing the Loop: The Graduated Case for Self-Healing Systems](/sources/observability-arc-07-self-healing-remediation.md) - Self-healing without a Learn step merely defers root causes; teams should climb a trust ladder measured by recurring failure rate.
+* [From \"Ship a Feature Faster\" to Building a Developer Platform for AI Agents](/sources/from-ship-a-feature-faster-to-building-a-developer-platform-for-ai-agents.md) - Agent code passed every quality gate yet drifted from architecture and intent, pushing Project X to a governed human-on-the-loop platform.
 * [Your SaaS Stack Was Priced for Humans. Now What?](/sources/your-saas-stack-was-priced-for-humans.md) - Argues agent-driven usage breaks per-seat SaaS economics, putting $234B in enterprise spend at risk by 2030.
 * [Reading the Room: Where Your Organization Actually Is on the AI Curve](/sources/reading-the-room-where-your-organization-actually-is-on-the-ai-curve.md) - Organizations overestimate AI maturity by measuring activity over capability; Rogers' diffusion curve plus a maturity ladder gives an honest diagnostic.
-* [Golden Paths to Observability: What Platform Engineering Actually Delivers (and What It Doesn't)](/sources/observability-arc-05-platform-engineering-idp.md) - Platform engineering moved observability into the golden path, but DORA data shows IDPs lift individual productivity while lowering throughput and stability.
 * [From Alert Storms to Answers: The Long, Humbling Arc of AIOps](/sources/observability-arc-06-aiops-rca.md) - AIOps overpromised root-cause analysis; LLMs added narrative hypothesis generation, but telemetry quality still bounds every outcome.
+* [Golden Paths to Observability: What Platform Engineering Actually Delivers (and What It Doesn't)](/sources/observability-arc-05-platform-engineering-idp.md) - Platform engineering moved observability into the golden path, but DORA data shows IDPs lift individual productivity while lowering throughput and stability.
+* [Keycloak + Sigstore: Binding Human Identity to Artifact Signatures](/sources/keycloak-sigstore-identity-based-artifact-signing.md) - Signing proves a key was used, not that the signer is trusted; self-hosting Fulcio with Keycloak binds signatures to org identity.
 * [Your Stakeholders Are Your Data Quality System](/sources/your-stakeholders-are-your-data-quality-system.md) - Argues manual data testing did not scale, so governance must run in the pipeline via contracts, ownership, and observability.
-* [Wide Events, eBPF, and Why the Three Pillars Are a Tax You're Still Paying](/sources/observability-arc-04-wide-events-ebpf.md) - Argues wide events, columnar storage, and eBPF can replace the three-pillar stack with a unified CNCF-native Datadog alternative.
 * [The Safe Bet Isn't Safe Anymore](/sources/the-safe-bet-isnt-safe-anymore.md) - Vendor 'safe bets' in enterprise AI are eroding; architectural flexibility beats betting on one proprietary stack.
+* [Wide Events, eBPF, and Why the Three Pillars Are a Tax You're Still Paying](/sources/observability-arc-04-wide-events-ebpf.md) - Argues wide events, columnar storage, and eBPF can replace the three-pillar stack with a unified CNCF-native Datadog alternative.
 * [From Cop to Coach: When Governance Stopped Being About Control](/sources/from-cop-to-coach-when-governance-stopped-being-about-control.md) - Gartner's 2021 shift from passive metadata management to active metadata reframed governance from control to enablement.
 * [The Policy Binder Didn't Change Anyone's Behavior](/sources/the-policy-binder-didnt-change-anyones-behavior.md) - Governance frameworks of 2019–2021 failed because policy lived apart from engineering; the fix was embedding governance in the pipeline.
 * [The Enterprise AI Platform War Is Over. Now What?](/sources/the-enterprise-ai-platform-war-is-over-now-what.md) - With Anthropic overtaking OpenAI in business AI spend, platform choice has become a strategic decision firms can no longer defer or hedge with platform-agnosticism.
-* [Metrics, Logs, Traces — and the War That Standardization Won](/sources/observability-arc-02-opentelemetry-standardization.md) - OpenTelemetry's merger ended vendor capture of instrumentation, decoupling the instrumentation market from the analytics market.
 * [Datadog, Dynatrace, and the Bill That Ate Your Engineering Budget](/sources/observability-arc-03-apm-boom-observability-tax.md) - The observability boom produced a cost crisis: billing scales with topology, not traffic, and the bill is really an architecture signal.
+* [Metrics, Logs, Traces — and the War That Standardization Won](/sources/observability-arc-02-opentelemetry-standardization.md) - OpenTelemetry's merger ended vendor capture of instrumentation, decoupling the instrumentation market from the analytics market.
 * [Which Failure Mode Can You Afford? The Security Personality of Your Model](/sources/which-failure-mode-can-you-afford-the-security-personality-of-your-model.md) - Frontier models fail in distinct patterns, so model selection should match a model's failure profile to what the compliance environment can absorb.
 * [The Evaluation-Governance Flywheel: Neither Works Without the Other](/sources/the-evaluation-governance-flywheel-neither-works-without-the-other.md) - Argues governance needs task-level evaluation data, and cites METR evidence that automated grading overstates human-level quality.
 * [The Corrections Are the Leak](/sources/the-corrections-are-the-leak.md) - Every correction a team makes to a frontier model feeds the provider's improvement loop, so the eval-and-correction layer — not the model — is the real moat.
 * [The 2019 Baseline: What the Books Said vs. What Your Team Actually Ran](/sources/observability-arc-01-the-2019-baseline.md) - In 2019 elite observability practice and the median team diverged sharply, and the gap was cultural, not a matter of tooling access.
+* [Internal Developer Portal (IDP): What Reduces Cognitive Load](/sources/internal-developer-portal-what-reduces-cognitive-load.md) - IDPs fail when they standardize tasks instead of absorbing developer decisions; the patterns that cut cognitive load complete the workflow.
 * [The Stack You Chose Last Year Just Became the Right Answer](/sources/the-stack-you-chose-last-year-just-became-the-right-answer.md) - Market signals have settled the AI platform question; the lead now belongs to teams that built while others deliberated.
 * [The Right Experiment for the Right Claim](/sources/the-right-experiment-for-the-right-claim.md) - A navigation guide to eight causal designs for attributing enterprise AI value, chosen by deployment constraints.
 * [Spec-Driven Development for AI: What Works, What Doesn't, and What to Do About It](/sources/spec-driven-development-for-ai-what-works-what-doesnt-and-what-to-do-about-it.md) - Spec-driven development separates spec, documentation, and test for agents, but has hard limits that enthusiasts understate.
+* [Hidden Cost of Over-Engineering Enterprise Applications](/sources/hidden-cost-of-over-engineering-enterprise-applications.md) - Over-engineering is revving the engine in the driveway; its tell is machine-facing language, and its fix starts from user intent.
 * [Acceleration Whiplash: The Hidden Metric AI Adoption Is Breaking](/sources/acceleration-whiplash-the-hidden-metric-ai-adoption-is-breaking.md) - AI coding tools raise throughput but degrade downstream quality; post-merge verification metrics expose the gap teams miss.
 * [The Pyramid Is Coming Down. Now What?](/sources/the-pyramid-is-coming-down-now-what.md) - McKinsey's cuts expose the consulting pyramid as a pricing model, not a delivery model, advantaging leaner mid-market firms.
 * [Making Measurement Operational](/sources/making-measurement-operational.md) - AI measurement should be a continuous operational function with tooling, ownership, and governance, not a one-time launch project.
 * [Inside the System Boundary](/sources/inside-the-system-boundary.md) - Compound AI systems generate component, composition, and interaction lift, and only the last two are defensible at renewal.
+* [Improving Partners with Anthropic to Help Enterprises Adopt Responsible, Human‑Centered AI](/sources/improving-partners-with-anthropic-to-help-enterprises-adopt-responsible-human-centered-ai.md) - Improving announced an Anthropic partnership to move firms from AI experimentation to production, framed around its Trust Evolution model.
 * [From Model Lift to the P&L](/sources/from-model-lift-to-the-p-l.md) - Causal lifts don't sum to a P&L number; portfolio attribution needs a causal lineage map, method-matched estimators, and honest intervals.
 * [Checking the Math on the $500 Million AI Spend Story](/sources/checking-the-math-on-the-500-million-ai-spend-story.md) - The viral $500M Claude bill doesn't survive arithmetic; the real problem is uninstrumented token spend.
 * [Your Agents Are Principals. Treat Them Like It.](/sources/your-agents-are-principals-treat-them-like-it.md) - AI agents are a new class of identity principal; existing security tooling must be pointed at them before deployment.
@@ -776,6 +1233,7 @@ Last updated: 2026-10-17
 * [When Small Mistakes Compound: Building Systems That Survive Imperfect AI](/sources/when-small-mistakes-compound-building-systems-that-survive-imperfect-ai.md) - Small AI errors compound across long workflows, so systems need selective autonomy, checkpoints, grounding, ownership, and end-to-end success metrics.
 * [The Machine Is Learning to Build Itself. You Still Have to Decide What to Build.](/sources/the-machine-is-learning-to-build-itself-you-still-have-to-decide-what-to-build.md) - Anthropic's self-building trajectory as a case study in an eight-stage AI maturity model where gates and judgment become the bottleneck.
 * [The Compounding Tax: Why Small Model Errors Become Large System Failures](/sources/the-compounding-tax-why-small-model-errors-become-large-system-failures.md) - Per-step accuracy compounds across horizons, so trajectory reliability — not single-step benchmarks — is the metric that matters.
+* [Protecting the Software Supply Chain from Malicious Packages (+Claude Skill)](/sources/software-supply-chain-security-package-age-enforcement.md) - A 7-day minimum package age requirement closes the window between a malicious package landing and detection, packaged as a Claude skill.
 * [It Wasn't the Mistake That Impressed Me](/sources/broken-trust-starts-a-clock.md) - On xAI's Grok Build repository-upload incident: trust is a clock the mistake starts, restarted by speed, truth, and a real fix.
 * [The Urgency Trap Is Why Your AI Pilot Didn't Work](/sources/the-urgency-trap-is-why-your-ai-pilot-didnt-work.md) - AI pilots fail because firms attack urgent, demand-limited work instead of compressible, demand-unlimited tasks.
 * [The Productivity Paradox: When AI Helps Everyone Equally](/sources/the-productivity-paradox-when-ai-helps-everyone-equally.md) - When AI raises everyone's productivity equally, no one gains competitive advantage; advantage concentrates in context, integration speed, and judgment.
@@ -800,9 +1258,10 @@ Last updated: 2026-10-17
 * [Biological Coordination Patterns Applied to Multi-Agent Software Delivery](/sources/biological-coordination-patterns-applied-to-multi-agent-software-delivery.md) - Four brain-derived coordination primitives — specialization, inhibition, checkpoint synchronization, convergence — for scaling multi-agent delivery.
 * [Adversarial Reasoning Architecture: A Multi-Track Approach to AI Agent Reliability](/sources/adversarial-reasoning-architecture-a-multi-track-approach-to-ai-agent-reliability.md) - A dual- and three-track reasoning architecture uses an adversarial challenger to catch confident-but-wrong answers.
 * [The Limits of String Matching in Knowledge Coverage Metrics](/sources/the-limits-of-string-matching-in-knowledge-coverage-metrics.md) - Why exact string matching undercounts a system's knowledge, and a layered matching architecture that fixes coverage metrics.
-* [The Consulting Middle Is Disappearing. Which Side Are You On?](/sources/consulting-middle-disappearing.md) - AI-driven consulting spend is bifurcating toward scaled integrators and narrow specialists, squeezing the generalist mid-market firm.
 * [Structuring AI Knowledge Systems Around Principles: Lessons from Building a Learning Engine](/sources/structuring-ai-knowledge-systems-around-principles-lessons-from-building.md) - Principles-first knowledge hierarchies beat retrieval by similarity for inference, per lessons from building the Helix learning engine.
+* [Powering Modern Enterprises Part 5: Build the Platform First](/sources/powering-modern-enterprises-part-5-build-the-platform-first.md) - Closing the Powering Modern Enterprises series, argues the platform layer must be built first or AI and data initiatives fail beneath it.
 * [Fort Worth Just Became a Tier-One AI City](/sources/fort-worth-just-became-a-tier-one-ai-city.md) - Wistron's $761M Fort Worth supercomputer project signals DFW has become load-bearing AI infrastructure.
+* [The Consulting Middle Is Disappearing. Which Side Are You On?](/sources/consulting-middle-disappearing.md) - AI-driven consulting spend is bifurcating toward scaled integrators and narrow specialists, squeezing the generalist mid-market firm.
 * [Calibrating Verification Depth to Query Stakes in AI Learning Systems](/sources/calibrating-verification-depth-to-query-stakes-in-ai-learning-systems.md) - Proposes consequence-driven verification: calibrating an AI system's verification depth to the real-world stakes of a query.
 * [Structured Recovery Orchestration for AI Agents: Beyond Retry](/sources/structured-recovery-orchestration-for-ai-agents-beyond-retry.md) - A seven-phase recovery pipeline that classifies agent failures and routes them beyond blind retry, warranted at ten-plus parallel agents.
 * [Data Is Not the Goal: The Knowledge-Insight-Action Chain](/sources/data-is-not-the-goal-the-knowledge-insight-action-chain.md) - Argues the value of data lies in the Data-to-Knowledge-to-Insight-to-Action chain, with governance as its load-bearing stage.
@@ -820,14 +1279,18 @@ Last updated: 2026-10-17
 * [The Single-Agent Ceiling: Why One AI Can't Hold Your Whole Delivery Lifecycle](/sources/the-single-agent-ceiling-why-one-ai-cant-hold-your-whole-delivery-lifecycle.md) - One AI agent hits a 15-50% improvement ceiling; specialized agents in an orchestrated pipeline break through it.
 * [The Scaffolding Just Got a Learning Rate](/sources/the-scaffolding-just-got-a-learning-rate.md) - Two 2026 papers give the scaffolding thesis a method: optimize the skill document with validation gates, and govern at runtime.
 * [The Scaffolding Is the Product: Why AI in Software Development Is a Systems Integration Problem](/sources/the-scaffolding-is-the-product-why-ai-in-software-development-is-a-systems.md) - LLM capability falls off on complexity like arithmetic, so differentiation lives in the engineering scaffolding around a commodity model.
+* [Observability-Driven Development](/sources/observability-driven-development-designing-observable-applications.md) - Treating observability as a post-deployment task yields more tooling and slower recovery; ODD makes it a day-one design concern.
 * [Dallas Just Topped D.C. Here's What That Actually Means](/sources/dallas-topped-dc.md) - Dallas is named North America's top tech hub, and O'Hara argues DFW's full AI stack makes it a primary market, not a secondary one.
+* [Improving Appoints Ashok Iyengar as Executive Vice President of Global Services](/sources/improving-appoints-ashok-iyengar-as-executive-vice-president-of-global-services.md) - Improving named Ashok Iyengar EVP of Global Services, a new role leading global services sales across 21 offices in three regions.
 * [DevOps Was Always a Trust Problem](/sources/devops-was-always-a-trust-problem.md) - Argues DevOps adoption stalled on organizational trust, not tooling, and that agentic AI repeats the same sequence.
 * [Code Without Requirements Is Just Expensive Guessing](/sources/code-without-requirements-is-just-expensive-guessing.md) - Argues that AI coding tools make missing requirements more costly, so specs and acceptance criteria must precede implementation.
 * [Building Career Wealth in IT: The Time-Horizon Model](/sources/building-career-wealth-in-it-the-time-horizon-model.md) - Compounding career behaviors organized into daily, weekly, and quarterly time horizons, framed as wealth rather than skill acquisition.
+* [Why AI Skills Are Now Part of the Product Owner’s Playbook](/sources/ai-skills-product-owners-playbook.md) - AI compresses the information-handling parts of product ownership, freeing POs to validate intent and impact over output.
 * [AI Readiness Is Mostly a Psychology Problem](/sources/ai-readiness-is-mostly-a-psychology-problem.md) - AI readiness is a mental-model problem, not a tooling one: adoption stalls until people shift how they relate to AI, trust, and accountability.
-* [Why Governance Doesn't Scale the Way You Think](/sources/governance-doesnt-scale.md) - Uniform AI governance fails because agents carry different risk profiles; treat governance as a detection system, not a compliance shield.
 * [Vocabulary Is a Force Multiplier: Why Naming Things Precisely Matters](/sources/vocabulary-is-a-force-multiplier-why-naming-things-precisely-matters.md) - Argues that precise naming turns costly concepts into cheap shorthand and is a leadership obligation.
 * [The Manifesto We Forgot We Were Following](/sources/the-manifesto-we-forgot-we-were-following.md) - The Agile Manifesto's trade-offs were context-specific responses; AI lifts the constraint, turning them into accumulated technical debt.
+* [Mexico, Memories, and my Improving100 Experience](/sources/mexico-memories-improving-100-experience.md) - A first-person account of winning an Improving 100 award and the recognition trip to Cancún, arguing recognition creates lasting memories.
+* [Why Governance Doesn't Scale the Way You Think](/sources/governance-doesnt-scale.md) - Uniform AI governance fails because agents carry different risk profiles; treat governance as a detection system, not a compliance shield.
 * [Career Capital in the Agentic Era](/sources/career-capital-in-the-agentic-era.md) - Which forms of career capital appreciate and depreciate as AI substitutes tasks, and where to invest.
 * [The Invoice Tells You Nothing](/sources/the-invoice-tells-you-nothing.md) - A fintech employee's $81,000 token day shows firms can see their AI bill but not the value.
 * [The Intelligent Software Factory](/sources/the-intelligent-software-factory.md) - The ALM loop reimagined as a software factory with AI at every station, governed by the Intelligence Operating System.
@@ -843,6 +1306,7 @@ Last updated: 2026-10-17
 * [The Project Manager's Evolution, Stage 3: Encoding the Craft](/sources/the-project-managers-evolution-stage-3-encoding-the-craft.md) - At Stage 3 the PM encodes personal delivery standards into reusable agents and shifts from producing artifacts to judging them.
 * [The Product Team's Evolution, Stage 3: Encoding the Craft](/sources/the-product-teams-evolution-stage-3-encoding-the-craft.md) - At Stage 3 product practitioners encode their standards into personal task agents, moving from producing artifacts to directing and reviewing them.
 * [The Engineer's Evolution, Stage 3: Directing the Work Instead of Doing It](/sources/the-engineers-evolution-stage-3-directing-the-work-instead-of-doing-it.md) - Stage 3 of the AI maturity series: engineers encode their standards into personal task agents and shift from typing to directing and reviewing.
+* [My AI Journey as a UX Designer](/sources/ux-designer-ai-journey.md) - A UX designer argues AI's real value is learning faster, not building faster; conversations, synthesis, and critique stay human.
 * [The Project Manager's Evolution, Stage 2: A Faster Status Report](/sources/the-project-managers-evolution-stage-2-a-faster-status-report.md) - Stage 2 of the project manager's AI maturity climb: assistants speed status writing, but judgment still decides what is true.
 * [The Product Team's Evolution, Stage 2: A Faster Draft for Everyone](/sources/the-product-teams-evolution-stage-2-a-faster-draft-for-everyone.md) - Stage 2 of the product team's AI maturity climb: capable assistants speed drafting, but gains stay personal and nothing compounds.
 * [The Engineer's Evolution, Stage 2: The Developer With an Assistant](/sources/the-engineers-evolution-stage-2-the-developer-with-an-assistant.md) - Frames an eight-stage AI maturity model and details Stage 2, where engineers use off-the-shelf assistants while the workflow stays unchanged.
@@ -860,11 +1324,14 @@ Last updated: 2026-10-17
 * [The AI Value Question Has an Answer Now](/sources/the-ai-value-question-has-an-answer-now.md) - Uber's budget burn exposed AI's proof problem; Cognition's $10M Devin productivity guarantee shows vendors betting their own money on measurability.
 * [From Doing to Defining, From Coding to Orchestrating](/sources/from-doing-to-defining-from-coding-to-orchestrating.md) - AI shifts knowledge work from doing to defining and from coding to orchestrating, but orchestrating still requires coding competence.
 * [False Dichotomies Are the Enemy of Progress](/sources/false-dichotomies-are-the-enemy-of-progress.md) - Argues that either/or framings in software and AI are false dichotomies that produce tribes instead of good outcomes.
+* [From Chatbots to Autonomous Commerce](/sources/agentic-ai-gemini-enterprise-agent-platform-retail-ecommerce.md) - Retail is shifting from rigid chatbots to agentic AI that acts across systems, but only with guardrails and a unified data foundation.
+* [Your Prompt Is a Cross-Border Data Transfer](/sources/your-prompt-is-a-cross-border-data-transfer.md) - Every prompt can fan out into cross-border data transfers, making AI sovereignty an architecture concern that needs per-request tracing.
 * [The Three Eras of Agile: Constraint, Synergy, Intent](/sources/the-three-eras-of-agile-constraint-synergy-intent.md) - Agile's practices track three eras defined by their binding constraint: human execution, AI synergy, and human intent.
 * [P.O.S.T.: Four Dimensions of AI-Native Delivery](/sources/p-o-s-t-four-dimensions-of-ai-native-delivery.md) - Recasts the Agile Manifesto's four trade-off values as multiplicative dimensions AI makes simultaneously achievable.
 * [Automation Is a Professional Obligation, Not an Optimization](/sources/automation-is-a-professional-obligation-not-an-optimization.md) - Automation is a professional baseline like testing, not an optional optimization, and the same discipline underpins trustworthy agentic AI.
 * [The P.O.S.T. AI World: Resetting the Agile Manifesto for the Age of Agents](/sources/the-p-o-s-t-ai-world-resetting-the-agile-manifesto-for-the-age-of-agents.md) - Argues AI dissolves the Agile Manifesto's scarcity trade-offs, turning 'over' into multiplication across three eras: Constraint, Synergy, and Intent.
 * [The Agile Manifesto Was Written for a World Without AI](/sources/the-agile-manifesto-was-written-for-a-world-without-ai.md) - The Agile Manifesto's trade-offs were responses to scarce human execution capacity; AI removes that scarcity, turning trade-offs into multiplications.
+* [Stop Treating Legacy Systems as the Enemy](/sources/stop-treating-legacy-systems-as-the-enemy.md) - Legacy systems are accumulated answers to real problems; modernize them as archaeology with automated tests, not as a total rewrite.
 * [Not Every Ticket Needs the $250,000 Engineer](/sources/not-every-ticket-needs-the-250000-engineer.md) - Route AI work by capability and cost per solved task, the way leaders staff people, instead of defaulting every request to the flagship model.
 * [The Woodshop-to-Factory Transition: Why Stage 3 Is Not a Small Step](/sources/the-woodshop-to-factory-transition-why-stage-3-is-not-a-small-step.md) - Moving to autonomous agents is a category change requiring factory infrastructure: boundaries, quality gates, audit trails, and error handling.
 * [The Skill Leveling Effect: What Happens When AI Helps Everyone Equally](/sources/the-skill-leveling-effect-what-happens-when-ai-helps-everyone-equally.md) - AI productivity gains skew to junior workers, compressing the performance gap and making judgment scarcer.
@@ -873,18 +1340,21 @@ Last updated: 2026-10-17
 * [The 2x2 AI Impact Matrix: What to Do Based on Where You Are](/sources/the-2x2-ai-impact-matrix-what-to-do-based-on-where-you-are.md) - A 2x2 of time impact and demand limit yields four AI prescriptions: Wait, Scale, Reduce Headcount or Grow the Role, and Do More.
 * [Lies, Lies, and Statistics: The Five Ways AI Gets Things Wrong](/sources/lies-lies-and-statistics-the-five-ways-ai-gets-things-wrong.md) - Hallucination is only one of five categories of AI mistruth, and each category needs a different defense.
 * [Two Ways AI Changes Your Job: Demand-Limited vs. Collapsable Tasks](/sources/two-ways-ai-changes-your-job-demand-limited-vs-collapsable-tasks.md) - Separates demand-limited tasks from collapsable tasks and prescribes role evolution versus role redefinition.
-* [Corporate Currency: The Hidden Social Economy of Organizations](/sources/corporate-currency-the-hidden-social-economy-of-organizations.md) - Frames organizational influence as an unwritten ledger of earned, given, and claimed currency governed by commitment reliability.
 * [70 Years of Tech Hype: What Failed Predictions Tell Us About the AI Economic Boom](/sources/seventy-years-of-technology-hype-what-failed-predictions-tell-us-about-the-ai-economic-boom.md) - Seventy years of overstated tech-economy forecasts, and why current AI GDP predictions repeat the same structural errors.
+* [Corporate Currency: The Hidden Social Economy of Organizations](/sources/corporate-currency-the-hidden-social-economy-of-organizations.md) - Frames organizational influence as an unwritten ledger of earned, given, and claimed currency governed by commitment reliability.
 * [Why Now: The Capability-Cost Inflection Point That Changes Everything](/sources/why-now-the-capability-cost-inflection-point-that-changes-everything.md) - AI capability keeps climbing on benchmarks while token prices reverse upward, making waiting for cheaper inference the expensive choice.
-* [The 8-Stage AI Trust Evolution: A Map for the Journey](/sources/the-8-stage-ai-trust-evolution-a-map-for-the-journey.md) - AI maturity is how much you can responsibly hand off, mapped across eight stages from Zero AI to Orchestrate, with infrastructure gating each transition.
 * [How AI Model Pricing Is Already Picking Organizational Winners — And What Leaders Should Do About It](/sources/the-meter-picks-the-winners.md) - Usage meters, tokenizer changes, and unrouted model selection are already sorting AI winners; cost per finished work is the metric to own.
+* [The 8-Stage AI Trust Evolution: A Map for the Journey](/sources/the-8-stage-ai-trust-evolution-a-map-for-the-journey.md) - AI maturity is how much you can responsibly hand off, mapped across eight stages from Zero AI to Orchestrate, with infrastructure gating each transition.
+* [Closing the AuthZ Gap in MCP: Policy-Driven Tool Invocation Control](/sources/mcp-authorization-policy-driven-tool-invocation-control.md) - MCP authorizes connectivity but not tool invocation; enforcing Kyverno policy on tool calls modeled as Kubernetes resources closes the gap.
 * [The AI Adoption Maturity Ladder: Which Rung Are You On?](/sources/the-ai-adoption-maturity-ladder-which-rung-are-you-on.md) - A four-rung AI adoption ladder — Ad-hoc, Experimentation, Strategic, Transformational — where most organizations sit on rung two but believe they are on three.
+* [Why AI Pilots Fail to Scale](/sources/why-ai-pilots-fail-to-scale.md) - AI pilots stall because the experience around them doesn't fit how people work; scaling needs workflow fit, trust, and measurable outcomes.
 * [The Audit Nobody Wanted](/sources/the-audit-nobody-wanted.md) - Companies that adopted AI indiscriminately now face bills that don't match business cases; adoption outran accountability, and only measurable use cases hold up.
 * [Labor Compression: The Right Economic Frame for AI](/sources/labor-compression-the-right-economic-frame-for-ai.md) - Labor compression, not job elimination, is the right frame for AI's workforce impact, and demand dynamics decide the outcome.
 * [Not ChatGPT — AI as a General Purpose Technology, Like Electricity or the Internet](/sources/not-that-gpt-ai-as-a-generally-productive-technology.md) - Treat AI as a general purpose technology, not a product, and executive questions shift from what it can do to how it changes economics.
 * [Why Projects Fail](/sources/why-projects-fail.md) - Project failure stems from misaligned business values, quality sacrificed for dates, and guesswork; the fix is communication, discipline, and trust.
 * [VSIX Installer: Fixing the PkgDefProjectOutputGroup Error](/sources/vsix-installer-fixing-the-pkgdefprojectoutputgroup-error.md) - A Visual Studio extension build error traced to URL-encoded semicolons in the .csproj IncludeOutputGroupsInVSIX element.
 * [Tools of the Trade](/sources/tools-of-the-trade.md) - A short personal list of gadgets Devlin Liles has been excited about, prompted by a new keyboard.
+* [Book Review: Being Geek](/sources/thoughts-book-review-being-geek.md) - A short, enthusiastic review of O'Reilly's Being Geek, praised for its career advice on interviews and negotiation.
 * [Starting Out in Ruby](/sources/starting-out-in-ruby.md) - First-night notes from a C# developer's Ruby apprenticeship: class methods, constructor overrides, and a study plan.
 * [SSRS Ad-Hoc Reporting: Dynamic RDLC with LINQ to XML](/sources/ssrs-ad-hoc-reporting-dynamic-rdlc-with-linq-to-xml.md) - A technique for building ad-hoc SSRS reports by loading a blank RDLC and injecting sub-report nodes dynamically with LINQ to XML.
 * [RhinoMocks and Constrained Expectations](/sources/rhinomocks-and-constrained-expectations.md) - A short C# post demonstrating RhinoMocks Matches() constraints, strict mocks versus stubs, and manual verification.
@@ -903,133 +1373,565 @@ Last updated: 2026-10-17
 * [Callback Pattern to the Rescue](/sources/callback-pattern-to-the-rescue.md) - A C# walkthrough of the Callback / Chain of Responsibility pattern for composing handlers that pass along unhandled callbacks.
 * [Building Technical Wealth — Dave Ramsey Style](/sources/building-technical-wealth-dave-ramsey-style.md) - Applies Dave Ramsey's baby-step wealth model to technical debt, starting with a Definition of Done and seven incremental steps.
 * [Books Every Developer Should Read](/sources/books-every-developer-should-read.md) - A short, ordered reading list of software-craftsmanship and DevOps books for developers, with brief rationale for each.
-* [Book Review: Being Geek](/sources/thoughts-book-review-being-geek.md) - A short, enthusiastic review of O'Reilly's Being Geek, praised for its career advice on interviews and negotiation.
+* [Data Debt Is the Real Reason Your AI Predictions Don’t Improve](/sources/data-debt-ai-predictions.md) - Argues AI reliability decay usually originates in inconsistent, ungoverned data pipelines rather than weak models, and prescribes data contracts, validation, and lineage.
+* [Bridging the Gap: How a Product Person Learned to Build With Agentic AI](/sources/bridging-the-gap-how-a-product-person-learned-to-build-with-agentic-ai.md) - A Scrum Master and product owner describes using the BMAD agent framework to build small apps, arguing business-side roles must touch the build to stay effective.
+* [Improving Accelerates LATAM Expansion with Addition of Costa Rica Nearshore Development Team](/sources/improving-acquires-costa-rica-nearshore-development-team.md) - Newsroom announcement of Improving's acquisition of Oceans Code Experts, adding a Costa Rica nearshore hub to its Latin American delivery model.
+* [Agent Memory Systems: Building Long-Term Context for AI](/sources/building-agent-memory-systems.md) - Explains agent memory architecture — short-term, episodic, semantic, and procedural layers — and the write-back loop, pruning, and compression that keep agents coherent.
 * [Before You Open Your Mouth](/sources/before-you-open-your-mouth.md) - Trust is decided before you speak: clients read your face and energy, so genuine care for the outcome is the only real answer.
+* [Building the Tech Backbone of Guadalajara's World Cup Future](/sources/building-the-tech-backbone-of-guadalajaras-world-cup-future.md) - Improving mentored 24 startups at CodeCup 2026, a Guadalajara innovation program tied to the FIFA World Cup, pairing each team with an engineer.
+* [Powering Modern Enterprises Part 3: Modern Applications for Resilient, Scalable Software](/sources/powering-modern-enterprises-part-4-modern-applications-for-resilient-scalable-software.md) - An Improving capability overview of modern application engineering: legacy modernization, cloud-native development, DevOps and platform engineering, and integration.
 * [The Line Item That Isn't There](/sources/the-line-item-that-isnt-there.md) - AI agent failures hide human cleanup costs that appear on no invoice, keeping true ROI invisible and unmanageable.
+* [Architecting the AI‑Driven Business Model: Beyond Automation](/sources/architecting-the-ai-driven-business-model-beyond-automation.md) - Argues an AI-driven business model is about redesigning how value is created and protected, not replacing tasks, with human oversight, data, and security as foundations.
+* [Embedding AI Into Daily Development: What Software Engineers Actually Learn](/sources/embedding-ai-into-daily-development.md) - Argues engineers should shift from Vibe Coding to Vibe Solving, with concrete AI workflows for specs, legacy migrations, investigation logs, and client transparency.
+* [Google Cloud Next ’26: Advancing Enterprise AI with Gemini, Agentic AI, and Strategic Partnerships](/sources/google-cloud-next-26-advancing-enterprise-ai-with-gemini-agentic-ai-and-strategic-partnerships.md) - Improving's Google practice leaders report that Google Cloud Next '26 marked a shift from AI experimentation to governed, agentic enterprise deployment.
+* [OWASP Top 10 for LLMs: A Practitioner’s Implementation Guide](/sources/owasp-top-10-llm-security-guide.md) - Walks the OWASP Top 10 for LLM Applications 2025 risk by risk, with detect, prevent, and test guidance for each.
+* [From “Tell Developers What To Build” To “Co‑Create With Machines”](/sources/from-tell-developers-what-to-build-to-co-create-with-machines.md) - Argues business-side roles should orchestrate value and co-create with AI, offering prompt, cross-functional experiment, and career-framing tactics.
+* [The ADA Compliance Deadline You’re Ignoring Was Last Week](/sources/the-ada-compliance-deadline-youre-ignoring-was-last-week.md) - Explains the ADA Title II WCAG 2.1 AA web accessibility deadline, its DOJ extension to April 2027, and practical tools for compliance work.
+* [Closing the SAP Data Gap: How CHROs Turn People Data into Informed Action](/sources/closing-the-sap-data-gap-how-chros-turn-people-data-into-informed-action.md) - Argues CHROs need SuccessFactors and S/4HANA data joined so workforce plans can be costed and defended in the boardroom alongside the CFO.
+* [Closing the SAP Data Gap: How CEOs Get Clear Business Insight](/sources/closing-the-sap-data-gap-how-ceos-get-clear-business-insight.md) - Argues CEOs get slow, siloed answers because SAP financial and operational data are not unified, and that trusted data must precede AI querying.
+* [Closing the SAP Data Gap: A COO’s Guide to Operational Visibility](/sources/closing-the-sap-data-gap-a-coos-guide-to-operational-visibility.md) - Argues COOs lose margin to siloed SAP and non-SAP data, and that embedding intelligence in the workflow beats dashboards that only show problems.
+* [Closing the SAP Data Gap: A CIO’s Guide to Clear, Connected Data](/sources/closing-the-sap-data-gap-a-cios-guide-to-clear-connected-data.md) - Argues CIOs should keep S/4HANA core clean by moving customizations to BTP, and use Business Data Cloud to join SAP with non-SAP data.
+* [Closing the SAP Data Gap: A CFO’s Guide to Financial Clarity](/sources/closing-the-sap-data-gap-a-cfos-guide-to-financial-clarity.md) - Argues SAP alone is not built for analysis, and that a modern analytics layer over it makes the close a moment of clarity instead of a spreadsheet scramble.
+* [Everyone Talks About Golden Paths. Nobody Talks About Building Them](/sources/building-golden-paths.md) - A maturity-first playbook for building a golden path incrementally — standardize, validate, GitOps, self-service — without a big platform team or budget.
+* [Powering Modern Enterprises Part 3: From Raw Data to Real Impact](/sources/powering-modern-enterprises-part-3-from-raw-data-to-real-impact.md) - An Improving capability overview of its Intelligent Data & Analytics practice across real-time systems, modernization, integration, BI, and governance.
+* [Why Most AI Training Fails](/sources/why-most-ai-training-fails.md) - Argues AI underdelivers because people were never taught interaction habits — context, iteration, verification — not because the tools are broken.
+* [Finding Home at Guadalajara Pride](/sources/finding-home-at-guadalajara-pride.md) - A personal account of attending Guadalajara Pride with Improving, arguing that genuine belonging is built deliberately rather than assumed.
+* [From AI Tools to AI Workflows: Building Systems That Scale Knowledge](/sources/from-ai-tools-to-ai-workflows-building-systems-that-scale-knowledge.md) - Argues AI delivers team leverage only when decisions are externalized into durable repo artifacts rather than chat sessions.
+* [Accelerating Scientific Research in the Public Sector](/sources/accelerating-scientific-research-in-the-public-sector.md) - Case study of a defense research agency's Research Accelerator Portal giving researchers self-service HPC, AI, and ML on Google Cloud.
+* [Powering Modern Enterprises Part 2: Practical AI for Business Success](/sources/powering-modern-enterprises-part-2-practical-ai-for-business-success.md) - Argues enterprise AI fails on business alignment, not technology, and pitches five AI use-case areas plus full-lifecycle services.
+* [Struggling to Deliver Done Work Every Sprint? Part 2: Stakeholder Pressure](/sources/struggling-to-deliver-done-work-every-sprint-part-2-stakeholder.md) - Advice for handling urgent stakeholder requests: make trade-offs explicit, let the team choose what gives, and record the change.
 * [Beyond Writing: Madman, Architect, Carpenter, Judge](/sources/beyond-writing-madman-architect-carpenter-judge.md) - Betty Flowers's four writing roles — Madman, Architect, Carpenter, Judge — generalize to any complex thinking, and their sequencing is the real insight.
+* [Enterprise Business Intelligence: A Guide to Strategy, Adoption, and Impact](/sources/enterprise-business-intelligence-guide-to-strategy-adoption-impact.md) - Guide arguing BI succeeds on trusted data and a semantic layer rather than tools, with failure statistics and a four-phase lifecycle.
+* [Improving and Cognition Announce Strategic Partnership to Shape the Future of Autonomous AI Software Development](/sources/improving-and-cognition-announce-strategic-partnership.md) - Improving partners with Cognition to deploy Devin and Windsurf, guiding enterprises through its 8-stage AI maturity model.
+* [Cost Optimization in Amazon ECS: Leveraging Spot Instances the Right Way](/sources/cost-optimization-in-amazon-ecs.md) - Shows how ECS Capacity Providers blend On-Demand baseline with Spot scale-out to cut container costs up to 90% without losing reliability.
+* [How CAMH Transformed Research Computing with Improving's Cloud Research Accelerator Portal on Google Cloud](/sources/how-camh-transformed-research-computing-with-improvings-cloud-research.md) - Case study of CAMH extending on-prem HPC with a governed Google Cloud Research Accelerator Portal, cutting costs about 40%.
+* [The AI Reckoning in Healthcare: What Payers Can't Afford to Ignore](/sources/the-ai-reckoning-in-healthcare-what-payers-cant-afford-to-ignore.md) - Q&A with Scott Poulin on payer AI: governance first, state-by-state rules, CMS interoperability, and owning the AI you license.
+* [From Denied Claims to Shadow AI: A Provider's Guide to Getting AI Right](/sources/from-denied-claims-to-shadow-ai-a-providers-guide-to-getting-ai-right.md) - Q&A with Scott Poulin on provider AI: revenue cycle discipline, clinical documentation, tool integration, and shadow AI risk.
+* [Backup and Restore Kubernetes Resources Across vClusters using Velero](/sources/backup-and-restore-kubernetes-resources-across-vclusters-using-velero.md) - A step-by-step guide to migrating Kubernetes workloads between vCluster virtual clusters using Velero with the Azure provider.
+* [Your Most Privileged User Isn't Human - And Your Platform Doesn't Know That Yet](/sources/platform-security-governance-ai-agents.md) - Argues platforms must extend identity, policy, and decision attribution to AI agents as a new class of privileged operator.
+* [Powering Modern Enterprises: An Overview of Improving's Expertise](/sources/powering-modern-enterprises-an-overview-of-improvings-expertise.md) - An overview of Improving's practice across AI, intelligent data and analytics, and modern applications, framed around business outcomes.
+* [When MCP Is Not The Right Choice](/sources/when-mcp-is-not-the-right-choice.md) - Argues Model Context Protocol is powerful when needed but expensive over-engineering otherwise, with a decision framework and red flags.
+* [End-to-End Observability with Prometheus, Grafana, Loki, OpenTelemetry and Tempo](/sources/end-to-end-observability-with-prometheus-grafana-loki-opentelemetry-tempo.md) - A hands-on guide to deploying an open-source metrics, logs, and traces stack on Kubernetes as a cheaper alternative to ELK.
+* [Women of Improving: Building Belonging in Tech](/sources/women-of-improving-building-belonging-in-tech.md) - Describes Improving's Women of Improving initiative — global and local events, community outreach, and belonging for women in tech.
+* [Vibes Aren't a Strategy: Engineering Context in the Age of AI](/sources/vibes-arent-a-strategy-engineering-context-in-the-age-of-ai.md) - Argues vibe coding breaks down at scale and teams must engineer durable 'living context' rather than rely on prompts.
+* [Why Human Judgment Matters More Than Ever in the Age of AI](/sources/why-human-judgment-matters-more-than-ever-in-the-age-of-ai.md) - Daniel Scheufler argues AI elevates technical leadership, shifts the delivery bottleneck, and threatens the junior engineer pipeline.
+* [AI Agents Are Entering the Workforce. Is Your Data Ready?](/sources/ai-agents-are-entering-the-workforce-is-your-data-ready.md) - Argues autonomous agents act across systems end to end, so data must be clean, integrated, and governed before deploying them.
+* [Engineering Behind the Color: Software for a Global Paint Brand](/sources/engineering-behind-the-color-software-for-a-global-paint-brand.md) - A global paint brand built a secure internal RAG assistant on Azure AI, succeeding by fixing messy legacy data and refining how users ask questions.
+* [Building Trust at the Intersection of Science, AI, and Food Innovation](/sources/building-trust-at-the-intersection-of-science-ai-and-food-innovation.md) - How the Institute of Food Technologists and Improving co-developed Sous, an Azure AI platform for food scientists designed around trust and non-training data.
+* [Struggling to Deliver Done Work Every Sprint? Part 1: Dependencies](/sources/struggling-to-deliver-done-work-every-sprint-part-1-dependencies.md) - Argues dependencies are a project-management holdover, and that the fix is a focused one-Sprint experiment proving a team can ship done work together.
+* [Improving and Mako Financial Technologies Bring Workflow Intelligence and Operational Transparency to Wealth Managers](/sources/improving-and-mako-financial-technologies-bring-workflow.md) - Partnership announcement pairing Mako's wealth-management workflows with Improving's analytics to expose cycle times, bottlenecks, and accountability.
+* [AI Strategy & Roadmap Assessment: How Enterprises Avoid 88% AI Failure](/sources/ai-strategy-and-roadmap-assessment.md) - A guide arguing AI failure is an execution problem, with engagement models, data-readiness questions, KPIs, and partner-vetting criteria to avoid pilot purgatory.
+* [Offshore Engagement Models: 7 Options Compared for Cost & Risk](/sources/offshore-engagement-models.md) - Compares seven offshore engagement models — fixed price, dedicated team, T&M, staff augmentation, managed services, SLA/milestone, and hybrid — by cost, control, and risk.
+* [Designing for Impact: Why Outcomes Matter More Than Outputs](/sources/designing-for-impact-why-outcomes-matter-more-than-outputs.md) - Argues design should be measured by behavior change and business results, not artifacts shipped, with a cart-abandonment example and steps to become outcome-driven.
+* [What Nobody Tells You About Golden Paths at Scale](/sources/what-nobody-tells-you-about-golden-paths-at-scale.md) - Golden paths nail onboarding but become a platform-team bottleneck at scale; the fix is a governed marketplace where domain teams contribute capabilities.
+* [From the Floor to the Finale: My CodeLaunch Experience](/sources/from-the-floor-to-the-finale-my-codelaunch-experience.md) - A first-person account of the CodeLaunch World Championship, a zero-equity startup accelerator produced by Improving with free MVP builds.
+* [Security: The Thing That Everyone Loves to Hate](/sources/security-the-thing-that-everyone-loves-to-hate.md) - Argues cloud-native security must be everyone's responsibility, mapping the developer, security, PM, platform, and leadership lenses and the culture that connects them.
+* [Culture Over Code: Why Conscious Companies Will Thrive in the Age of AI](/sources/culture-over-code-why-conscious-companies-will-thrive-in-the-age-of-ai.md) - Argues AI transforms tasks but not talent, and that conscious capitalism's four pillars plus reskilling make the difference between thriving and eroding trust.
 * [Skin in the Game: The Cost of Free](/sources/skin-in-the-game-the-cost-of-free.md) - Argues that free events and products lower commitment, and that a small price raises attendance and engagement.
+* [Celebrating Leadership Growth at Improving](/sources/celebrating-leadership-growth-at-improving.md) - Announces six internal leadership promotions across Texas, Houston, and Mexico, underscoring Improving's practice of growing leaders from within.
 * [Ship Faster with AI Series](/sources/ship-faster-with-ai-series.md) - Recap of an Improving video series building a real feature with AI tooling live, episode by episode.
+* [2025 Come Together: A Year of Connection and Collective Impact](/sources/2025-come-together-a-year-of-connection-and-collective-impact.md) - A year-in-review of Improving's Come Together initiative: monthly themes, global talks, cultural celebrations, and a charity pitch competition.
+* [Top Reasons AI Projects Fail #10: Ignoring Ethics & Compliance](/sources/top-reasons-ai-projects-fail-10-ignoring-ethics-and-compliance.md) - Final entry in the AI failure series arguing projects fail on oversight, not algorithms, when ethics, compliance, and regulation are afterthoughts.
+* [How To Choose the Best Offshore Software Development Partner?](/sources/how-to-choose-best-offshore-software-development-partner.md) - Twelve-point vetting guide for offshore partners — technical depth, delivery maturity, security, legal, stability — plus a full evaluation questionnaire.
+* [Top Reasons AI Projects Fail #9: Unrealistic Expectations](/sources/top-reasons-ai-projects-fail-9-unrealistic-expectations.md) - Argues over-promising 'sci-fi' outcomes kills AI projects, and that transparent roadmaps, baselines, and value burnups keep incremental progress fundable.
+* [Best MCP Servers for Software Developers and Engineers](/sources/best-mcp-servers-for-software-developers-and-engineers.md) - A curated, categorized list of Model Context Protocol servers for DevOps, testing, observability, databases, and security, plus production hardening practices.
+* [AI Cloud: What, Why, and How?](/sources/ai-cloud-what-why-and-how.md) - An explainer on AI Cloud: on-demand AI infrastructure and services, its components, challenges, major platforms, and industry applications.
+* [Top 10 Reasons AI Projects Fail #8: No Ownership or Maintenance](/sources/no-ownership-or-maintenance.md) - Argues AI models are living systems that decay without ownership, MLOps, telemetry, and SLAs, and prescribes lifecycle practices to sustain them.
+* [Top 10 Reasons AI Projects Fail #7: Poor Integration Planning](/sources/poor-integration-planning.md) - Argues dazzling AI demos fail in production without early integration design — auth, security, observability, and embedding into existing workflows.
+* [Data Management for AI in the Cloud](/sources/data-management-for-ai-in-the-cloud.md) - A practitioner guide to cloud data management for AI: ingestion, lakehouse storage, preparation, governance, and cost control.
+* [Best Countries to Outsource Software Development in 2026 (Cost, Talent & Time Zones)](/sources/best-places-to-outsource-software-teams.md) - Region-by-region comparison of outsourcing hubs on cost, talent, time zones, and stability, with a partner-vetting checklist.
+* [Top 10 Reasons AI Projects Fail #6: Overambitious Scope](/sources/overambitious-scope.md) - AI pilots stall when teams try to build everything at once; scope for a 12-week win and a thin vertical slice instead.
+* [Top 10 Reasons AI Projects Fail #5: Reinventing the Wheel](/sources/reinventing-the-wheel.md) - Teams waste a year rebuilding foundation-model and SaaS capabilities; start near the shelf and customize only where it defends value.
+* [Migrating to SharePoint Without Going Crazy: A Step-By-Step Guide](/sources/migrating-to-sharepoint-without-going-crazy-a-step-by-step-guide.md) - A six-step SharePoint migration guide that treats the move as a change-management journey, not just a technical project.
+* [How Improving Elevates MSP Solutions for SMBs and Mid-Market Companies](/sources/how-improving-elevates-msp-solutions-for-smbs.md) - A vendor guide to choosing a managed service provider: pricing models, SLAs, security, and engagement cadence for SMBs.
+* [Top 10 Reasons AI Projects Fail #4: Lack of Talent and Team Alignment](/sources/lack-of-talent-and-team-alignment.md) - The 'AI wizard in the corner' builds brittle, unowned solutions; lasting AI needs a cross-functional squad and a named business owner.
+* [Best Offshore Software Development Companies: Buyer's Guide & Comparison](/sources/offshore-software-development-companies.md) - A buyer's guide profiling 16 offshore delivery partners and the criteria for choosing one by depth, governance, and fit.
+* [Top 10 Reasons AI Projects Fail #3: Garbage In, Garbage Out](/sources/garbage-in-garbage-out.md) - Bad data makes AI confidently wrong; run readiness assessments, data contracts, and CI quality gates before modeling.
+* [How to Fail at Platform Engineering](/sources/how-to-fail-at-platform-engineering.md) - Six ways internal developer platforms fail — product misfit, complexity, bloat, poor docs, silos, stagnation — and how to avoid them.
+* [Guadalajara Nearshore Guide 2025: How Mexico's Silicon Valley Powers Global IT Outsourcing](/sources/guadalajaras-tech-revolution.md) - Why Guadalajara has become a leading nearshore hub: talent pipeline, investment, cost savings, and how to hire there.
+* [The Evolution of WYSIWYG Editors](/sources/the-evolution-of-wysiwyg-editors-from-html-builders-to-rich-text.md) - How WYSIWYG editing shifted from HTML page builders to structured rich-text composers, and what was lost along the way.
+* [Top 10 Reasons AI Projects Fail - #2: Undefined Success Metrics](/sources/undefined-success-metrics.md) - Without KPIs defined before sprint one, AI projects track activity instead of value; lock metrics, instrument telemetry, review every sprint.
+* [Top 10 Reasons AI Projects Fail - #1: Starting Without a Problem](/sources/starting-without-a-problem.md) - Eight in ten AI projects miss expectations because they start with technology, not a defined problem; anchor every initiative in a measurable outcome.
+* [UX at the Table: Elevating PI Planning with Service Design](/sources/ux-at-the-table-elevating-pi-planning-with-service-design.md) - A UX lead's account of facilitating a Service Design Blueprint during PI Planning to map the full install workflow and surface gaps.
+* [Nearshore Software Development Partners: How to Choose the Right One in 2026](/sources/nearshore-software-development-services-partners.md) - A guide to evaluating nearshore partners: when nearshore beats onshore or offshore, selection criteria, and 12 leading LATAM providers.
+* [The Role of AI in Modern Managed Services](/sources/the-role-of-ai-in-modern-managed-services.md) - How AI is reshaping managed services through proactive monitoring, real-time security, task automation, and better support.
+* [Nearshore Outsourcing Explained: Benefits, Models, and Top LATAM Locations](/sources/unlocking-the-benefits-of-nearshore-outsourcing.md) - Defines onshore, nearshore, and offshore models and argues nearshore balances cost, proximity, and time-zone alignment in LATAM.
+* [Top 10 Reasons AI Projects Fail (and How to Avoid Them)](/sources/top-10-reasons-ai-projects-fail.md) - Improving's ten recurring AI failure patterns and the five delivery disciplines that flip the eight-in-ten failure rate.
+* [AI Algorithm Bias: Why Awareness is Key](/sources/ai-algorithm-bias-why-awareness-is-key.md) - AI bias comes from data, design, and leading questions; awareness, governance, and fact-checking are the first defenses.
+* [Improving Named Confluent Enablement Partner of the Year for AMER](/sources/improving-named-confluent-enablement-partner-of-the-year.md) - Improving's 2025 Confluent Enablement Partner of the Year award and the event, workshop, and AI migration work behind it.
+* [Rethinking Intelligence: From Brains to Systems](/sources/rethinking-intelligence-from-brains-to-systems.md) - Argues human intelligence scaled through external tools, symbolic storage, collaboration, and governance, so AGI needs systems, not just bigger models.
+* [Is Training Still Worth It?](/sources/is-training-still-worth-it.md) - Argues training pays off only when measured by changed behavior and outcomes, and lays out alternatives to traditional instructor-led courses.
+* [Unleash Real-Time Agentic AI with Streaming Agents on Confluent Cloud and Improving](/sources/unleash-real-time-agentic-ai-with-streaming-agents-on-confluent-cloud.md) - Describes Confluent's Streaming Agents and Real-Time Context Engine, which build event-driven, observable agents on managed Flink and Kafka.
+* [Improving is recognized as the Winner of the 2025 Confluent Enablement Partner of the Year - AMER](/sources/improving-2025-confluent-enablement-partner-of-the-year.md) - Newsroom announcement that Confluent named Improving its 2025 Enablement Partner of the Year for AMER.
+* [Why Customer Onboarding Is the Most Important Project MSPs Run](/sources/why-customer-onboarding-is-the-most-important-project-msps-run.md) - Argues customer onboarding is the most strategic project an MSP runs, setting the tone for trust and long-term partnership.
+* [Unlocking the Power of Confluent Cloud with Code Explorer](/sources/unlocking-the-power-of-confluent-cloud-with-code-explorer.md) - Pitches migrating from AWS MSK to Confluent Cloud, using Improving's AI-powered Code Explorer to accelerate the move.
+* [Inside Our Product Backlog Creation Lab](/sources/inside-our-product-backlog-creation-lab.md) - Describes Improving's facilitated Product Backlog Creation Lab and how one data science team used it to align and prioritize work.
+* [Improving the Future: Reflections on Our AI Summer Camp](/sources/improving-the-future-reflections-on-our-ai-summer-camp.md) - Recaps Improving's three-part AI Summer Camp teaching Houston students and parents to use AI responsibly as a thought partner.
+* [UX by Everyone Part 4: Outcomes & Leadership](/sources/ux-by-everyone-part-4-outcomes-and-leadership.md) - Final UX by Everyone installment argues leaders should move organizations up the UX maturity model by shifting from features to outcomes.
+* [The Magic of Belonging: Improving Las Vegas Retreat 2025](/sources/the-magic-of-belonging-improving-las-vegas-retreat-2025.md) - First-person account of Improving's 2025 Las Vegas retreat and how the company-wide gathering built belonging across continents.
+* [The Evolution of QA: From Software to Data Engineering](/sources/the-evolution-of-qa-from-software-to-data-engineering.md) - Argues QA has always been about data correctness, and that its scope now spans event streams, cloud services, and ML pipelines.
+* [Modernizing ETL Pipelines: Why Enterprises Are Migrating from Informatica to Confluent & Databricks](/sources/etl-modernization-informatica-to-confluent-databricks.md) - Argues legacy Informatica ETL is a bottleneck and lays out a migration path to Confluent and Databricks for real-time analytics.
+* [The Future of Behavioral AI: Predictions and Emerging Trends](/sources/the-future-of-behavioral-ai-predictions-and-emerging-trends.md) - Surveys behavioral AI's drivers, emerging trends, and predictions, and flags privacy, bias, transparency, and autonomy concerns.
+* [Know Your Developer: DX Strategies for Internal vs External Developers](/sources/know-your-developer.md) - Argues developer experience needs distinct playbooks for external and internal developers, using a Find-Investigate-Run-Ship-Transform journey.
+* [From Reactive to Proactive: How an MSP Can Help Prevent Problems Before They Start](/sources/how-an-msp-can-help-prevent-problems-before-they-start.md) - Argues MSPs should shift clients from break-fix IT to proactive monitoring, maintenance, and strategic planning.
+* [How AI Helped a Federal Health Agency Transform Medical Device Reporting](/sources/federal-health-agency-medical-device-ai-transformation.md) - Case study of automating a federal health agency's medical device adverse-event intake on Google Cloud, cutting weeks to hours.
+* [How Generative AI is Revolutionizing Application Security](/sources/how-generative-ai-is-revolutionizing-application-security.md) - Surveys how AI moves application security from detection to context-aware remediation, and the adoption challenges that remain.
+* [Claude and Notion Just Automated My Entire Product Workflow](/sources/claude-and-notion-product-workflow-automation.md) - A product manager recounts connecting Claude to Notion via MCP to turn a PRD into 39 categorized, dated tasks in ten minutes.
+* [Improving Acquires MangoChango, a Guatemala-Based Software Company](/sources/mangochango-acquisition.md) - Newsroom announcement of Improving's acquisition of MangoChango, adding a Guatemala development hub and pushing revenue past $300M.
 * [It's Simple, Right?](/sources/its-simple-right.md) - O'Hara argues that oversimplifying others' actions breeds bad stories, and proposes a rational-human question to lead with empathy.
+* [Effective Data Lineage Strategies for Real-Time Systems](/sources/effective-data-lineage-strategies-for-real-time-systems.md) - Argues real-time systems need runtime lineage, and lays out a metadata model, OpenTelemetry collection, and OpenLineage as a standard.
+* [AI in the Cloud: Benefits, Challenges, and Best Practices](/sources/ai-in-the-cloud-benefits-challenges-and-best-practices.md) - Explains how AI and cloud computing combine, listing applications, benefits, challenges, and ten adoption best practices.
+* [The Importance of Effective Communication in Remote Working](/sources/the-importance-of-effective-communication-in-remote-working.md) - Argues remote teams misread agreement as alignment, and that trust and psychological safety must be built deliberately.
 * [Don’t Let the Past Hold the Pen](/sources/dont-let-the-past-hold-the-pen.md) - Adlerian psychology and a divorce-care anecdote argue the past informs but need not define the story you tell about yourself.
+* [Business Process Automation Tools: AI Solutions in the Real World](/sources/business-process-automation-tools-ai-solutions-in-the-real-world.md) - Case study: automating 100,000 invoices a year with Microsoft's prebuilt model, validation checks, and human review of exceptions.
+* [How Improving Champions a Collaborative Environment Throughout a Global Company](/sources/how-improving-champions-a-collaborative-environment-throughout-a-global.md) - Describes four Improving programs — Come Together, PATH, ImprovingU, and the Las Vegas retreat — that keep 19 offices collaborative.
+* [Board Members](/sources/board-members.md) - Newsroom notice that Improving appointed Vasu Sarangapani and Raghu Chandra to its board of directors.
+* [Key Fundamentals of AI Development](/sources/key-fundamentals-of-ai-development.md) - A primer on AI development: AI types, learning paradigms, deep learning, languages, frameworks, and ethical challenges.
+* [Improving 100: A Wild Adventure of Gratitude and Connection](/sources/improving-100-a-wild-adventure-of-gratitude-and-connection.md) - First-person account of the 2024 Improving 100 recognition trip to Cancún and the cross-border connection it built.
+* [I'm a Scrum Master Looking for Work, What Other Roles Should I Consider?](/sources/im-a-scrum-master-looking-for-work-what-other-roles-should-i-consider.md) - Advises Scrum Masters facing layoffs to pivot to consulting, BRM, DevOps, or change management — and to help with AI adoption.
+* [Transforming Healthcare with AI: From Data Overload to Intelligent Patient Care On Google Cloud](/sources/transforming-healthcare-with-ai-from-data-overload-to-intelligent.md) - Case study of an AI patient records system Improving built on Google Cloud for a Canadian health authority.
+* [Slaying the Dragon: Tips for Legacy Application Modernization](/sources/slaying-the-dragon-tips-for-legacy-application-modernization.md) - A staged playbook for legacy modernization: test first, split coupled code, introduce patterns, then change internals.
+* [AI Basics to Make Working Easier](/sources/ai-basics-to-make-work-life-easier.md) - Argues you don't need AI expertise to benefit: automate friction, treat AI as a thinking partner, and keep validating.
+* [Designing a GCP Cloud ETL Pipeline for 10TB/Day with Sub-Second Latency](/sources/designing-a-gcp-cloud-etl-pipeline.md) - Architecture of a serverless GCP ETL pipeline handling 10TB/day at roughly 600ms latency via GCS, Pub/Sub, Dataflow, and BigQuery.
+* [The AI-Enhanced Scrum Master](/sources/the-ai-enhanced-scrum-master.md) - Argues AI is a Scrum Master's tactical edge: transcribe meetings, mine sprint metrics, and co-facilitate retrospectives.
+* [Humans, Agents, Time, and Tools: Redefining the Future of Work](/sources/humans-agents-time-and-tools-redefining-the-future-of-work.md) - Argues LLM agents are junior coworkers that automate tasks not jobs, with a client case lifting leads from $1B to $14B.
 * [Where Is My Mind?](/sources/where-is-my-mind.md) - Reframing rumination: changing the questions you ask turns mental replays of the past into forward-looking learning.
 * [Speaking in Romania](/sources/speaking-in-romania.md) - Reflections on speaking about conscious capitalism and company culture to business students in Bucharest.
+* [Designing an On-Prem ETL Pipeline for 10TB/day with Sub-Second Latency Using Spark, Kafka, and Hive](/sources/designing-an-on-prem-etl-pipeline-for-10tb-day-with-sub-second-latency.md) - Shows a sub-second, 10TB/day on-prem ETL pipeline built on Kafka, Spark Structured Streaming, and Hive.
+* [Data Streaming World Tour in Review: An Improving Perspective](/sources/data-streaming-world-tour-in-review-an-improving-perspective.md) - Recap of Improving's Confluent Data Streaming World Tour sponsorship, the Medtronic story, and Flink workshops.
+* [Simplify Fastly CDN with Improving's Terraform Module](/sources/simplify-fastly-cdn-with-improvings-terraform-module.md) - Introduces Improving's open-source terraform-fastly-service module for managing Fastly CDN configuration as code.
+* [What You Don't Change, You Choose](/sources/what-you-dont-change-you-choose.md) - Uses 'what you don't change, you choose' to argue non-cross-functional teams are choosing delays and dependencies.
+* [Multiple Environments with Terraform](/sources/multiple-environments-with-terraform.md) - Compares DRY multi-environment Terraform approaches and recommends a Terragrunt structure with global and per-env configs.
+* [Drupal and Your MVC Framework](/sources/drupal-and-your-mvc-framework.md) - Argues for decoupling Drupal into a headless CMS that serves REST endpoints to flexible front-ends, mobile apps, and BI systems.
+* [Ensure Trace Integrity with OpenTelemetry: StatefulSets, Helm, and Load Balancing](/sources/ensure-trace-integrity-with-opentelemetry.md) - Shows how load-balancing collectors plus a StatefulSet backend fix the fragmented traces that break tail sampling in Kubernetes.
+* [UX Team Integration: Better Product Teams through Shared Principles](/sources/ux-team-integration-better-product-teams-through-shared-principles.md) - Argues that integrating UX into product teams through adaptable shared principles yields more cohesive, user-centered delivery.
 * [What Are You Full Of?](/sources/what-are-you-full-of.md) - What spills out when others bump into you reveals what you carry; intentional rest and reflection shape that response.
 * [Find What You Seek](/sources/find-what-you-seek.md) - Fulfillment is not passive: it comes from effort aligned with purpose, not ease.
+* [DragonSpears Acquisition](/sources/dragonspears-acquisition.md) - Improving acquires Chicago software developer DragonSpears, extending its Midwest presence and pushing annualized revenue past $285M.
+* [Boosting Security in the AI Era: How Improving Leads the Charge](/sources/boosting-security-in-the-ai-era-how-improving-leads-the-charge.md) - Argues AI-era security starts with modernizing legacy code and adopting memory-safe languages, then securing AI platforms end to end.
+* [How to Measure the Success of a Learning Strategy](/sources/how-to-measure-the-success-of-a-learning-strategy.md) - Lays out a three-tier metric stack — learning activity, performance, and business outcomes — for evaluating a learning strategy.
 * [Health Journey: Augment](/sources/health-journey-augment.md) - O'Hara adopts a sauna-and-cold-plunge protocol at a nearby recovery studio and learns cold exposure after lifting blunted his gains.
+* [How to Grow Software Teams with Nearshoring](/sources/growing-software-teams-with-nearshoring.md) - Explains how culture and structured communication make nearshore Latin American teams work, with five practices for scaling them.
+* [How I Enabled “At Least Once” Delivery from MQTT5 to a Kafka Topic](/sources/how-i-enabled-at-least-once-delivery-from-mqtt5-to-a-kafka-topic.md) - Details the MQTT5 session-persistence and manual-ack changes needed to guarantee at-least-once delivery from MQTT into Kafka.
+* [Of Pagers and Exceptions](/sources/of-pagers-and-exceptions.md) - Traces how an HTTP 500 becomes a 3 a.m. page and lays out layered pre- and post-release mitigations for REST API reliability.
+* [Resilient Hybrid Kafka: Automating On-Prem Deployments with Confluent Cluster Linking](/sources/resilient-hybrid-kafka-automating-on-prem-deployments-with-confluent.md) - Case study of a regulated Fortune 100 client using on-prem Confluent Platform and Confluent Cloud cluster linking for zero-downtime event capture.
+* [Why Your Power BI Reports Are Slow — And How a Custom Connector with Query Folding Can Fix It](/sources/why-your-power-bi-reports-are-slow.md) - Explains query folding in Power BI and why a custom connector with a compatible driver speeds reports and cuts storage cost.
+* [Transforming Financial Planning: From SAP BPC to SAP Analytics Cloud (SAC)](/sources/transforming-financial-planning-from-sap-bpc-to-sap-analytics-cloud-sac.md) - Moves an energy company off SAP BPC to SAP Analytics Cloud and Improving's xi.Planning packages for real-time financial planning.
+* [Designing for Success: Kicking Off a New Project the Right Way](/sources/designing-for-success-kicking-off-a-new-project-the-right-way.md) - A design leader's five-phase recipe for project kickoffs, from discovery and scope through strategy, collaboration, and early deliverables.
+* [Improving CEO Curtis Hite Named Finalist for EY Entrepreneur Of The Year® 2025 Southwest Award](/sources/curtis-hite-named-finalist-for-ey-entrepreneur-of-the-year.md) - News that Improving CEO Curtis Hite was named a 2025 EY Entrepreneur Of The Year Southwest finalist, recognizing the firm's growth.
+* [How A Global Healthcare Manufacturer Transformed Production Lines with Real-Time IoT Insights](/sources/how-a-global-healthcare-manufacturer-transformed-production-lines.md) - Medtronic used Kafka, Confluent Cloud, and IoT data to replace paper-based production tracking with real-time pipelines and predictive maintenance.
+* [Azure Synapse Notebooks and Spark Temporary Storage](/sources/azure-synapse-notebooks-and-spark-temporary-storage.md) - Shows how Synapse notebooks can pass data between called notebooks via Spark temporary views, avoiding round trips to the data lake.
+* [Improving's Acquisition of InfraCloud Boosts Development Capabilities in Asia](/sources/infracloud-acquisition.md) - Improving acquires Pune-based InfraCloud, extending its cloud-native and AI services into Asia and pushing revenue past $270M.
+* [Empowering Thrivent’s Data-Driven Future](/sources/empowering-thrivents-data-driven-future.md) - Argues Databricks and Confluent together give financial services real-time, governed analytics, illustrated with Thrivent's platform.
+* [Is QA Really Worth the Investment?](/sources/is-qa-engineer-really-worth-the-investment.md) - Argues QA is a strategic safeguard, not a cost center, and explains how to keep it from becoming a budget sinkhole.
+* [Switch from OpenAI to Amazon Bedrock](/sources/switch-from-openai-to-amazon-bedrock.md) - A migration guide from OpenAI to Amazon Bedrock covering ecosystem fit, model choice, cost savings, and API differences.
+* [Maximizing Tech Investments: The Power of Multi-ERP Consolidation](/sources/maximizing-tech-investments-the-power-of-multi-erp-consolidation.md) - Argues multi-ERP consolidation via SAP Central Finance and Snowflake unifies financial data, cutting duplication and manual reporting.
 * [Going Deep: Learning to dig in and find your thing](/sources/digging-deep.md) - Using a Feynman quote, O'Hara argues depth and curiosity beat surface skimming, and urges focusing on what you want to do.
+* [Deciding Among the Titans of Test Automation: A Playwright vs. Selenium vs. Cypress Showdown](/sources/deciding-among-the-titans-of-test-automation.md) - Compares Playwright, Selenium, and Cypress on browser support, language bindings, speed, and ecosystem to guide tool selection.
+* [How I Enabled “At Least Once” Delivery from MQTT5 to Kafka Topic](/sources/how-i-enabled-at-least-once-delivery-from-mqtt5-to-kafka-topic.md) - Shows how MQTT5 session persistence and manual acknowledgements achieve at-least-once delivery from MQTT to a Kafka topic.
+* [Micro Frontends: Are They the Future?](/sources/micro-frontends-are-they-the-future.md) - Weighs micro frontends' team autonomy and isolation benefits against their DevOps, performance, and organizational costs.
+* [Java Enums for Better Code](/sources/java-enums-for-better-code.md) - Shows how to use Java enums as objects with constructors and lambdas to collapse scattered lookup tables into one source of truth.
+* [South America: Your Next Strategic Move for IT Consulting Success](/sources/south-america-your-next-strategic-move-for-it-consulting-success.md) - Gives five reasons to outsource IT to South America, anchored by Improving's LenioLabs acquisition in Argentina and Chile.
+* [Why Your Power BI Reports Are Slow — And How a Custom Connector with Query Folding Can Fix It](/sources/why-your-power-bi-reports-are-slow-and-how-a-custom-connector.md) - Explains why Power BI reports slow down and how custom connectors with query folding push transformations to the source.
+* [Implementing an Effective Learning Strategy for Your Company](/sources/implementing-an-effective-learning-strategy-for-your-company.md) - Argues a learning strategy must align training to business objectives and measure ROI in organizational results, not headcount.
+* [International Women's Day 2025](/sources/international-womens-day-2025.md) - Four Improving women share what being a woman in tech means, how they stay motivated, and advice for women starting out.
+* [Customer Success: The Key to Growth for Technology Consulting Companies](/sources/customer-success-the-key-to-growth-for-technology-consulting-companies.md) - Frames customer success as a growth driver for consultancies, spanning retention, metrics, culture, and data.
+* [The Future of Career Learning: Grow, Connect, Compete](/sources/the-future-of-career-learning-grow-connect-compete.md) - Compares in-person, live virtual, and self-paced learning, and argues learning must translate into practiced skills and team impact.
+* [Elevating Your Organization's Design Maturity for Lasting Impact](/sources/elevating-your-organizations-design-maturity-for-lasting-impact.md) - Argues design is a strategic asset, and that design maturity grows by prioritizing outcomes, collaboration, and design thinking.
+* [Embracing Cloud-Native Project Management with Microsoft Planner](/sources/embracing-cloud-native-project-management-with-microsoft-planner.md) - Traces Microsoft's project-management history and pitches the rebuilt cloud-native Planner, including Copilot AI and Teams integration.
+* [Using Data to Make Informed Decisions](/sources/using-data-to-make-informed-decisions.md) - Argues scattered business data only becomes decision-ready once it is transformed, findable, and accurate — a job AI now helps with.
+* [Unlocking the Potential of Power Pages](/sources/unlocking-the-potential-of-power-pages.md) - Introduces Power Pages as a low-code way to build external websites and portals on the Microsoft ecosystem, with Copilot assistance.
+* [From Home to Office: A Journey of Flexibility and Team Bonding](/sources/from-home-to-office.md) - A consultant's journal of flex work, showing how in-office days drive collaboration and bonding while home days enable deep work.
 * [Health Journey: Current State](/sources/health-journey-current-state.md) - A snapshot of O'Hara's current supplement, peptide, exercise, eating, and sleep protocols, with the caveat that it is not advice for others.
+* [Building a Line-of-Business application with Microsoft 365](/sources/building-a-line-of-business-application-with-microsoft-365.md) - A case study of building a contract lifecycle management system on Microsoft 365 in two months and 275 hours for under $30,000.
+* [Empowering IT Projects with Modern Delivery Frameworks](/sources/empowering-it-projects-with-modern-delivery-frameworks.md) - Pitches Improving's ACT Framework as a structured delivery approach that raises project success rates and stakeholder trust.
 * [Health Journey: Update](/sources/health-journey-update.md) - O'Hara argues for data-driven, individualized health experimentation, citing Outlive and differing glucose responses to identical meals.
+* [Modern Collaboration Gets Social with Viva Engage](/sources/modern-collaboration-gets-social-with-viva-engage.md) - Introduces Viva Engage as a social layer for employee engagement, community building, and knowledge sharing alongside Teams.
 * [It's Not You, It's Me](/sources/its-not-you-its-me.md) - O'Hara argues our responses shape others' behavior, so changing how we react is a more effective lever than trying to change them.
+* [How AI is Enabling the Agile Values](/sources/how-ai-is-enabling-the-agile-values.md) - Shows how AI with well-crafted prompts can draft product visions, personas, and backlog items to improve Agile conversations.
+* [Using Low/No-Code AI to Revolutionize Knowledge Management](/sources/using-low-no-code-ai-to-revolutionize-knowledge-management.md) - Argues low/no-code AI copilots built in Copilot Studio can turn scattered corporate knowledge into natural-language Q&A.
 * [Resilience as a leadership skill](/sources/resiliency-as-a-leader.md) - Argues resilience is a buildable leadership skill, cultivated through growth mindset, self-care, and a supportive organizational culture.
+* [Exploring the Learning Secrets of Neural Networks Using Entropy and Complexity](/sources/exploring-the-learning-secrets-of-neural-networks.md) - Uses Shannon entropy and statistical complexity to explain how a neural network's weights shift from disorder to order during training.
 * [Health Journey: HealthSpan - Update](/sources/health-journey-healthspan-update.md) - O'Hara quits rapamycin after side effects, confirming them with a half-dose retrial, while still endorsing HealthSpan as a provider.
+* [A Guide for Aspiring Technology Leaders](/sources/a-guide-for-aspiring-technology-leaders.md) - Advises individual contributors on becoming technology leaders through mastery, mentorship, accountability, and servant leadership.
 * [Building Operational Visions for Improving](/sources/operational-visions.md) - How to write an annual operational vision: present-tense outcomes, a small drafting team, and concrete measures.
 * [Growing into Leading Remote](/sources/remote-leadership.md) - Argues leaders must adapt themselves to remote work rather than resist it, and asks how to build connection across a dislocated team.
+* [Value Prop is Not Just for Marketing](/sources/value-prop-is-not-just-for-marketing.md) - Uses a bakery metaphor to argue a clear Employee Value Proposition helps candidates self-select and eases recruiting and retention.
 * [Flagging People](/sources/understanding-people.md) - Some people harm others deliberately and some by honest mistake; teaching a child to tell them apart without cynicism is hard.
+* [Data Storage in a Concurrent World](/sources/data-storage-in-a-concurrent-world.md) - Uses a seat-booking race to explain why concurrent systems must partition data by causal relationship to get well-ordered events.
+* [Respecting and Rewriting Our Legacy](/sources/respecting-and-rewriting-our-legacy.md) - Argues legacy systems deserve respect but should be modernized by value and pain points, not rebuilt line by line.
+* [Back to Basics: The Value of Statistical Machine Learning Today](/sources/back-to-basics-the-value-of-statistical-machine-learning-today.md) - Argues classical statistical ML (regression, trees, SVMs) remains valuable for interpretability, speed, and validating generative AI.
+* [Creating Inclusive Digital Experiences: A Guide to Accessibility](/sources/creating-inclusive-digital-experiences-a-guide-to-accessibility.md) - Outlines four foundational accessibility practices — keyboard navigation, form labeling, alt text, and color/font sizing per WCAG.
 * [Health Journey: Healthspan and Rapamycin](/sources/health-journey-healthspan.md) - O'Hara explains rapamycin's mTOR and autophagy mechanism, cites Peter Attia's influence, and starts a weekly protocol through HealthSpan.
+* [Engineering Scalable AI Platforms: Strategies for Sustain and Reuse](/sources/engineering-scalable-ai-platforms-strategies-for-sustain-and-reuse.md) - Lays out the components of a scalable AI platform: data management, model management, MLOps, observability, and governance.
+* [Beyond Cost Savings: How Mexico Talent Drives Innovation](/sources/beyond-cost-savings-how-mexico-talent-drives-innovation.md) - Argues nearshore Mexico offers innovation, not just cost savings, through its tech hubs, proximity, and government support.
+* [Building the Enterprise of Tomorrow: Productivity Thru Gen-AI Training](/sources/building-the-enterprise-of-tomorrow-productivity-thru-gen-ai-training.md) - Argues enterprise gen-AI adoption needs a structured six-step framework and human-in-the-loop oversight, citing Klarna and Amazon.
+* [AI Agentic Workflows in Business: The Evolution of AI Chatbots](/sources/ai-agentic-workflows-in-business-the-evolution-of-ai-chatbots.md) - Explains agentic workflows: foundational models plus RAG, structured JSON/XML outputs, and supervisor and router components.
+* [Achieving Self-Service and Data Independence in an SAP World](/sources/achieving-self-service-and-data-independence-in-an-sap-world.md) - Argues SAP Datasphere's business data fabric and knowledge graph can free users from IT-gated SAP reporting.
+* [GraphRAG Systems: The Future of Information Retrieval?](/sources/graphrag-systems-the-future-of-information-retrieval.md) - Explains GraphRAG's knowledge-graph retrieval, its roughly 10x cost over naive RAG, and query routing to balance cost and quality.
+* [Empowering Your Data Estate: Modern Practices for Data Quality](/sources/empowering-your-data-estate-modern-practices-for-data-quality.md) - Argues data quality is a governed, cultural asset, with seven foundations, four maturity levels, and named tooling.
+* [Business Transformation Through Microsoft Fabric: New Era of Data Analytics](/sources/business-transformation-through-microsoft-fabric-new-era-of-data.md) - Profiles Microsoft Fabric's unified SaaS analytics platform: OneLake, Data Factory, Copilot, Power BI, and real-time analytics.
+* [Leveraging Multi and Hybrid Architectures for Next-Gen Platform Engineering](/sources/leveraging-multi-and-hybrid-architectures-for-next-gen-platform.md) - Weighs multi-cloud and hybrid-cloud drivers — resilience, lock-in, compliance, cost — against their operational complexity.
+* [APIs and the Walls They Build: Do Good Fences Make Good Neighbors?](/sources/apis-and-the-walls-they-build-do-good-fences-make-good-neighbors.md) - Uses Frost's Mending Wall to argue APIs are fences that shape organizational behavior, so design them for the neighbors you want.
+* [Real-Time Data Done Right](/sources/real-time-data-done-right.md) - Argues event-driven architectures must be built with governance, observability, and developer experience from the start.
+* [Improving Boosts South American Development Services with Leniolabs Acquisition](/sources/improving-expands-footprint-with-leniolabs-acquisition.md) - Reports Improving's acquisition of Leniolabs, extending development services into South America and revenue past $280M.
+* [Microsoft Fabric: OneLake Provides a Unified Data Lake](/sources/microsoft-fabric-onelake-provides-a-unified-data-lake.md) - Microsoft Fabric's OneLake unifies files and structured data into one governed lake, organized into business domains with endorsement for trust.
+* [Improving Recognized As An Integral Technology Partner In Client Testimonial From NCLH’s Emerging Technologies & Innovation Team](/sources/improving-recognized-as-integral-technology-partner-from-nclh.md) - NCLH's innovation team publicly credits Improving Ottawa as an integral partner in a multi-year modernization of its reservation platform.
+* [AI-Powered Enterprise Transformation: AI Roadmaps and High-Value Use Cases](/sources/ai-powered-enterprise-transformation-ai-roadmaps-and-high-value-use.md) - A webinar recap on building an AI roadmap: stage the organization's maturity, pick high-value use cases by clear criteria, and fix data foundations first.
+* [Embracing a Learning Mindset... in Development and Life](/sources/embracing-a-learning-mindset-in-development-and-in-life.md) - A learning mindset — ongoing curiosity — is what keeps a long software career interesting, while boredom at work traces to running out of things to learn.
+* [How to Tell If Your Data Platform Is Actually Modern](/sources/how-to-tell-if-your-data-platform-is-actually-modern.md) - A modern data platform is an interoperable ecosystem — separated storage and compute, smart storage, and governance — not a single tool or trend.
+* [Improving Opens New Canadian Headquarters in Toronto, Ontario](/sources/improving-opens-new-canadian-headquarters-in-toronto-ontario.md) - Improving opened its Canadian headquarters in Toronto, part of a three-year expansion from 49 Calgary employees to 400 across Canada.
+* [How to Keep a Secret](/sources/how-to-keep-a-secret.md) - The best way to keep secrets is to have fewer of them — eliminate, then scope, then detect — because every storage mechanism trades one risk for another.
+* [Platform Engineering Excellence: Streamlining Cloud, Data, and App Integration](/sources/platform-engineering-excellence-streamlining-cloud-data-and-app.md) - Platform engineering builds a centralized self-service platform so developers ship features instead of managing complex infrastructure.
+* [Teams Premium: Is It Worth It?](/sources/teams-premium-is-it-worth-it.md) - Teams Premium's advanced security, meeting, and webinar features may justify its $10-per-user monthly price for organizations that live in Teams.
+* [A Weekend of Connection and Celebration: Improving Retreat 2024](/sources/a-weekend-of-connection-and-celebration-improving-retreat-2024.md) - A first-person account of Improving's 2024 Las Vegas retreat, where 400 Improvers from the US, Canada, and Mexico spent four days building connection.
 * [Stories & Villains](/sources/stories-villains.md) - Argues we cast ourselves as heroes, and that seeing another's viewpoint is how we stop being the villain.
+* [How Technology is Holding Back Business Value](/sources/how-technology-is-holding-back-business-value.md) - Technology becomes a hindrance when adopted without strategic alignment, clear ROI, or maintenance — the 'technology paradox'.
+* [Why Successful Software Projects Require More Than Technical Skills](/sources/why-successful-software-projects-require-more-than-technical-skills.md) - Successful software projects hinge on communication and understanding business goals, not just technical skill.
+* [Maximizing Developer Productivity, Security and Operational Efficiency with Platform Engineering](/sources/maximizing-developer-productivity-security-and-operational-efficiency.md) - Platform engineering, built on internal developer platforms, extends DevOps and SRE with self-service standardized environments, backed by industry statistics.
+* [CoPilot For Microsoft Teams: A Smart Assistant](/sources/copilot-for-microsoft-teams-a-smart-assistant.md) - A practitioner's case that Copilot's Teams meeting transcription and summarization alone justifies the roughly $30/month M365 Copilot cost.
+* [Accessibility is a Winning Strategy for Inclusive UX Design](/sources/accessibility-is-a-winning-strategy-for-inclusive-ux-design.md) - Accessibility is a winning strategy, not a checkbox: designing for disabled users improves usability, SEO, and market reach for everyone.
+* [Improving’s Partnership With Couchbase: Revolutionizing Documentation With An AI Chatbot](/sources/improvings-partnership-with-couchbase-revolutionizing-documentation.md) - Improving Vancouver built an AWS Bedrock and LangChain chatbot that lets Couchbase users query documentation in plain language.
+* [Drucker's Blueprint: Product Owner to Effective Executive Pt. 3](/sources/druckers-blueprint-product-owner-to-effective-executive-pt-3.md) - Future executives are trained by hands-on practice, and the Product Owner role during an agile transformation is a ready-made testbed for those skills.
 * [The Ceiling of Brute Force](/sources/the-ceiling-of-brute-force.md) - O'Hara reflects on the limit where working harder stops producing growth, and describes an attention-tracking and decision-delegation experiment to break through it.
+* [UX Maturity: A Holistic Approach to Design](/sources/ux-maturity-a-holistic-approach-to-design.md) - Design maturity is how deeply design is embedded in an organization's culture and decisions, and reaching it takes leadership commitment, not just hiring designers.
+* [Drucker's Blueprint: Product Owner to Effective Executive Pt. 2](/sources/druckers-blueprint-product-owner-to-effective-executive-pt-2.md) - The Product Owner's effectiveness depends not on their own work but on working through others — a core skill of Drucker's effective executive.
+* [Improving Named Best Workplace for Millennials](/sources/improving-named-best-workplace-for-millennials.md) - Improving ranked 28th on Great Place to Work and Fortune's 2024 Best Workplaces for Millennials, with 700 millennial employees citing growth and community.
+* [Cloud Computing in 2024: The Complete Guide](/sources/cloud-computing-in-2024-the-complete-guide.md) - FAQ guide to 2024 cloud computing: quantum, green data centers, serverless, AI, and security risks.
+* [Our 15th Year on Inc. 5000](/sources/our-15th-year-on-inc-5000.md) - Improving lands on the Inc. 5000 list for a 15th time, with CEO Curtis Hite advising fellow honorees.
+* [Drucker's Blueprint: Product Owner to Effective Executive Pt. 1](/sources/druckers-blueprint-product-owner-to-effective-executive-pt-1.md) - Reads the Product Owner role through Drucker's Effective Executive: turning local process wins into systemic value.
 * [Reading and Thinking](/sources/reading-and-thinking.md) - A reflection on reading widely and deliberately seeking unfamiliar books to expand the perspectives and ideas one can think with.
+* [Viva Engage: A New Era of Employee Engagement](/sources/viva-engage-a-new-era-of-employee-engagement.md) - Viva Engage (successor to Yammer) builds community and culture in hybrid work, distinct from Teams' project focus.
+* [Introducing the Amazon Timestream for LiveAnalytics Prometheus Connector](/sources/introducing-the-amazon-timestream-for-liveanalytics-prometheus.md) - How the Amazon Timestream Prometheus Connector makes Timestream a Prometheus remote store via one-click CloudFormation.
 * [How Do You Handle Being Wrong?](/sources/how-do-you-handle-being-wrong.md) - O'Hara lays out a five-step executive playbook for owning mistakes, diagnosing causes, correcting them, and extracting lessons.
+* [Leading Without the Leadership Title](/sources/leading-without-the-leadership-title.md) - Six behaviors that let anyone lead without a formal title, from proactive collaboration to building trust.
+* [Raising the Bar for Scrum Mastery](/sources/raising-the-bar-for-scrum-mastery.md) - ScrumMatch finds 38% of Scrum Masters barely understand Scrum; Improving counters with assessment, training, and mentorship.
+* [Improving Announces Acquisition of Imaginet](/sources/improving-acquires-imaginet.md) - Improving acquires Imaginet, a Microsoft-focused consultancy, pushing annualized revenue past $280 million.
+* [Parallels Between Consulting and Parenting](/sources/parallels-between-consulting-and-parenting.md) - Consulting mirrors parenting: give guidance not answers, create psychological safety, and let repetition build skill.
 * [Tech Education](/sources/tech-education.md) - Argues tech education is disconnected from industry and that consulting firms can help bridge the gap.
+* [Transformative Insights - Enhancing Development Effectiveness Through Scrum Certification](/sources/transformative-insights-enhancing-development-effectiveness-through.md) - A PSM I course reframes the Increment: each sprint must ship something users can actually use.
+* [Is KeyDB 5x Faster than Redis? We Tested!](/sources/is-keydb-5x-faster-than-redis.md) - Benchmarks show Redis in multi-threaded mode outperforms KeyDB, contradicting KeyDB's '5x faster' claim.
+* [My Improving 100 Experience](/sources/my-improving-100-experience.md) - An honoree recounts the Improving 100 recognition trip to Cancún and the belonging it built.
 * [Maintaining Your Energy in Leadership](/sources/maintaining-your-energy-in-leadership.md) - Argues leaders must manage personal energy through ruthless prioritization, self-renewal, and a culture of openness and empathy.
+* [KEDA: The Gold Standard for Kubernetes Autoscaling](/sources/keda-the-gold-standard-for-kubernetes-autoscaling.md) - KEDA brings event-driven autoscaling to Kubernetes, including scale-to-zero, as a CNCF-graduated project.
+* [How To Modernize Your Application: A Catalyst for Business Transformation](/sources/how-to-modernize-your-application-a-catalyst-for-business.md) - Part 3 of the modernization series: DevOps maturity, monolith-to-microservices decomposition, and containerization.
+* [Key Steps to Making Application Modernization Successful](/sources/key-steps-to-making-application-modernization-successful.md) - Part 2 of the modernization series: evaluating systems, the 7 R strategies, and preparing for cultural change.
 * [Happiness vs Joy](/sources/happiness-vs-joy.md) - Happiness is momentary; joy is rooted in purpose and lasts longer, so pursue your 'why' rather than fleeting highs.
+* [What is Application Modernization and Why Does Your Business Need It?](/sources/what-is-application-modernization-and-why-does-your-business-need-it.md) - Part 1 of the series: what makes an application legacy or modern, and why modernization pays off.
+* [Agile Mythbusting: Debunking the 'Agile is Dead' Narrative](/sources/agile-mythbusting-debunking-the-agile-is-dead-narrative.md) - Agile isn't dead — it's become ubiquitous infrastructure, argues a 22-year veteran agile coach.
+* [Unit Testing Apache TinkerPop Transactions: From TinkerGraph to Amazon Neptune](/sources/unit-testing-apache-tinkerpop-transactions-from-tinkergraph-to-amazon.md) - Using transactional TinkerGraph (3.7.0) to unit test TinkerPop transactions cheaply instead of hitting Neptune.
 * [Being Client-Centric and Building Trust in Consulting](/sources/being-client-centric-in-consulting.md) - Client-centric consulting rests on clarifying expectations, creating transparency, and listening first to build trust and lasting relationships.
+* [Drop Everything and Review](/sources/drop-everything-and-review.md) - Code review is a 'middle loop' between inner and outer dev loops; treat reviewing as top priority (DEAR).
 * [Compelling Narratives - storytelling in the consulting business](/sources/compelling-narratives.md) - Storytelling's structure, not its content, is what turns a consulting solution into client buy-in and trust.
+* [Co-development in Power BI: Version Control and Continuous Integration and Continuous Delivery (CI/CD)](/sources/co-development-in-power-bi-version-control-and-continuous-integration.md) - Power BI Project files and Fabric developer mode bring Git version control and CI/CD to Power BI reports.
 * [4 Roles: Madman, Architect, Carpenter, and Judge](/sources/madman-architect-carpenter-and-judge.md) - Applies Betty Flowers' four-role writing model, separating idea generation from organization, refinement, and critique.
+* [Leveraging SAP Analytics Cloud through Custom Widgets](/sources/leveraging-sap-analytics-cloud-through-custom-widgets.md) - How to build and register custom widgets in SAP Analytics Cloud with JS, CSS, and JSON files.
+* [How Agile Learning Transformed Our Internal Academies](/sources/how-agile-learning-transformed-our-internal-academies.md) - Improving replaced lecture-style internal academies with self-managed eduScrum learning teams run in weekly cycles.
 * [Forbes: Why People Skills Are Still Important In The Age of AI](/sources/forbes.md) - A short announcement linking to O'Hara's Forbes article arguing people skills still matter in the AI age.
+* [Unveiling the Future of AI at Google Cloud Next '24](/sources/unveiling-the-future-of-ai-at-google-cloud-next-24.md) - A conference recap of Google Cloud Next '24: JAX, multimodal embeddings, Gemini 1.5, and Workflows GenAI connectors.
 * [Status Quo - the way things are](/sources/status-quo.md) - A short reflection urging readers to reassess the current state objectively rather than assume it is stable.
+* [Lead with Purpose: A Guide to Delegation](/sources/lead-with-purpose-a-guide-to-delegation.md) - Heuristics for deciding what to delegate: one-way vs two-way doors, scraped knees vs broken bones, and delegation poker.
 * [Navigating Strategic Risk-Taking - balancing ambition and caution](/sources/navigating-strategic-risk-taking.md) - Argues leaders must balance ambition with caution, using risk assessment, data, and assumptions lists to make strategic decisions.
+* [My Adventure Through Google Cloud Next 2024](/sources/my-adventure-through-google-cloud-next-2024.md) - A Google Partner's recap of Next 2024: AI agents, the Gemini suite, Workspace AI, data analytics, and AI infrastructure.
 * [Prepare vs Position - what position do you find yourself in](/sources/prepare-vs-position.md) - When you know what's coming, prepare; when you don't, position — and positioning is built from small daily habits, not big decisions.
+* [Navigating Conscious Leadership in Your Everyday Life](/sources/navigating-conscious-leadership-in-your-everyday-life.md) - The fourth Conscious Capitalism pillar applied personally: leadership as awareness, empowerment, and enablement.
+* [UX by Everyone Pt 1: The UX Mindset](/sources/ux-by-everyone-pt-1-the-ux-mindset.md) - Opens a series arguing UX is everyone's responsibility, tracing design from the Bauhaus to Don Norman's user experience.
 * [Growth Lines - periodicity of growth and the effort needed](/sources/growth-lines.md) - Growth is non-linear, arriving in bursts with a downward-sloping plateau; decay is what comes naturally, so improvement costs effort.
 * [People Watching - and maybe they're watching you](/sources/people-watching.md) - Inventing stories about strangers reveals more about the storyteller's own values, biases, and fears than about the people observed.
+* [Multi-Cloud Strategies for Developers](/sources/multi-cloud-strategies-for-developers.md) - Argues multi-cloud is becoming best practice and maps it to Well-Architected Framework pillars plus governance and interoperability.
+* [Four Pivotal Generative AI Trends That Impact Your Business in 2024](/sources/four-pivotal-generative-ai-trends-that-impact-your-business-in-2024.md) - Names four 2024 generative-AI trends: incumbent maneuvers, startup funding, corporate RAG experimentation, and text-to-video.
+* [Simplify Stream Processing With Serverless Apache Flink® From Confluent & Improving](/sources/simplify-stream-processing-with-serverless-apache-flink.md) - Announces Confluent's serverless Apache Flink GA, paired with managed Kafka across AWS, Azure, and Google Cloud.
 * [Interstitial Space - its the space between the big things](/sources/interstitial-spaces.md) - O'Hara argues that innovation and creativity live in the unplanned gaps between scheduled, 'meaningful' activities — spaces we keep destroying.
+* [Clients Do Not Buy Tests or Beautiful Code](/sources/clients-do-not-buy-tests-or-beautiful-code.md) - Argues clients buy solved problems, not clean code, so developers must speak the client's domain language.
 * [Tiny Thought: Commitments - handling commitments better](/sources/tiny-thought.md) - Leaders should ask people for their own commitment and hold them to that, not to the leader's expectation.
+* [Empowering Women in Technology for a Brighter Future](/sources/empowering-women-in-technology-for-a-brighter-future.md) - Makes the business case for women in tech and offers recruitment and retention tactics, citing NCWIT, McKinsey, and BCG data.
+* [Make Invalid States Unrepresentable](/sources/make-invalid-states-unrepresentable.md) - Walks from String to Int to constrained and tagged types, showing how type choices eliminate invalid values.
+* [Cultivating Conscious Culture Within Your Personal Life](/sources/cultivating-conscious-culture-within-your-personal-life.md) - Applies Conscious Capitalism's third pillar personally, choosing a few culture qualities aligned to a personal purpose.
+* [Diving the Mosaic: Embracing Multiculturalism at Improving](/sources/diving-the-mosaic-embracing-multiculturalism-at-improving.md) - Argues multicultural teams are a strategic necessity and describes practices for power distance, communication, and inclusion.
+* [Primary Constructors (C# 12 Syntactic Sugar): A Guide](/sources/primary-constructors-c-12-syntactic-sugar-a-guide.md) - Explains C# 12 primary constructors and their pitfalls: parameters are not fields, not inherited, and not read-only.
+* [Echoes of the Future of Knowledge Management: Powered by AI](/sources/echoes-of-the-future-of-knowledge-management-powered-by-ai.md) - Describes Echo, Improving's AI knowledge base that uses RAG and multiple LLMs to make institutional knowledge discoverable.
+* [Conscious Scrum](/sources/conscious-scrum.md) - Applies Conscious Capitalism to Scrum, concluding tech stories are the best way to pay down significant technical debt.
 * [Gaming for the Right Things: Measures and goals need to align to get the right behaviors](/sources/gaming-for-the-right-things.md) - People game whatever they're measured against, so leaders must pick metrics aligned to goals.
+* [Unlocking the Power of Conscious Capitalism's Stakeholder Orientation Within Your Life](/sources/unlocking-the-power-of-conscious-capitalisms-stakeholder.md) - Applies stakeholder orientation personally: identify stakeholder groups, make impact measurable, and keep relationships reciprocal.
 * [Surface Area of Your Life - it's why you're busy](/sources/surface-area.md) - Argues chronic busyness comes from too much life surface area, not too little time.
+* [What This Senior Developer Learned From His First Big Rust Project](/sources/what-this-senior-developer-learned-from-his-first-big-rust-project.md) - Lessons from a five-day Rust IoT MVP: tiny binaries, mDNS discovery, and error-handling debt from overusing .unwrap().
 * [An Equation for Change: Dedication + Transformation = Illumination](/sources/an-equation-for-change.md) - O'Hara frames sustained dedication plus deliberate transformation as the path to illumination—wisdom, not mere knowledge.
+* [Leaning Into Types](/sources/leaning-into-types.md) - Argues that replacing boolean flags with dedicated types lets the compiler enforce sanitization and legal state.
 * [Group Size Matters - be sure your audience matches your intent](/sources/group-size-matters.md) - The 8-18-1800 rule: match group size to intent — 8 for conversation, 18 for ideas, 1800 for a cause.
+* [Unveiling the Power of Conscious Capitalism’s Higher Purpose in Your Own Life](/sources/unveiling-the-power-of-conscious-capitalisms-higher-purpose.md) - Applies Conscious Capitalism's higher-purpose pillar to individuals, urging a purpose statement and work/life integration.
+* [Six Tech Trends That Defined 2023](/sources/six-tech-trends-that-defined-2023.md) - A year-in-review of 2023's defining tech trends: generative AI, security and privacy, quantum, robotics, health tech, and sustainability.
 * [Health Journey: Function Health [Update]](/sources/health-journey-function-health-update.md) - O'Hara reports cutting nearly 7.5 years off his biological age in six months while using Function Health, crediting supplements, recovery, and diet.
+* [How to Secure Your Business During the Holiday Season](/sources/how-to-secure-your-business-during-the-holiday-season.md) - A checklist of holiday-season cybersecurity practices, from patching and MFA to phishing vigilance and incident response planning.
 * [Wow versus Wonder](/sources/wow-versus-wonder.md) - Distinguishes fleeting 'wow' moments from enduring 'wonder', arguing leaders should fuse both to sustain curiosity and growth.
 * [Whoop &amp; Recovery: Recent learning about how to boost it](/sources/whoop-recovery.md) - Reading 30 minutes before bed noticeably raised the author's HRV and recovery, per his WHOOP data.
+* [Improving Achieves Outstanding Customer Satisfaction with an NPS of 78%](/sources/improving-achieves-outstanding-customer-satisfaction-with-an-nps-of-78.md) - Improving announces a 78% Net Promoter Score from 32 client interviews, with 81% of interviewees rating it 9 or higher.
 * [Writing & Thinking; why writing is what's saving us from GPT](/sources/writing-and-thinking.md) - Argues writing forces deep reasoning, so using AI to shortcut writing risks making us less effective thinkers.
+* [Making Sense of SCRAM SHA-256 Authentication in MongoDB](/sources/making-sense-of-scram-sha-256-authentication-in-mongodb.md) - Walks through MongoDB's default SCRAM SHA-256 authentication: the four-message flow and how client and server proofs are computed.
 * [A Snake and Kindness: A harsh tale about reality and desire](/sources/a-snake-and-kindness.md) - A parable from Natural Born Killers warns against expecting people to act against their nature or as we wish.
+* [My 18-Month Journey to PST Certification](/sources/my-18-month-journey-to-pst-certification.md) - Lisa Lueck's account of earning Scrum.org's Professional Scrum Trainer certification, stressing time management, resilience, and support.
+* [What Improvers Are Thankful For This Year](/sources/thanksgiving-2023.md) - Improvers share what they are grateful for professionally and personally, highlighting culture, PATH, community, and family.
 * [Leading with empathy and building a better culture](/sources/leading-with-empathy.md) - O'Hara argues empathy is the driving force behind effective leadership, and that concrete rituals turn it into a healthier team culture.
 * [Optimal Stopping (Secretary Problem) & Decision Making](/sources/optimal-stopping.md) - Leaders who decide well recognize when to stop analyzing and accept uncertainty rather than chase the single best option.
+* [Adopting Azure – First Steps of Migrating to the Cloud](/sources/adopting-azure-first-steps-of-migrating-to-the-cloud.md) - Applies Microsoft's Cloud Adoption Framework to early Azure migration: network isolation, resource organization, tagging, and naming.
+* [Building Bonds Beyond Borders: Viva La Retreat](/sources/vegas-retreat-2023.md) - A first-person account of Improving's 2023 Las Vegas retreat, where 400+ Improvers built cross-enterprise relationships.
 * [Emotions - follow your passion and feelings is poor advice](/sources/emotions.md) - Feelings should be felt but not obeyed; following passion inverts cause and effect, since competence produces passion.
+* [Developer of the Future](/sources/developer-of-the-future.md) - Argues the developer of the future is a polylingual full-stack generalist building reactive, message-driven systems on managed platforms.
 * [Overheard today...sharing something I heard today because I think it's impactful](/sources/overheard-today.md) - A new acronym, LIE — Limiting Idea Entertained — prompts the point that we choose whether limiting ideas constrain us.
+* [SAP Datasphere BW Bridge – The Way to the Cloud](/sources/sap-datasphere-bw-bridge-the-way-to-the-cloud.md) - Explains how SAP Datasphere's BW Bridge lets SAP BW customers reuse extractors and ETL while moving to a cloud data fabric.
 * [Path of Least Resistance](/sources/path-of-least-resistance.md) - Small, frictionless shortcuts compound like a meandering river, bending a life off course; doing hard things consistently is a force multiplier.
-* [Profound Impacts](/sources/profound-impacts.md) - Fixing a problem with people is not the same as fixing code: you must listen, own the mistake, and actually say 'I'm sorry.'
+* [Elevating Developer Experience: Maersk's Path to a More User-Centric Internal Development Platform](/sources/elevating-developer-experience-maersks-path-to-a-more-user-centric.md) - Draws lessons from Maersk's 18-24 month internal developer platform build, arguing IDPs are products designed user-centrically.
+* [Profound Impacts](/sources/profound-impacts.md) - Fixing a problem with people is not the same as fixing code: you must listen, own the mistake, and actually say 'I'm sorry.
+* [Overcoming Imposter Syndrome: A Retrospective on My First Consulting Experience](/sources/overcoming-imposter-syndrome-a-retrospective-on-my-first-consulting.md) - A new consultant recounts overcoming imposter syndrome through feedback-seeking, embracing uncertainty, and owning success.
+* [Enabling SSO Authentication for Argo CD with GitLab or GitHub](/sources/enabling-sso-authentication-argo-cd.md) - A step-by-step guide to wiring Argo CD SSO through GitLab or GitHub OAuth using the bundled Dex identity provider, plus common errors.
 * [Health Journey: Toniiq](/sources/health-journey-toniiq.md) - O'Hara trials lesser-known supplements from Toniiq, drops 10 lbs in two weeks, then retracts his recommendation over supply unreliability.
 * [Courage](/sources/courage.md) - Courage is a cultivated virtue, not an innate trait: it grows through deliberate practice, facing fears, and shared vulnerability.
+* [Fast and Furious IV](/sources/fast-and-furious-iv.md) - A short recap of Improving Vancouver's go-karting outing at TBC Racing, a team-building weekend for the local office.
+* [Improving is Harnessing the Power of AI Through Cutting-Edge Technologies](/sources/improving-is-harnessing-the-power-of-ai.md) - Improving touts 500,000+ AI/ML delivery hours and $3.5B in client returns, cataloguing its ML, NLP, robotics, and vision work.
+* [Leveraging Analytics Features in SAP Analytics Cloud Stories](/sources/leveraging-analytics-features-in-sap-analytics-cloud-stories.md) - Shows how SAP Analytics Cloud's integrated Analytics Designer enables cascading dropdowns, background data actions, and planning UIs.
+* [Exploring the AI Craze: Gen Z's thoughts on Chat GPT, AI, and Their Future in an Artificial Intelligence World](/sources/exploring-the-ai-craze.md) - A Gen Z perspective on ChatGPT use, excitement and ethics concerns, and how AI may reshape careers and education.
 * [Rules and Roles](/sources/rules-and-roles.md) - Argues rules legitimately differ by role, and that comparison and jealousy — not unequal treatment — are the real obstacles to gratitude.
+* [Mexico's Tech Talent Revolution: Why Companies are Flocking South of the Border](/sources/mexicos-tech-talent-revolution-why-companies-are-flocking-south.md) - Argues Mexico is a compelling nearshore destination, citing cost, proximity, cultural affinity, and a 700,000-engineer talent pool.
 * [Life's Not Meant to Be Easy](/sources/lifes-not-meant-to-be-easy.md) - Reflective essay arguing that growth, meaning, and self-discovery come from difficulty rather than comfort or quick fixes.
+* [What Happens in Vegas, Doesn't Stay in Vegas: My Corporate Retreat Experience](/sources/my-corporate-retreat-experience.md) - An Improver recounts the Las Vegas company retreat and the cross-office relationships annual gatherings build.
+* [When to use a Team Site vs. a Communication Site in SharePoint](/sources/when-to-use-a-team-site-vs-a-communication-site-in-sharepoint.md) - A practical guide to choosing between SharePoint team sites for collaboration and communication sites for publishing.
 * [Are you leaving or quitting?](/sources/are-you-leaving-or-quitting.md) - A colleague's distinction: you're 'leaving' a company on the rise and 'quitting' one in decline.
+* [What is a Microsoft Partner and How Do I Find One?](/sources/what-is-a-microsoft-partner-and-how-do-i-find-one.md) - Explains what Microsoft Partners are, what they do, and how to find one through Microsoft's partner directory.
 * [Dream Thieves](/sources/dream-thieves.md) - Circumstances and words can steal dreams, but it is our response to them — and our inner voice — that decides.
+* [Delivering the Future](/sources/delivering-the-future.md) - A student's look at sidewalk delivery robots: their safety and late-night advantages, human minders, and job impact.
 * [Health Journey: Everlywell](/sources/health-journey-everlywell.md) - O'Hara takes Everlywell's food sensitivity test, finds one significant and ~30 mild reactivities, and plans an elimination diet.
 * [My Hero](/sources/shaun.md) - Tribute to the author's brother, whose persistence through setbacks built an NFL career and illustrates grit.
+* [Our Journey As The 2023 Google Cloud Public Sector Partner Of The Year For Canada](/sources/our-journey-as-the-2023-google-cloud-public-sector-partner-of-the-year.md) - How YoppWorks/Improving won Google Cloud's 2023 Canadian public sector award, via HPC portals and Document AI.
+* [YoppWorks Named the 2023 Google Cloud Public Sector Partner of the Year for Canada](/sources/yoppworks-named-the-2023-google-cloud-public-sector-partner-of-the-year.md) - Announcement that YoppWorks, an Improving company, won Google Cloud's 2023 Canadian public sector partner award.
 * [Our Insides](/sources/our-insides.md) - Two quotes prompt a dedicated reflection practice asking what limitations the author is currently experiencing.
+* [The Real Scoop On Quiet Quitting: Striking The Solid Work-Life Balance](/sources/the-real-scoop-on-quiet-quitting.md) - Argues quiet quitting is better read as a work-life-balance signal, with tips for protecting wellbeing and career.
 * [Character](/sources/character.md) - If character is the sum of our choices, then we can deliberately shape it by making choices aligned to the outcomes we want.
+* [Our 14th Year on Inc. 5000](/sources/our-14th-year-on-inc-5000.md) - Improving announces its 14th appearance on the Inc. 5000 list of fastest-growing US private companies, ranked No. 3820.
+* [Data Analysis and Visualisation with Microsoft Power BI](/sources/data-analysis-and-visualization-with-microsoft-power-bi.md) - Walks through Power BI's end-to-end reporting flow and three standout visuals: Q&A, Key Influencers, and Smart Narratives.
+* [AI Complexity vs Difficulty](/sources/ai-complexity-vs-difficulty.md) - Argues AI should handle complex, data-centric work while humans handle difficult, judgment-driven decisions.
 * [Short Term versus Long Term](/sources/short-term-versus-long-term.md) - Argues that chasing short-term efficiency can undercut long-term optimal, urging patience and deliberate cost-benefit thinking.
+* [A Farewell Letter From Our Summer Interns](/sources/a-farewell-letter-from-our-summer-interns.md) - Five 2023 Improving interns reflect on an eight-week rotation across four departments and the mentorship they received.
+* [Navigating the AI Minefield: The Prerequisites to AI Deployment](/sources/navigating-the-ai-minefield-the-prerequisites-to-ai-deployment.md) - Argues three prerequisites — data strategy, right-sized governance, and defined business value — must precede AI experiments.
 * [Philosophical Razors Unpacked](/sources/razors.md) - Explains five philosophical razors — Alder's, Grice's, Hanlon's, Hume's guillotine, and Occam's — as everyday thinking shortcuts.
+* [The Parallels Between Consulting and Parenting](/sources/the-parallels-between-consulting-and-parenting.md) - Draws on parenting to argue that consulting and leading work best through guidance, psychological safety, and repetition.
 * [Patience](/sources/patience.md) - Distinguishes passive patience (waiting for the world) from active patience (taking steps now that position you for future success).
+* [Why Improving Uses Scala](/sources/why-improving-uses-scala.md) - Explains Scala's functional, statically typed strengths and why Improving builds distributed microservices with it.
 * [Ego](/sources/ego.md) - A reflection on what our ego is attached to, and why honest self-examination yields peace and satisfaction.
+* [When Should We Release In Scrum?](/sources/when-should-we-release-in-scrum.md) - Frames release frequency as a value question, weighing 'now' urgency against constraints and the 'it depends' factors.
+* [This Golang Behavior is Unexpected... Or is it?](/sources/this-golang-behavior-is-unexpected-or-is-it.md) - Uses a surprising Go slice/append example to show how capacity aliasing causes bugs Rust would catch at compile time.
+* [Unleashing the Power of Data](/sources/unleashing-the-power-of-data.md) - Surveys how businesses use data to understand customers, optimize operations, personalize experiences, and forecast.
 * [Rest & Recharge](/sources/rest-recharge.md) - Argues rest is a necessity rather than a luxury, and that time off should be used to realign with goals before returning to work.
 * [Health Journey: Function Health](/sources/health-journey-function-health.md) - O'Hara joins Function Health's beta, paying $499/year for two rounds of 100+ biomarker testing with functional-medicine-focused guidance.
 * [Sharing Content](/sources/sharing-content.md) - Short note on a book video and a Peter Thiel talk, prompting reflection on culture's effect on youth and diversity.
+* [7 Ways to Safeguard Remote Working Teams with Cybersecurity](/sources/7-ways-to-safeguard-remote-working-teams-with-cybersecurity.md) - Lists seven controls — from endpoint security to incident response — for securing distributed remote teams.
+* [Managing Cloud Cost](/sources/managing-cloud-cost.md) - Explains why cloud bills overrun and lays out short- and long-term strategies to control spend.
 * [Truth](/sources/truth.md) - Truth divides, but so do lies; the question is what you divide into — shared values turn divisiveness into positive change.
+* [eSignature Coming to SharePoint via Microsoft Syntex](/sources/post-esignature-coming-to-sharepoint-via-microsoft-syntex.md) - Notes Microsoft Syntex eSignature's arrival in SharePoint and advises reviewing information architecture before adopting it.
+* [Women Breaking into Tech - SFU Panel](/sources/women-breaking-into-tech-sfu-panel.md) - Improving panelists share their career journeys at Simon Fraser University, arguing a tech career extends well beyond coding.
+* [Showcasing Women in Tech: Yang Xia & Apache TinkerPop](/sources/showcasing-women-in-tech-yang-xia-and-apache-tinkerpop.md) - Improving consultant Yang Xia becomes the firm's first Apache PMC member, working on Apache TinkerPop and its Gremlin query language.
 * [Opinion & Discourse](/sources/thats-your-opinion.md) - An argument that labeling others' opinions breeds discord and that civil discourse should aim at clarifying one's own thinking, not winning.
 * [Health Journey: Levels](/sources/health-journey-levels.md) - David O'Hara recounts three months using the Levels continuous glucose monitor, what he learned about his metabolism, and its rough edges.
+* [DevSecOps Still Matters](/sources/devsecops-still-matters.md) - DevSecOps is no fad but a durable culture change that weaves security into shared responsibility and automated pipelines.
 * [Knowledge and Clarity](/sources/knowledge-and-clarity.md) - O'Hara contrasts reading for knowledge with writing for clarity, arguing the two form a symbiotic loop that sharpens thought.
 * [Health Journey: InsideTracker](/sources/health-journey-insidetracker.md) - O'Hara tries InsideTracker for repeated bloodwork and its InnerAge biological-age feature, finds the app thin, and plans to switch to Function Health.
 * [Health Journey: Athletic Greens](/sources/health-journey-ag1.md) - David O'Hara adopts AG1 greens powder as a daily morning drink alongside IDLife supplements and reports energy and focus gains.
+* [Microsoft Copilot for Power BI](/sources/microsoft-copilot-for-power-bi.md) - Copilot's natural-language report building in Power BI shifts the hard work to the underlying data model, not report authoring.
 * [Health Journey: IDLife Supplements](/sources/health-journey-idlife.md) - O'Hara picks IDLife for its quality and DNA-based personalization, and switches to its Hydrate after CGM showed hidden-sugar spikes.
+* [Communication Myths and Truths](/sources/communication-myths-and-truths.md) - Effective communication is repeated, contextual, and two-way — not a single broadcast of everything an organization knows.
+* [Introduction to Constrained Optimization](/sources/introduction-to-constrained-optimization.md) - A primer on constrained optimization: decision variables, objective functions, constraints, and choosing a solver.
 * [Health Journey: WHOOP](/sources/health-journey-whoop.md) - O'Hara explains why the WHOOP band is the foundation of his health tracking, from sleep and HRV to family competition.
+* [PATH Success Story: Intrinsic Motivation](/sources/path-success-story-intrinsic-motivation.md) - An Improver uses PATH's 90-day commitments and SMART goals to earn a Scrum certification and unlock intrinsic motivation.
+* [Adding a Spring Boot App to the Grafana Observability Platform](/sources/adding-a-spring-boot-app-to-the-grafana-observability-platform.md) - A walkthrough of wiring a Spring Boot app into the Grafana LGTM stack for logs, metrics, and traces via Docker Compose.
 * [Training vs Trying](/sources/training-vs-trying.md) - Stop trying to lead and start training to lead: build positivity through gratitude and resilience through self-care.
+* [Software Testing - Manual and Automation](/sources/software-testing-manual-and-automation.md) - Manual and automated testing each have limits; the best strategy blends both rather than replacing one with the other.
+* [Improving Acquires Jump Analytics](/sources/improving-acquires-jump-analytics.md) - Improving acquires Canadian analytics firm Jump Analytics, pushing annualized revenue past $290M and extending its analytics reach.
 * [Health Journey](/sources/health-journey.md) - An index of O'Hara's health experiments — supplements, biomarker services, and WHOOP — aimed at making his 60th birthday life's midpoint.
 * [Can't Avoid Pain](/sources/cant-avoid-pain.md) - Pain is inevitable — either the pain of effort or the pain of regret; focus on what the pain is for.
+* [Facilitation for the Neurodivergent](/sources/facilitation-for-the-neurodivergent.md) - Five facilitation practices — breaks, silent writing, tactile tools, expectations, and multi-channel communication — that unlock quieter voices.
+* [Infrastructure as Actual Code: An Introduction to the Construct Programming Model](/sources/infrastructure-as-actual-code-an-introduction-to-the-construct.md) - The Construct Programming Model defines infrastructure in real programming languages, enabling reusable, testable, governable patterns.
 * [You Promised!](/sources/you-promised.md) - On handling implicit promises broken as a company's vision evolves: be honest about change, clear on direction, and accept opt-outs.
+* [Best Current Practices, Part 2: When to NOT Follow the Rules](/sources/best-current-practices-ii.md) - Three reasons to deliberately skip a best practice: learning, cost control on unproven products, and teams lacking the skills to apply it.
 * [Media Room Riser with LED Lights - Home Project DIY](/sources/media-room-riser-with-led-lights.md) - DIY build log for a two-level carpeted media room riser with undermounted LED lighting, covering sizing, materials, framing, and lessons learned.
+* [The Power of Incremental Change in Teams: Like Water on Rock](/sources/like-water-on-rock.md) - Team transformation is like water carving a canyon: slow, persistent, culture-first work rather than rushed process change.
+* [The Go Context](/sources/the-go-context.md) - Go's context carries deadlines, cancellation, and request-scoped values across API boundaries — a shift for Java developers.
 * [Consistency](/sources/consistency.md) - Consistency, not luck, differentiates leaders; it builds trust, discipline and accountability, and keeps focus on the long term.
+* [Investing in Teams](/sources/investing-in-teams.md) - Growing existing teams through innovation and modernization labs, and filling capacity gaps with nearshoring rather than offshoring.
 * [Great Leaders are Hard to Find Because...](/sources/quote.md) - Great leadership requires giving up your expertise and sharing responsibility; the hardest part is handling someone who isn't going to succeed.
+* [Why Design Patterns Matter](/sources/why-design-patterns-matter.md) - Design patterns give UX a shared language and proven solutions, making interfaces predictable and reducing user cognitive load.
 * [Kids & Investing](/sources/kids-investing.md) - O'Hara outlines how parents can introduce teenagers to investing, emphasizing risk tolerance, index funds, and long-term saving.
 * [Dragging me to a camp](/sources/dragging-me-to-a-workout.md) - Joining Camp Gladiator broke a comfortable gym routine and showed how community, not routine, sustains fitness.
+* [What’s the Flap Over Flutter?](/sources/whats-the-flap-over-flutter.md) - A hands-on look at Flutter: one Dart codebase for mobile, desktop, and web, with a widget-first model and solid testing.
+* [Fun With IoT Part 2](/sources/fun-with-iot-part-2.md) - A DIY driveway monitor built from a magnetic sensor, Wemos D1 Mini, and range-extended I2C after an off-the-shelf unit failed.
 * [Drone Delivery](/sources/drone-delivery.md) - A short post about receiving a Wing drone delivery at home in Frisco, Texas, and enjoying the technology.
 * [Work Life Balance](/sources/work-life-balance.md) - Work-life balance is a false dichotomy; an integrative, abundance-minded view of time reduces anxiety.
+* [IT Outsourcing Trends to Watch Closely in 2023](/sources/it-outsourcing-trends-to-watch-closely-in-2023.md) - Five 2023 IT outsourcing trends: AI/ML and automation, blockchain, IoT, hybrid work, and nearshoring to Latin America.
+* [Fun with IoT, Part 1](/sources/fun-with-iot-part-1.md) - A maker project turns a Wemos D1 Mini and DHT22 sensor into a freezer temperature monitor that texts alerts via the Losant IoT platform.
+* [International Women's Day 2023](/sources/international-womens-day-2023.md) - Improving women reflect on what International Women's Day means, why inclusion matters in tech, and advice they would give their former selves.
 * [Intro to Deliberate Practice](/sources/intro-to-deliberate-practice.md) - O'Hara defines deliberate practice and lists nine traits, from structure and feedback to rest, focus, and the spacing effect.
+* [The Power of Yes](/sources/the-power-of-yes.md) - Argues for replacing a binary yes/no with 'yes, and…', turning refusals into conversations about priorities and what must change.
 * [More Busy](/sources/more-busy.md) - Challenges 'busy' as a default answer, asking what each day of life is traded for and answering only with purpose.
+* [PATH Success Story: Senior Consultant Promotion](/sources/path-success-story-senior-consultant-promotion.md) - How an Improving consultant used the PATH program and a coach to earn a senior consultant promotion through talks, client presence, and Azure study.
 * [Thinking about Death](/sources/thinking-about-death.md) - Mortality as a clarifying lens: life-expectancy math shows how few visits remain, prompting intentional use of time.
+* [Everything You Need to Know About Reactive Systems](/sources/everything-you-need-to-know-about-reactive-systems.md) - Explains the Reactive Manifesto's resilient, elastic, message-driven systems and a four-step path to modernizing monoliths with reactive microservices.
 * [Obsidian Obsessed](/sources/obsidian-obsessed.md) - First impressions of Obsidian: Markdown linking fits how the author thinks, but its to-do inbox adds friction he already has elsewhere.
 * [OmniFocus Cheat Sheet](/sources/omnifocus-cheat-sheet.md) - A one-line pointer post: the author shares the OmniFocus keyboard shortcuts PDF for his own future reference.
+* [The Value of Values](/sources/the-value-of-values.md) - A Lean and Agile coach argues that tools and techniques only deliver when an organization also lives by its underlying values.
+* [Kafka Schema Evolution With Java Spring Boot and Protobuf](/sources/kafka-schema-evolution-with-java-spring-boot-and-protobuf.md) - A hands-on tutorial evolving a Protobuf message schema across Kafka producers and consumers, demonstrating forward and backward compatibility.
 * [Deep Thinking (Part 2)](/sources/deep-thinking-2.md) - O'Hara argues phone-driven numbing of boredom robs us of thinking space, and commits to sitting quietly instead.
+* [Best Current Practices, Part 1](/sources/best-current-practices-part-i.md) - Argues that best practices are time-bound and context-dependent, so teams should surface their assumptions and treat them as trade-offs, not dictates.
 * [Sandcastle Days](/sources/sandcastle-days.md) - Uses the image of a sandcastle washed away by tide to argue for end-of-day reflection that captures what was accomplished and learned.
+* [Improving Acquires Zigatta](/sources/improving-acquires-zigatta.md) - Improving acquires Frisco-based Zigatta, adding cloud, data, and software engineering capability and deepening its Latin America presence via Guadalajara.
+* [How To Debug NSLayoutConstraints (LayoutBeast)](/sources/how-to-debug-nslayoutconstraints.md) - A practical guide to reading and fixing iOS AutoLayout constraint conflicts, distinguishing causes from correlated affected views.
 * [Deep Thinking](/sources/deep-thinking.md) - O'Hara describes using Obsidian and a note-taking workflow to create intentional space for deeper thinking instead of skimming.
 * [Pointing Fingers and Slow Death](/sources/untitled.md) - Reflection on Deep Change: organizations decline through denial and finger-pointing, and excellence demands personally owning what you can fix.
 * [So Mad](/sources/so-mad.md) - Reflects on anger's cost to effectiveness and lists physical, verbal, and non-verbal cues for recognizing one's own emotion.
+* [Looking Ahead: 2023 Technology Predictions](/sources/2023-technology-predictions.md) - Devlin Liles predicts 5G, AI, and augmented reality will see wider practical adoption in 2023.
 * [Two Parts of Change](/sources/two-parts-of-change.md) - Every change has two parts: the change itself, which produces fear, and the reason, which is where courage comes from.
 * [Be a Fire Marshal, not a Fire Fighter](/sources/be-a-fire-marshal-not-a-fire-fighter.md) - Leadership advice: be proactive, strategic, and big-picture like a fire marshal rather than reactive like a firefighter.
+* [PATH Success Story: Public Speaking and Thought Leadership](/sources/path-success-story-public-speaking-and-thought-leadership.md) - How an Improving consultant used PATH coaching and SMART goals to build a public-speaking practice and grow into thought leadership.
+* [Co-Op Life at Improving Vancouver](/sources/co-op-life-at-improving-vancouver.md) - Describes Improving Vancouver's paid co-op program and the path from student co-op to senior developer.
 * [Gamble](/sources/gamble.md) - Real bets carry risk; growth happens in stretching beyond comfort, where you learn either way.
 * [The Hard Work](/sources/the-hard-work-of-fulfillment.md) - Doing the hard, unglamorous parts of a job means you are in the right job; fulfillment is made through work rather than found through passion.
+* [The Difference Between Managing the Process and Managing the Goals](/sources/difference-between-managing-process-and-managing-goals.md) - Argues leaders should own goals and Scrum Masters should own process, because conflating the two produces micromanagement and confusion.
 * [Responding to Fear](/sources/fear.md) - You cannot reason someone out of fear; compassion and shared understanding help them rise above it.
 * [Character and Choices](/sources/character-and-choices.md) - Short reflection that character is the sum of your choices, and that habit can quietly replace deliberate choice.
+* [Artificial Intelligence and Machine Learning Explained](/sources/artificial-intelligence-and-machine-learning-explained.md) - A primer on AI and machine learning: how algorithms learn, weak versus strong AI, and why ML matters for enterprise data.
 * [Getting to Done](/sources/getting-to-done.md) - A manager's work is never done; leaders should triage like a fire marshal, focusing attention on real blazes rather than noise.
+* [Summer Field Day in Vancouver](/sources/summer-field-day-in-vancouver.md) - Improving Vancouver's summer picnic and games day, extended to family and friends, as a way to build relationships across the team.
+* [Improving Named Best Company in Texas](/sources/improving-named-best-company-in-texas.md) - Improving tops Texas Monthly's Best Companies to Work for in Texas list for the first time, in its 12th year on the list.
+* [5 Tools to Auto-Generate Terraform Configuration Files](/sources/auto-generate-terraform-configuration-files.md) - Compares five tools for importing existing cloud resources into Terraform, with planning, execution, and verification steps.
+* [How Do I Choose New Technologies for an Organization](/sources/how-do-i-choose-new-technologies-for-an-organization.md) - Three not-so-obvious questions for assessing a new technology: your own motives, the team's existing competencies, and the market talent pool.
+* ["Shutdown App" - The Latest Application to Our Mine Analytics Playbook](/sources/shutdown-app.md) - An Azure and Power Platform app that plans mine shutdowns with project plans, worker assignment, checklists, and real-time dashboards.
+* [Improving Further Expands into Canada with Acquisition of Bit Quill](/sources/improving-acquires-bit-quill.md) - Improving acquires Vancouver data-and-cloud consultancy Bit Quill Technologies, lifting annualized revenue above $250M and deepening its Canadian presence.
+* [How ImprovingU Helps You](/sources/how-improvingu-helps-improve-you.md) - ImprovingU is Improving's employee-taught internal training program, built on the idea that everyone is an expert in something and teaching benefits the teacher too.
+* [Empathy: The Secret Sauce in Good Design](/sources/empathy-the-secret-sauce-in-design.md) - UX consultant Tony Brown argues empathy is the core of good design and gives three practical techniques — role play, observation, and empathy mapping.
+* [Improving Partners with Houston Innovation Hub, The Ion](/sources/improving-partners-with-houston-innovation-hub-the-ion.md) - Improving and Houston's Ion launch a free, six-month startup curriculum covering product, pitching, and networking for local entrepreneurs.
+* [Finding the Problem to Gain a Solution](/sources/finding-the-problem-to-gain-a-solution.md) - Barbara Schultz argues meetings fail because teams debate solutions without a shared definition of the problem, and offers future-visioning to fix it.
+* [Crossing Off A Bucket List Item with Improving](/sources/crossing-off-a-bucket-list-item-with-improving.md) - An ImprovingU SCUBA class turned a bucket-list goal into a shared team adventure for seven Houston Improvers over two weekends.
+* [How to Get Better Scaling via Parallel Data Transfer using Upgraded Spark Connector](/sources/how-to-get-better-scaling-via-parallel-data-transfer.md) - Improving's Alex Le explains how the open-source Vertica Spark Connector moves large datasets in parallel, scaling better than JDBC/ODBC.
+* [5 Ways to Design Better](/sources/5-ways-to-design-better.md) - Five mindset shifts for UX designers: drop your ego, ask better questions, notice UX everywhere, keep learning, and break the rules deliberately.
+* [Implementing External Email Tagging in Outlook](/sources/implementing-external-email-tagging-in-outlook.md) - A PowerShell how-to for enabling Outlook's External sender tag in Exchange Online to help users spot phishing from outside the organization.
+* [How We Achieved 20x Faster Results than ODBC/JDBC using Arrow FlightSQL](/sources/how-we-achieved-faster-results-arrow-flightsql.md) - A roundup of Bit Quill co-founder James Duong's talks on Apache Arrow FlightSQL as a roughly 20x faster alternative to JDBC/ODBC.
+* [Challenges and Strategies with Implementing Intelligent Failover in Database Systems](/sources/intelligent-failover.md) - A walkthrough of database cluster failover: reader versus writer failures, endpoints, DNS lag, and a smart-driver approach to fast reconnection.
 * [Wisdom](/sources/wisdom.md) - Wisdom is knowledge rightly applied in context — and it is learned chiefly by misapplying knowledge and owning the mistake.
+* [The 5 Love Languages of Leadership](/sources/the-5-love-languages-of-leadership.md) - Mark Runyon adapts Chapman's five love languages into five leadership needs: recognition, professional growth, autonomy, financial fairness, and feedback.
 * [Discipline](/sources/discipline.md) - Self-discipline, not desire, determines outcomes; sincerity becomes seriousness only through disciplined action.
 * [Easy Change](/sources/easy-change.md) - Change is easy to praise and hard to do; the need for it must outweigh the pain of leaving the comfortable now.
+* [Thought Leadership: One Creators Journey](/sources/thought-leadership-one-creators-journey.md) - Tim Dickey recounts his path into content creation — from an embarrassing livestream to video posts, podcasting, and a five-step guide for new creators.
+* [Improving Announces Three New C-Suite Executives](/sources/improving-announces-three-new-c-suite-positions.md) - Improving announces new C-suite hires and promotions, including a CIO, CFO, and Chief Consulting Officer, plus regional and sales leadership changes.
 * [The Trap of Hindsight](/sources/the-trap-of-hindsight.md) - Judging your past self through today's knowledge is a self-flagellation trap; extend past-you grace.
+* [Agile Leadership Starts With You](/sources/agile-leadership-starts-with-you.md) - Emily Stickle argues Agile coaches should stop enforcing practices and instead coach continuous improvement, listening to why teams struggle.
+* [Does the Federal Mandate for Healthcare Cost Transparency Protect Consumers?](/sources/federal-mandate-impact-on-healthcare-transparency.md) - Adam Clark examines US healthcare price-transparency mandates — the TCR rule, CAA, and No Surprises Act — and the data work they force on insurers.
 * [What I Want For My Kids...](/sources/what-i-want-for-my-kids.md) - Rather than a 'better life,' O'Hara wants his children to appreciate the life they have and avoid the trap of comparison.
 * [When Are We Doing Hard Things?](/sources/hard-things.md) - We rarely pursue fundamental change unless forced; hard things hurt and stretch us, so comfort is the real obstacle to growth.
+* [Web 3.0: A Content Creator's Dream, A Company's Challenge | Thoughts](/sources/web-3-a-content-creators-dream-a-companys-challenge.md) - Tim Dickey argues Web 3.0's synchronous, live-streaming creator culture forces businesses to engage creators where they are rather than control them.
+* [Go Lean or Go Home](/sources/go-lean-or-go-home.md) - Gary Bergmann argues Lean's seven principles and Agile values reinforce each other, walking through each principle with concrete team practices.
+* [Why Isn’t Your Daily Stand Up Working?](/sources/why-isnt-your-daily-stand-up-working.md) - Emily Stickle explains why daily stand-ups fail — Scrum Masters missing their role, teams not being heard, and prescriptive meetings — and how to fix them.
+* [The Great Debate: Buy, Build, or Partner for IT Services?](/sources/buy-build-or-partner-for-it-services.md) - Anurag Kumar weighs buying, building, or partnering for offshore IT services, distinguishing short- and long-term needs and BOT agreements.
+* [Natively Compiled Java on Google App Engine](/sources/natively-compiled-java-on-google-app-engine.md) - Shows deploying a GraalVM native-image Micronaut app to App Engine Standard to cut cold-start times from ~600ms to under 100ms.
+* [Better Power Apps by Design](/sources/better-power-apps-by-design.md) - Argues that adding UX and architectural design to a Power Apps build turns a bare-bones low-code app into a maintainable product.
+* [How to use SharePoint REST APIs with Power Automate](/sources/how-to-use-sharepoint-rest-apis-with-power-automate.md) - Walkthrough of calling SharePoint Online REST APIs from Power Automate's HTTP action to create list items, covering URL and body structure.
+* [Creating Better Data Visualization Experiences: Part 2 of 2](/sources/creating-better-data-visualization-experiences-part-ii.md) - Part 2 of a data-viz series: model graph data, match chart types to human perception, and pick a JS library by customization and support.
+* [Being PRIDEfully Me at Improving](/sources/being-pridefully-me-at-improving.md) - A Talent Management Specialist recounts coming out at Improving, the value of LGBTQ+ visibility, and the Come Together inclusion month.
+* [Unleashing Feature Flags onto Kafka Consumers](/sources/unleashing-feature-flags-onto-kafka-consumers.md) - Shows how to pause and resume Kafka consumers per topic using feature flags, avoiding the rebalance cost of shutting consumers down.
+* [How Rest Produces Excellence](/sources/how-rest-produces-excellence.md) - Argues that sustainable excellence requires deliberate rest that restores your reserves, not collapse or mindless idling.
+* [A Security Model for Developers](/sources/a-security-model-for-developers.md) - Offers developers a mental model linking company policy, security principles, standards, and guidelines into testable user stories.
+* [It's Time to Extend Trust](/sources/time-to-extend-trust.md) - The final trust behavior: trusted people become trusted leaders by extending trust, opportunity, support, and honest feedback to others.
+* [Improving Tech Week 2022 | Thoughts](/sources/tech-week-2022.md) - Announcement of Improving Nearshore's free Tech Week 2022, a week of career-oriented tech talks for Mexican university students.
+* [The Unseen Impact on Your Agile Transformation, Part III: How to Recover Your Agile Transformation](/sources/the-unseen-impact-on-your-agile-transformation-part-iii.md) - Part 3 of a series: recover a stalled agile transformation by returning to Agile Manifesto values and the five Scrum values.
+* [Creating Better Data Visualization Experiences: Part 1 of 2](/sources/creating-better-data-visualization-experiences-part-i.md) - Part 1 of a data-viz UX series: branching user flows, Jobs to Be Done, and discovery questions that frame analytics product design.
+* [Tackling Issues Through Confronting Reality](/sources/tackling-issues-through-confronting-reality.md) - Uses the film Trolls to argue that confronting reality — having the tough conversation early — keeps small issues from snowballing.
+* [Web 2.0: Building Connection Everywhere](/sources/web-2-building-connection-everywhere.md) - A plain-language tour of Web 2.0: two-way interaction, social media, IoT, telemedicine, hybrid business, and its risks.
+* [New Feature in SAP Analytics Cloud: Best Performance Tips](/sources/new-feature-in-sap-analytics-cloud.md) - Covers SAP Analytics Cloud's Q4/2021 Best Performance Tips feature and reminds admins to update the Cloud Connector/Agent.
+* [Leveraging SAP Analytics Cloud with SAP BusinessObjects](/sources/leveraging-sap-analytics-cloud-with-sap-businessobjects.md) - Advises SAP BusinessObjects customers to migrate toward SAP Analytics Cloud, and explains integrating SAC with BOBJ and BPC.
+* [(BW vs BW on HANA vs BW/4HANA) vs Data Warehouse for Cloud (DWC)](/sources/bw-vs-dwc.md) - Compares SAP BW, BW on HANA, BW/4HANA, and Data Warehouse Cloud, weighing implementation time, performance, and hardware.
+* [Workforce Planning – SAP Analytics Cloud](/sources/workforce-planning-sap-analytics-cloud.md) - Describes SAP HXM Workforce Planning: pre-configured headcount and cost planning that links HR data to finance plans and reports.
+* [Redis Bitmaps: Storing State in Small Places](/sources/redis-bitmaps-storing-state-in-small-places.md) - Two Redis bitmap use cases: tracking multi-step task completion and counting distinct users, using SETBIT, BITPOS, and BITCOUNT.
+* [Will Changes to the Microsoft Partner Program Affect You?](/sources/will-changes-to-the-microsoft-partner-program-affect-you.md) - Microsoft's 2022 partner program rebrand matters less than how buyers choose partners; trust, referrals, expertise, and size win deals.
+* [Deliver Results: Myths Surrounding This Simple Sounding Trust Behavior](/sources/myths-surrounding-delivering-results.md) - Dispels four myths about the trust behavior Deliver Results, arguing it is consistency over years rather than a single win.
+* [Mining Center of Excellence](/sources/mining-center-of-excellence.md) - Announces Improving's mining Center of Excellence and an ESG analytics play for capturing and reporting thousands of mining metrics.
+* [Improver Spotlight - Lowell Messner](/sources/improver-spotlight-lowell-messner.md) - Spotlights Lowell Messner, SVP of Improving's Microsoft Services Team, and the partnership work he now leads across enterprises.
+* [Improving Microsoft Services Team: Application Modernization](/sources/improving-microsoft-services-team-application-modernization.md) - Part 2 of a series on application modernization, illustrated by a health insurer's Azure-plus-Kafka data platform feeding Snowflake.
+* [Cypress.io Tips to Make Your Life Easier](/sources/cypress-io-tips-to-make-your-life-easier.md) - Practical Cypress tips: prefer data-cy attributes and use partial-match selectors plus .contains() to target elements with unstable GUIDs.
+* [Improver Spotlight - Aimee Ernst](/sources/improver-spotlight-aimee-ernst.md) - Spotlights Aimee Ernst, Improving's Industry Solutions Delivery program manager, and her work aligning the firm with Microsoft ISD.
+* [Improving Microsoft Services Team: Security and Zero Trust](/sources/improving-microsoft-services-team-security-and-zero-trust.md) - Part 1 of a series explaining Microsoft's Zero Trust philosophy, its three principles and seven pillars, with a credit union case.
+* [Building Trust By Listening First](/sources/building-trust-by-listening-first.md) - Argues active listening — Covey's Listen First — is a hard, deliberate practice that builds trust and supports other trust behaviors.
+* [The Unseen Impact to Your Agile Transformation, Part II: How Not to Screw Up a Team with Process](/sources/the-unseen-impact-to-your-agile-transformation-part-ii.md) - Argues Agile transformations fail when teams adopt processes without the why, and that shifting to practicing is the fix.
+* [Improver Spotlight - Ken Ledyard](/sources/improver-spotlight-ken-ledyard.md) - Spotlights Ken Ledyard, Improving's Microsoft Partner Alliance Manager, and his move to the corporate Microsoft Services Team.
+* [Improving Announces Creation of New Microsoft Team](/sources/improving-announces-creation-of-new-microsoft-team.md) - Announces Improving's new corporate Microsoft Services Team, led by Lowell Messner, to focus on its Microsoft partnership.
+* [What is the Core of Agile?](/sources/what-is-the-core-of-agile.md) - Argues Agile is best understood as the alternative to rigid waterfall management, defined by the four Agile Manifesto values.
+* [Tech Tuesday: Let's Build a WordPress & Kernel Updated AMI with Packer](/sources/tech-tuesday-build-a-wordpress-and-kernel-updated-ami-with-packer.md) - Step-by-step walkthrough of using HashiCorp Packer to build a golden AWS AMI with an updated CentOS 7 kernel and WordPress.
+* [How Artificial Intelligence Is Transforming Marketing](/sources/how-artificial-intelligence-is-transforming-marketing.md) - Argues AI and data science let marketers personalize campaigns across the customer journey, citing adoption statistics.
+* [Right Wrongs: What We Learn as Children and Forget as Adults](/sources/right-wrongs.md) - Argues the trust behavior Right Wrongs — humbly owning mistakes and asking forgiveness — is learned in childhood and lost to adult ego.
+* [5 Key Terms When Talking About AI](/sources/5-key-terms-when-talking-about-ai.md) - Defines five commonly confused AI terms plus neural nets and deep learning so business readers can talk with technical teams.
+* [How to Write a Developer Resume, Part 2](/sources/how-to-write-a-developers-resume-part-2.md) - Part 2 of a resume guide covering certifications, education, skills, links, and common questions on length and seniority.
+* [YoppWorks: Improving From the Start](/sources/yoppworks-improving-from-the-start.md) - Traces the name YoppWorks to Dr. Seuss's Horton Hears a Who! and reads it as a statement that every voice matters.
+* [How Practicing Accountability Can Strengthen Trust for Business Success](/sources/how-practicing-accountability-can-strengthen-trust.md) - Argues accountability rests on ownership, communication, and equity, and that its absence adds a 'trust tax' to delivery.
+* [The Unseen Impact on Your Agile Transformation, Part I: Confirmation Bias](/sources/the-unseen-impact-on-your-agile-transformation-part-i.md) - Argues confirmation bias leads Agile coaches and organizations to force familiar frameworks, and offers five countermeasures.
+* [International Women's Day 2022](/sources/international-womens-day-2022.md) - Improving women answer questions on what being a woman means, workplace assumptions, strengths, and advice for women entering tech.
+* [How to Write a Developer Resume, Part 1](/sources/how-to-write-a-developer-resume-part-1.md) - An Improving recruiter's guide to developer resumes: the seven sections, the summary, and the X-by-Y-by-Z accomplishment formula.
+* [Improving Acquires Canadian YoppWorks](/sources/improving-acquires-yoppworks.md) - Improving acquires Ottawa-based YoppWorks, pushing collective annualized revenue past $200 million and deepening its Canadian footprint.
+* [Tech Tuesday: Single Node Kubernetes on Raspberry Pi 4](/sources/single-node-kubernetes-on-raspberry-pi.md) - A step-by-step walkthrough of standing up single-node Kubernetes on a Raspberry Pi 4 using Rancher K3s and a sample ARM64 pod.
+* [The Significance of Keeping Commitments](/sources/keep-commitments.md) - Keeping commitments, Covey's twelfth trust behavior, builds credibility fast; breaking them destroys it, so say no rather than overpromise.
+* [What Pixar Teaches Us About Product Ownership and Agile Leadership](/sources/what-pixar-teaches-us-about-product-ownership-and-agile.md) - Pixar's Brain Trust — expert feedback without authority — models the real product ownership most Scrum teams are denied.
+* [Come Together Initiative: Wellbeing in the Workplace](/sources/come-together-initiative-january-2022.md) - Improving's Come Together Initiative assigns monthly themes; January 2022 focused on wellbeing across its offices.
+* [Effectively Onboarding as a Junior Developer](/sources/effectively-onboarding-as-a-junior-developer.md) - Junior developers should do everything they know how to do first, time-box their attempts, then ask for help — turning getting stuck into added value.
+* [Clarify Expectations](/sources/clarify-expectations.md) - A recruiter applies Covey's clarify-expectations trust behavior to client requirements and candidate hiring, arguing clear is kind.
+* [How to Render Jenkins Build Parameters Dynamically?](/sources/render-jenkins-build-parameters-dynamically.md) - Using the Jenkins Active Choices plugin to render build parameters and even HTML input controls dynamically from Groovy scripts.
+* [Create Transparency](/sources/create-transparency.md) - Transparency, Covey's third trust behavior, means being open, timely, accountable, and concise — within real boundaries.
+* [A Sustainable Defect Management Process](/sources/a-sustainable-defect-management-process.md) - A six-step process that separates raw incidents from investigated problems and actionable bugs, ending repeated bug bankruptcy.
+* [Mentorship in a Global Pandemic](/sources/mentorship-in-a-global-pandemic.md) - A pandemic-era mentoring relationship begun over LinkedIn shows mentorship is a two-way street that can restore joy and launch a career.
+* [Is Scrum Certification Training Worth It?](/sources/is-scrum-certification-training-worth-it.md) - Scrum certifications matter less as resume stamps than as a forcing function for review, practice tests, and study groups that start a learning journey.
+* [Agility: to Scale or Not to Scale is NOT the Right Question](/sources/agile-to-scale-or-not-to-scale.md) - The real question is Agile at scale — making the whole organization agile through systems thinking, lean, and a growth mindset — not which scaling framework.
+* [The Manifesto for Agile Software Development](/sources/the-manifesto-for-agile-software-development.md) - A 20-year retrospective on the Agile Manifesto's four values and twelve principles, urging a return to its human-centered heart.
+* [Unlock Your Data](/sources/unlock-your-data.md) - Store incoming data raw and uninterpreted in a data lake, then curate it only when a concrete business need justifies the processing investment.
+* [Introducing Improving Ohio](/sources/improving-ohio-merger.md) - Improving's Columbus and Cleveland offices merge into Improving Ohio on January 1, 2022, combining Azure infrastructure and application development.
+* [What Really Makes Scrum Work?](/sources/what-really-makes-scrum-work.md) - Successful teams share lived Scrum values — commitment, focus, openness, respect, courage — more than any particular framework or process.
+* [A PATH Forward](/sources/path-program.md) - Improving's PATH program pairs employees with a coach to set and pursue personal goals over 90-day cycles, treating careers as a rock wall, not a ladder.
+* [A Guide to Kanban Certification Training (APK/PSK)](/sources/guide-to-kanban.md) - Explains how APK and PSK Kanban certification classes differ and how to choose between them by team context.
+* [Strategic Demand Management: What's the Rush?](/sources/strategic-demand-management.md) - Argues businesses must balance demand against fixed team capacity using systems thinking, early viability tests, and WIP limits.
+* [What is Group Reporting in SAP S/4HANA](/sources/what-is-group-reporting-in-sap-s-4hana.md) - Explains SAP S/4HANA Group Reporting, its embedded consolidation features and dimensions, and when to adopt it ahead of S/4HANA.
+* [Think Differently About Data](/sources/think-differently-about-data.md) - Argues that storing usage, telemetry, and interaction data — not just user-entered records — unlocks recommendations, savings, and differentiation.
+* [Vegas Retreat 2021](/sources/vegas-retreat-2021.md) - Recaps Improving's October 2021 Las Vegas retreat, where over 100 first-time attendees built cross-office relationships and culture.
+* [Power Up with Power Apps](/sources/power-up-with-power-apps.md) - Explains Microsoft Power Apps' low-code modes, connectors, and use cases, plus practical limitations for enterprise development.
+* [Modern Ways of Working: From Complacency to Innovation](/sources/modern-ways-of-working.md) - Proposes 'modern ways of working' as a mindset of systems thinking, lean, OKRs, and customer-centricity for adapting to constant change.
+* [Designing Distributed Systems](/sources/designing-distributed-systems.md) - Explains synchronous vs asynchronous communication in distributed systems using phone-call and postal-service analogies and real trade-offs.
+* [9 Benefits of AI and Machine Learning in Marketing Technology](/sources/9-benefits-of-ai-and-ml-in-marketing-technology.md) - Lists nine benefits of AI and machine learning in marketing technology, from personalization at scale to faster sales cycles.
+* [Improving Appoints Kathy Henely as New Board Member](/sources/improving-appoints-kathy-henely-as-new-board-member.md) - Announces Kathy Henely, former Perficient COO, as Improving's first independent board member in August 2021.
+* [Baby Steps to DevOps](/sources/baby-steps-to-devops.md) - Gives individual contributors, team leads, and managers concrete first steps into DevOps, and warns that learning it is hard.
+* [12 Years on the Inc. 5000 List](/sources/12-years-on-inc-5000.md) - Notes Improving's twelfth consecutive year on the Inc. 5000 list of fastest-growing US private companies, ranked No. 2,790.
+* [Top 10 AI & ML Uses Cases for Marketers](/sources/top-10-ai-ml-use-cases-for-marketers.md) - Lists ten AI and machine learning use cases for marketers, from real-time recommendations to SEO content optimization.
+* [Modern Software Solutions: Beyond Buy vs. Build](/sources/modern-software-solutions.md) - Argues the buy-versus-build debate is obsolete: cloud and microservices make 'buy and build' the mature default.
+* [ESG in Mining](/sources/esg-in-mining.md) - Describes how Improving uses Power Apps and dashboards to ease multi-framework ESG reporting for mining site managers.
+* [New Version of SharePoint On-Premise](/sources/new-version-of-sharepoint-on-premise.md) - Announces SharePoint Server Subscription Edition, Microsoft's continuously updated on-premises release with a modern experience.
+* [Improving Acquires Chicago-Based Tahoe Partners](/sources/improving-acquires-tahoe-partners.md) - Announces Improving's acquisition of Chicago-based Microsoft partner Tahoe Partners, pushing annualized revenue past $185 million.
+* [Microservices Architecture: Moving Past the Buzz Words](/sources/microservices-architecture.md) - Weighs microservices' intentional advantages and disadvantages and argues Domain-Driven Design plus DevOps discipline determine success.
+* [10 Advantages of Cloud Computing](/sources/10-advantages-of-cloud-computing.md) - Lists ten advantages of cloud computing — pay-as-you-go, flexibility, security, and disaster recovery — across IaaS, PaaS, and SaaS.
+* [The Benefit of a Corporate Innovation Lab](/sources/innovation-lab-benefits.md) - Argues corporate innovation labs need a distinct execution model, disciplined new-product focus, and hard accountability metrics.
+* [Blockchain: Implementation and Impacts to Industry](/sources/blockchain-implementation-and-impacts.md) - Explains blockchain as a cryptographic distributed ledger, clears up common myths, and maps the industries most likely to benefit.
+* [Context-Based Testing](/sources/context-based-testing.md) - Argues that brittle, unmaintainable test fixtures drive teams to abandon automated testing, and prescribes organizing specs by context with shared setup.
 * [Not a Pessimist](/sources/not-a-pessimist.md) - Pessimism is intellectually lazy and incentive-driven; creators get reality-aligned feedback from the market, and most dire predictions never materialize.
+* [The Pros and Cons of SharePoint Lookbook](/sources/pros-and-cons-of-sharepoint-lookbook.md) - Weighs Microsoft's SharePoint Lookbook templates as design inspiration against their deployment limits and remaining IA work.
+* [Medical Modernization](/sources/medical-modernization.md) - Maps healthcare modernization onto Gartner's hype curve, profiling companies at each stage and the trust and perseverance behind lasting change.
+* [Lessons Learned on the Path to Cloud Transformation](/sources/lessons-learned-on-the-path-to-cloud-transformation.md) - Distills Improving's cloud migration lessons: the three migration approaches, their cost tradeoffs, and case studies of navigating the risks.
 * [Contentment](/sources/contentment.md) - Contentment is learned, not given: it comes through experiencing discontentment and practising gratitude.
+* [6 Reasons to use angular instead of ASP.NET MVC (RAZOR)](/sources/6-reasons-to-use-angular-instead-of-asp-net-mvc-razor.md) - Argues Angular single-page applications beat ASP.NET MVC with Razor for enterprise apps, citing separation of concerns, testing, and team support.
+* [Improving Announces its Newest Acquisition of Object Partners](/sources/improving-makes-acquisition-of-object-partners.md) - Announces Improving's acquisition of Minneapolis firm Object Partners, lifting 2020 annualized revenue past $150 million.
+* [Improving Acquires Nearshore Model Company iTexico](/sources/improving-acquires-nearshore-model-company-itexico.md) - Announces Improving's merger with iTexico, adding 300+ professionals and entering the Mexico nearshore market.
+* [Improver Spotlight - Kevin Baker](/sources/improver-spotlight-kevin-baker.md) - Profiles Kevin Baker, Improving's VP of Consulting and User Experience, on user-centered design and Conscious Capitalism.
+* [Code Authority Merges with Improving](/sources/code-authority-merges-with-improving.md) - Announces Improving's acquisition of Frisco-based Code Authority and its plans to expand the CodeLaunch startup accelerator.
+* [Accessibility and Disney](/sources/accessibility-and-disney.md) - Uses a family trip to Disney World to argue that small, deliberate accessibility accommodations transform inclusion and should be mirrored in workplaces.
 * [Sleep & Whoop](/sources/sleep-whoop.md) - Personal account of chronic poor sleep and the start of a WHOOP-based sleep tracking experiment.
 * [Optimism and Your Choices](/sources/optimism-and-your-choices.md) - A brief, Chomsky-quoting argument that optimism is a prerequisite for taking responsibility and making the future better.
 * [Lifebook](/sources/lifebook.md) - O'Hara gives a high-level overview of Lifebook, a program for aligning present focus with long-term goals across eight life areas.
 * [Am I a Leader?](/sources/am-i-a-leader.md) - Leadership comes from pursuing something greater and aligning others to a shared vision, not from a title or followers.
 * [Personal Commitment to Excellence](/sources/personal-commitment-to-excellence.md) - A quoted personal declaration that life is the mirror of one's choices, so excellence is a present-moment commitment, not a past or future one.
+* [Improving Acquires Georgia-Based Innovative Architects](/sources/improving-acquires-innovative-architects.md) - Announces Improving's acquisition of Atlanta's Innovative Architects, its seventh enterprise location and entry into the Southeast.
 * [How Conscious Capitalism Can Help You And Your Business Grow](/sources/a-case-for-conscious-capitalism.md) - O'Hara argues conscious capitalism and stakeholder focus grow a business through community, culture, and personal growth.
 * [Learn to Work Hard](/sources/learning-to-work-hard.md) - O'Hara reflects on how not learning to work hard made him chase easy routes, arguing that difficulty is what makes work worthwhile.
 * [Recognizing Frustrations](/sources/frustrations.md) - Frustration is rooted internally; journaling surfaces triggers so you can stop acting out of them.
 * [Focus to Rise](/sources/focus-to-rise.md) - Leaders rise above their context by guiding themselves and others through emotion toward outcomes.
 * [What is Culture?](/sources/what-is-culture.md) - Culture is the intersection of people and values producing behaviors; hollow, unlived values yield a hollow, toxic culture.
+* [Microsoft StaffHub Merged Into Teams](/sources/microsoft-staffhub-merged-into-teams.md) - Explains Microsoft's retirement of StaffHub and the migration of its shift-management features into Microsoft Teams.
 * [Connection vs Effective](/sources/connection-vs-effective.md) - A short argument for prioritizing connection over effectiveness, because connection carries relationships through the rough spots.
 * [Gifted Kids are a Gift](/sources/gifted-kids-are-a-gift.md) - Gifted children are statistically outliers, not high achievers; conflating fitting in with happiness traps them in a false dichotomy.
 * [So busy!](/sources/so-busy.md) - Argues busyness has become a false badge of honor, urging deeper questions about people's emotional state over activities.
@@ -1037,37 +1939,53 @@ Last updated: 2026-10-17
 * [Great Quote...](/sources/great-quote.md) - Excuses round down to 'No' when it comes to culture; doing the right thing means saying no instead of taking the easy path.
 * [Why You&#x27;re Not Wrong...Just Different](/sources/why-youre-not-wrong.md) - People reason from different contexts, so ask questions before concluding that someone who disagrees is wrong.
 * [Experiencing Culture](/sources/experiencing-culture.md) - A culture is only real to employees when their leaders visibly live it; values cannot be faked.
+* [Trinity Hunt Acquires Majority Interest in New Partnership with Improving Holdings](/sources/trinity-hunt-acquires-majority-interest-in-improving.md) - Announces private equity firm Trinity Hunt taking majority interest in Improving to accelerate growth and acquisitions.
 * [Systems Thinking (and a little money thrown in)](/sources/systems-thinking-and-a-little-money-thrown-in.md) - A short reaction linking systems thinking, a gaming analogy, and an argument against government austerity.
 * [Missing a Deadline](/sources/missing-a-deadline.md) - Short post arguing that a missed deadline is a leadership failure, best met by owning the miss and delivering results to build trust.
 * [My Company is Weird](/sources/my-company-is-weird.md) - A story about culture: coworkers choosing to gather after work should be the norm, not 'weird', if companies invest in the whole person.
 * [Deliberate Acts of Kindness](/sources/deliberate-acts-of-kindness.md) - O'Hara prefers deliberate kindness over random acts, urging an other-focused mindset toward family and co-workers.
+* [Improving CEO is Honored as Finalist for Entrepreneur of the Year](/sources/improving-ceo-honored-as-finalist-for-entrepreneur-of-the-year.md) - Notes Curtis Hite's selection as an Ernst & Young Entrepreneur Of The Year finalist and his emphasis on culture and purpose.
 * [Programmed to See the Lack](/sources/programmed-to-see-the-lack.md) - A classroom parable shows we notice the one wrong answer over nine right ones; gratitude is the deliberate counter to this negativity bias.
 * [Who are Leaders](/sources/who-are-leaders.md) - Leadership comes from what you do — helping, guiding, and showing up — not from titles, credentials, or permission.
 * [Compassion In Leadership](/sources/compassion-in-leadership.md) - Leadership is hard because it demands balancing compassion and competence; leaders over-index on competence and must choose compassion daily.
 * [Letting Go](/sources/letting-go.md) - O'Hara describes relaunching his blog on Ghost to shed technical friction, reflecting on how his focus has shifted from development to content.
+* [Improver Spotlight - Eric Huckabay](/sources/improver-spotlight-eric-huckabay.md) - Profiles Eric Huckabay, a Houston Technical Director and generalist 'switch hitter' who helped build the College Station office.
+* [Improving Gives Back to Employees with Tax Savings](/sources/improving-gives-back-to-employees-with-tax-savings.md) - Describes Improving sharing corporate tax savings as one-time bonuses to US employees and expanding Dallas headcount.
+* [Multi-Layered Testing Overview](/sources/multi-layered-testing-overview.md) - Outlines a three-layer automated testing strategy — unit, integration, and GUI — and where each belongs in the build pipeline.
+* [Improving CEO, Curtis Hite, Joins Conscious Capitalism Board of Directors](/sources/improving-ceo-joins-conscious-capitalism-board-of-directors.md) - Announces Curtis Hite's appointment to the Conscious Capitalism International board alongside leaders like John Mackey.
+* [Starting an Agile Center of Excellence](/sources/starting-an-agile-center-of-excellence.md) - Argues an Agile Center of Excellence should be a consultative helper, not compliance police, and must define success by business outcomes.
+* [9 Years on Inc. 5000](/sources/9-years-on-inc-5000.md) - Improving makes the Inc. 5000 fastest-growing list for a ninth consecutive year, ranked #4461 for 2017.
+* [ProSource Solutions Merger](/sources/prosource-solutions-merger.md) - Improving acquires Ohio-based ProSource Solutions, adding over $10M in annualized revenue and its sixth enterprise location.
+* [Improving Houston Celebrates Opening of New Office](/sources/improving-houston-celebrates-opening-of-new-office.md) - Improving moves its Houston office to the Energy Corridor, adding training classrooms and hosting community user groups.
 * [Drucker quote](/sources/drucker-quote.md) - A one-line post quoting the idea that friction, confusion, and underperformance arise naturally; everything else requires leadership.
 * [Screw Finding Your Passion](/sources/screw-finding-your-passion.md) - Endorses the argument that passion is not found but built through priorities, and that every job — even a dream job — is partly unpleasant.
 * [Quotes](/sources/quotes.md) - A short collection of quotations arguing that trust grows through use and is proven by the absence of demands for reassurance.
 * [Life is a Mix](/sources/life-is-a-mix.md) - O'Hara uses a recipe metaphor to argue that small contributions matter, and that living in our purpose means seizing them.
 * [Leadership Starts with Me](/sources/leadership-starts-with-me.md) - O'Hara argues leaders grow by distributing cognitive load to their people, and that leading by example is how they grow others.
 * [Discussing The War for Talent at YES CEO Symposium](/sources/speaking-at-yes.md) - Announcement that David O'Hara will speak on a YES CEO Symposium panel about competing for top talent.
+* [Improving Dallas New Location](/sources/improving-dallas-new-location.md) - Improving moves its Dallas office from Addison to Plano, marking ten years of growth to six offices across the US and Canada.
+* [8 Years on Inc. 5000](/sources/8-years-on-inc-5000.md) - Improving lands on the Inc. 5000 for an eighth consecutive year, ranked #3,934 for 2016.
+* [Improving Twin Cities Ribbon Cutting](/sources/improving-twin-cities-ribbon-cutting.md) - Improving's Minneapolis office moves to Bloomington, celebrated with a ribbon cutting extended an extra night after a snowstorm.
+* [Acquisition of The Willow Group](/sources/acquisition-of-the-willow-group.md) - Improving acquires Minneapolis-based The Willow Group, adding over $10M in revenue and deepening its financial-services vertical.
 * [Walk the Walk But Don't Talk](/sources/walk-the-walk-but-dont-talk.md) - Modeling behavior inspires others, but talking about your own effort undermines the example by casting doubt on your motives.
 * [Be Accessible](/sources/be-accessible.md) - Argues that an open-door policy is only real if leaders are genuinely accessible, and that real accessibility breeds trust.
 * [Controlling Emotion and Mindset](/sources/controlling-emotion-and-mindset.md) - Emotion is always reactive and uncontrollable, but you can intentionally choose your mindset, reframe situations and prime your reactions.
+* [We've Expanded Into Canada](/sources/weve-expanded-into-canada.md) - Improving acquires Calgary's Quadrus Development, its first move beyond the US and into Canada.
 * [Always More Efficient](/sources/always-more-efficient.md) - O'Hara argues some things are worth doing less efficiently in order to do them more thoroughly and connect deeply.
 * [Profits for Good](/sources/profits-for-good.md) - Conscious Capitalism and the stakeholder model frame profit as compatible with purpose; Improving is presented as a company already living those values.
 * [Time For Work](/sources/time-for-work.md) - Argues extra work time is taken from family, then rejects 'balance' because two fundamentally unequal things cannot be balanced.
+* [Texas A&M Awards Improving CEO, Curtis Hite](/sources/texas-am-awards-improving-ceo.md) - Texas A&M honors Curtis Hite with the Dwight Look College of Engineering Early Professional Achievement Award.
 * [Excel is a Cul-de-sac](/sources/excel-is-a-cul-de-sac.md) - Excel is fine for one-off analysis but a dead end for running a business, argued through three structural strikes.
 * [Wisdom Not Just Knowledge](/sources/wisdom-not-just-knowledge.md) - Collecting knowledge from sites like Quora is not wisdom; only experience truly imparts it.
 * [Scrum as Cake Analogy](/sources/scrum-as-cake-analogy.md) - Analogy arguing Scrum adoption fails when teams modify the process before understanding why each part exists.
 * [Working Body Means A Free Mind](/sources/working-body-means-a-free-mind.md) - Rote physical work like mowing the lawn frees the mind for reflection, making it time worth delegating around.
 * [A New Chapter](/sources/a-new-chapter.md) - O'Hara announces becoming president of Improving and reflects on consulting growth and shifting work-life priorities.
+* [Alphaware Merger](/sources/alphaware-merger.md) - Improving acquires Houston's Alphaware Training Center, its third Enterprise Model integration and a Southwest expansion.
 * [I Don't Know](/sources/i-dont-know.md) - A short argument that admitting ignorance is better than faking an answer, because a knowledge gap is fixable while dishonesty is not.
 * [Wear Your Career Uniform](/sources/wear-your-career-uniform.md) - Clothing doesn't change your ability, but it shapes how others perceive you — so dress intentionally and observe the difference.
 * [Thoughtful Actions](/sources/thoughtful-actions.md) - Extends 'think before you speak' to 'think before you act' and offers a simple written template for deliberate reflection.
 * [Being Disruptive](/sources/being-disruptive.md) - A 2012 pitch critique: 'disruptive' only applies in hindsight, so focus on solving a real problem without buzzwords.
 * [Clean Slate](/sources/clean-slate-2.md) - A 2012 relaunch announcement: the old blog is archived and O'Hara restarts on Octopress with a weekly posting commitment.
+* [Improving Acquires Sophic Group](/sources/improving-acquires-sophic-group.md) - Improving acquires Columbus's The Sophic Group, launching its Enterprise Model and expanding into the Midwest.
 
 ## Queries (0)
-
-* (No queries filed yet.)
