@@ -31,7 +31,9 @@ This manual defines how agents maintain the wiki in this repository. The wiki is
 ├── references/             # READ-ONLY: immutable raw source documents
 │   └── index.md
 └── scripts/                # Reusable fetchers that populate references/
-    └── fetch_devlinliles.py
+    ├── ghost_blog.py
+    ├── fetch_devlinliles.py
+    └── fetch_driventodevelop.py
 ```
 
 `references/` holds raw material — articles, papers, transcripts, notes — exactly as captured, before analysis. It may be organized into subdirectories by origin. Never edit a file in `references/`; the wiki's living pages summarize and cross-link them.
@@ -162,7 +164,8 @@ Append an entry at the end of every workflow. The log is the wiki's memory: an a
    - File: `sources/[same-stem-as-the-reference].md`
    - Sections: Summary, Key Claims, Relevance, Quality, Entities Mentioned, Concepts Covered
 4. **Create or update entity pages** — one per person, organization, product, or place worth tracking
-5. **Create or update concept pages** — one per technique, pattern, or idea
+5. **Create or update concept pages** — one per technique, pattern, or idea worth tracking
+   - At scale, apply the recurring threshold in [Curating the Vocabulary](#curating-the-vocabulary-large-ingests) instead of writing a page per passing mention
 6. **Add cross-references**
    - Source summary ↔ every entity and concept it covers
    - Entities ↔ related concepts, and vice versa
@@ -171,7 +174,7 @@ Append an entry at the end of every workflow. The log is the wiki's memory: an a
 7. **Verify links** — every new link's target file exists; key new pages have incoming links from the pages that mention them
 8. **Update indexes** — root `index.md` plus the touched per-directory indexes
 9. **Log the operation** using the format above
-10. **Final check** — no broken links, every new page has `type` frontmatter, no orphaned new pages
+10. **Final check** — no broken links, every new page has `type` frontmatter, no orphaned new pages (a peripheral source summary may be index-only; see [Reachability and Orphans](#reachability-and-orphans))
 
 ### 2. Query Workflow
 
@@ -190,9 +193,9 @@ Append an entry at the end of every workflow. The log is the wiki's memory: an a
 
 1. Run the checks:
    - **Broken links** — every page-to-page markdown link resolves to an existing file
-   - **Orphans** — pages no other page links to
+   - **Orphans** — pages no other page links to; index-only reachability is acceptable for peripheral source summaries (see [Reachability and Orphans](#reachability-and-orphans))
    - **Dead-ends** — pages with no outgoing links
-   - **Stale sources** — source summaries referenced by no entity or concept page
+   - **Stale sources** — source summaries referenced by no entity or concept page; only a defect when a concept or entity page *should* cover them
    - **Frontmatter** — every content page has non-empty `type`; flag missing `description`
 2. Fix by priority: broken links, then orphans, dead-ends, stale sources
 3. Update `overview.md` — refresh Current Focus, Key Themes, and Open Questions
@@ -211,6 +214,26 @@ Append an entry at the end of every workflow. The log is the wiki's memory: an a
 - **Create new** when no page covers the subject, or a major subtopic deserves its own page
 - **Update existing** when a page already covers the subject and the new source adds detail, context, or correction
 - When in doubt: check the indexes first, then grep
+
+### Curating the Vocabulary (large ingests)
+
+A single-source ingest can afford a page per extracted idea. A large corpus (tens or hundreds of sources) cannot: a page for every passing mention produces hundreds of thin, overlapping pages. For large ingests, curate a controlled vocabulary instead:
+
+- **Recurring threshold** — create a concept or entity page only when the item is central to, or recurs across, **two or more** sources. Items mentioned once stay in the source summary's prose (unlinked) until a second source makes them worth a page.
+- **Merge synonyms** — collapse singular/plural and near-synonym variants into one canonical page before writing, and pick the slug that matches the display title.
+- **Prefer the specific** — keep a named product or standard over its generic parent when both recur, but never invent pages for vendors or terms that appear in only one source.
+- **Promote later** — when a later ingest gives a once-only idea a second source, create its page then and link it from both summaries.
+
+The effect: source summaries stay comprehensive (one per reference, however peripheral), while the concept and entity layers remain a curated map of what the corpus is *about*.
+
+### Reachability and Orphans
+
+A page is an orphan only if **nothing** links to it — including its per-directory `index.md`. Because every content page is listed in a directory index, index-only reachability is the accepted floor for a genuinely peripheral source summary: one whose topic recurs nowhere else and so has no concept or entity page to link back to it. Such a summary should still:
+
+- link **out** to any concept, entity, or related source it touches (never a dead-end), and
+- gain inbound content links as soon as a later source shares its topic.
+
+Treat an index-only source summary as a defect worth fixing only when a concept or entity page *should* cover it but does not.
 
 ### Handling Contradictions
 
@@ -233,7 +256,7 @@ A good page:
 
 Avoid:
 
-❌ Orphans — pages nothing links to
+❌ Orphans — pages nothing links to (index-only reachability is fine for peripheral source summaries)
 ❌ Unsourced claims — always cite
 ❌ Duplicates — check before creating
 ❌ Stale pages — update when new sources arrive
@@ -243,7 +266,11 @@ Avoid:
 
 `scripts/` holds reusable fetchers that populate `references/` with raw source documents:
 
-- `scripts/fetch_devlinliles.py` — archives devlinliles.com posts (and their images) into `references/devlinliles.com/<slug>/`, using the site's RSS feed for recent posts and its sitemap for the full archive. Safe to re-run: existing posts are skipped.
+- `scripts/ghost_blog.py` — shared archiver for Ghost blogs: RSS + sitemap discovery, HTML→markdown conversion, image download, and index/log maintenance. The site scripts below are thin config wrappers over it; add another Ghost blog by writing one more wrapper.
+- `scripts/fetch_devlinliles.py` — archives Devlin Liles's blog *Emptying the Cup* into `references/devlinliles.com/<slug>/`.
+- `scripts/fetch_driventodevelop.py` — archives David O'Hara's blog *Driven To Develop* into `references/driventodevelop.com/<slug>/`.
+
+Each fetcher uses the site's RSS feed for recent posts and its sitemap for the full archive, and is safe to re-run: existing posts are skipped (`--force` re-fetches them). Useful flags: `--limit N`, `--only SLUG`, `--rss-only`, `--dry-run`.
 
 Fetchers maintain the per-source index and the Sources list in `references/index.md`, and prepend a `fetch` entry to `log.md` when they add documents. They never create wiki content pages — that is the ingest workflow's job.
 

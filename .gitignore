@@ -3,3 +3,7 @@
 
 # Obsidian (if this repo is opened as a vault)
 .obsidian/
+
+# Python
+__pycache__/
+*.pyc

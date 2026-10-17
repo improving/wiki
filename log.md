@@ -1,3 +1,46 @@
+## [2026-10-17] ingest | driventodevelop.com — all 240 posts
+- Created 240 source summaries: sources/* (driventodevelop.com posts by David O'Hara)
+- Created 115 new pages: 65 concepts and 50 entities (each recurring across >=2 posts)
+- Updated 28 existing pages with new driventodevelop sources (ai-governance, improving, mckinsey-company, microsoft, openai, gartner, agent-identity, ai-inventory, ...)
+- Merged synonyms and mapped overlapping terms to existing pages; normalized 14 over-singularized slugs
+- Verified zero broken links, zero orphans, zero dead-ends; regenerated root and per-directory indexes
+- Updated overview.md with the two-source synthesis (594 summaries, 460 cross-cutting pages)
+
+## [2026-10-17] fetch | driventodevelop.com — 236 new posts
+- Fetched 236 posts (253 images) into references/driventodevelop.com/
+- Regenerated references/driventodevelop.com/index.md (240 posts) and references/index.md
+
+## [2026-10-17] create | driventodevelop.com fetcher + shared Ghost module
+- Added scripts/ghost_blog.py: shared Ghost-blog archiver (RSS + sitemap discovery, HTML→markdown, image download, index and log maintenance)
+- Refactored scripts/fetch_devlinliles.py onto the shared module (CLI and output unchanged)
+- Added scripts/fetch_driventodevelop.py for David O'Hara's blog "Driven To Develop"
+- Updated AGENTS.md directory tree and Tooling section
+
+## [2026-10-17] fetch | driventodevelop.com — 1 new posts
+- Fetched 1 posts (2 images) into references/driventodevelop.com/
+- Regenerated references/driventodevelop.com/index.md (4 posts) and references/index.md
+
+## [2026-10-17] fetch | driventodevelop.com — 1 new posts
+- Fetched 1 posts (1 images) into references/driventodevelop.com/
+- Regenerated references/driventodevelop.com/index.md (4 posts) and references/index.md
+
+## [2026-10-17] fetch | driventodevelop.com — 3 new posts
+- Fetched 3 posts (3 images) into references/driventodevelop.com/
+- Regenerated references/driventodevelop.com/index.md (3 posts) and references/index.md
+
+## [2026-10-17] create | Codify large-ingest curation rules in AGENTS.md
+- Added "Curating the Vocabulary (large ingests)" decision tree: recurring (>=2 source) threshold, synonym merging, title-matching slugs, later promotion
+- Added "Reachability and Orphans" decision tree: index-only reachability is the accepted floor for peripheral source summaries
+- Clarified orphan and stale-source checks in the Ingest, Lint, and Quality Standards sections to match
+
+## [2026-10-17] ingest | devlinliles.com — all 354 posts
+- Created 354 source summaries: sources/* (one per post, linked to the raw references)
+- Created 189 concept pages: concepts/* and 156 entity pages: entities/*
+- Extracted taxonomy metadata from every post, consolidated it into a canonical vocabulary, and cross-linked sources ↔ concepts/entities bidirectionally
+- Added related-source cross-links for orphaned summaries and the last dead-ends
+- Verified zero broken links, zero orphans, zero dead-ends; regenerated root and per-directory indexes
+- Updated overview.md with current focus, key themes, and open questions
+
 ## [2026-10-17] fetch | devlinliles.com — 343 new posts
 - Fetched 343 posts (126 images) into references/devlinliles.com/
 - Regenerated references/devlinliles.com/index.md (354 posts) and references/index.md

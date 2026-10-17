@@ -1,5 +1,4 @@
 # Queries Index
 
-Filed question-and-answer sessions synthesized from wiki knowledge.
+0 pages.
 
-* (No queries filed yet.)
